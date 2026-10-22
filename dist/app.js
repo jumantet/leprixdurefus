@@ -31,4 +31,6 @@ const checkedLabel=new Intl.DateTimeFormat('fr-FR',{day:'numeric',month:'long',y
 document.querySelectorAll('[data-checked-date]').forEach(el=>{el.textContent=checkedLabel;el.setAttribute('datetime',checkedDate)});
 const checkedTitle=document.querySelector('#verification-date');if(checkedTitle)checkedTitle.textContent='ENQUÊTE VÉRIFIÉE LE '+checkedLabel.toUpperCase();
 document.querySelector('#human-check-note').textContent='Recherche vérifiée le '+checkedLabel+'. Aucun total national actuel de personnes blessées, sans doublons, n’a pu être établi. Les bilans ci-dessous conservent leurs dates et périmètres.';
-document.querySelector('.front-human p').textContent='Repère national du 14 octobre. Recherche vérifiée le '+checkedLabel+' : les bilans plus récents sont détaillés ci-dessous, sans cumul trompeur.';
+document.querySelector('.front-human p').textContent='Repère national du 14 octobre. Recherche vérifiée le '+checkedLabel+' : les bilans plus récents sont détaillés ci-dessous, avec leurs périmètres respectifs.';
+
+const countedRows=data.rows.filter(r=>r.included);document.querySelector('.coverage b').textContent=countedRows.length;document.querySelector('[data-filter="included"]').textContent='Toutes les dépenses · '+countedRows.length;document.querySelector('.range b').textContent=['low','central','high'].map(k=>fmt.format(data.totals[k]/1e6)).join(' / ')+' M€';
