@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-22",
-  "version": 9,
+  "version": 10,
   "currency": "EUR",
   "scope": "Scénarios conventionnels de coûts publics et moyens annoncés : surcoûts du 18 septembre au 22 octobre 2026, réparations consécutives et aides projetées après les annonces. Ni dépenses constatées à ce jour ni coût net consolidé.",
   "demand": 10000000000,
@@ -24,13 +24,14 @@
       "net_taxpayer_cost": null,
       "in_scope": true,
       "counting_note": "Inclus : estimation brute, paiements et reste à charge inconnus.",
-      "amount_central": 7000000.0,
+      "amount_central": 7000000,
       "category": "degats",
       "basis": "bilan",
       "horizon": "Réparation consécutive aux événements",
       "anchor": "Bilan régional des dégradations. Retenu une seule fois : les annonces antérieures et les exemples par établissement ne s’y ajoutent pas. Payeur public concerné : Région Île-de-France.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
-      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats."
+      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "occ",
@@ -47,13 +48,14 @@
       "net_taxpayer_cost": null,
       "in_scope": true,
       "counting_note": "Inclus : estimation brute, paiements et reste à charge inconnus.",
-      "amount_central": 3000000.0,
+      "amount_central": 3000000,
       "category": "degats",
       "basis": "bilan",
       "horizon": "Réparation consécutive aux événements",
       "anchor": "Dégâts dans les lycées depuis le 29 septembre selon la Région. Estimation proche de 3 M€, arrondie dans notre somme. Les établissements détaillés séparément ne sont pas ajoutés.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
-      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats."
+      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "hdf",
@@ -70,13 +72,14 @@
       "net_taxpayer_cost": null,
       "in_scope": true,
       "counting_note": "Inclus : estimation brute, paiements et reste à charge inconnus.",
-      "amount_central": 1000000.0,
+      "amount_central": 1000000,
       "category": "degats",
       "basis": "bilan",
       "horizon": "Réparation consécutive aux événements",
       "anchor": "Bilan de la Région : portails, grilles et sécurisation. Valeur arrondie à 1 M€ ; factures exécutées et remboursements inconnus.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
-      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats."
+      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "ge",
@@ -93,13 +96,14 @@
       "net_taxpayer_cost": null,
       "in_scope": true,
       "counting_note": "Inclus : estimation brute, paiements et reste à charge inconnus.",
-      "amount_central": 3500000.0,
+      "amount_central": 3500000,
       "category": "degats",
       "basis": "bilan",
       "horizon": "Réparation consécutive aux événements",
       "anchor": "Fourchette de réparations annoncée par le président de Région. Remplace le bilan proche de 1 M€ du 2 octobre. Loritz est un sous-ensemble, non ajouté.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
-      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats."
+      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "nantes",
@@ -116,13 +120,14 @@
       "net_taxpayer_cost": null,
       "in_scope": true,
       "counting_note": "Inclus : estimation brute, paiements et reste à charge inconnus.",
-      "amount_central": 2000000.0,
+      "amount_central": 2000000,
       "category": "degats",
       "basis": "bilan",
       "horizon": "Réparation consécutive aux événements",
       "anchor": "Façade : estimation du Conseil régional des Pays de la Loire rapportée par RTL. Aucun total régional Pays de la Loire n’est ajouté en parallèle.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
-      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats."
+      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "lormont",
@@ -139,13 +144,14 @@
       "net_taxpayer_cost": null,
       "in_scope": true,
       "counting_note": "Inclus : estimation brute, paiements et reste à charge inconnus.",
-      "amount_central": 250000.0,
+      "amount_central": 250000,
       "category": "degats",
       "basis": "bilan",
       "horizon": "Réparation consécutive aux événements",
       "anchor": "Dégâts du 8 octobre, estimés par la Région Nouvelle-Aquitaine à au moins 250 000 €. Seul le seuil annoncé est retenu ; ce montant peut augmenter.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
-      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats."
+      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "avignon",
@@ -162,13 +168,14 @@
       "net_taxpayer_cost": null,
       "in_scope": true,
       "counting_note": "Inclus : estimation brute, paiements et reste à charge inconnus.",
-      "amount_central": 500000.0,
+      "amount_central": 500000,
       "category": "degats",
       "basis": "bilan",
       "horizon": "Réparation consécutive aux événements",
       "anchor": "Bilan municipal après le 17 octobre : voirie et mobilier publics. Dommages aux commerces exclus. Seuil annoncé retenu, sans plafond établi.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
-      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats."
+      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "toulouse",
@@ -185,13 +192,14 @@
       "net_taxpayer_cost": null,
       "in_scope": true,
       "counting_note": "Inclus : estimation brute, paiements et reste à charge inconnus.",
-      "amount_central": 675000.0,
+      "amount_central": 675000,
       "category": "degats",
       "basis": "bilan",
       "horizon": "Réparation consécutive aux événements",
       "anchor": "Bilan provisoire : 625 000 € pour la ville/métropole et 50 000 € pour Tisséo. Détail publié : 500 000 € de dégâts, 35 000 € de nettoyage, 21 000 € de tags et 50 000 € pour Tisséo, soit 606 000 €. Écart de 69 000 € non ventilé ; le total annoncé de 675 000 € est retenu une seule fois.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
-      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats."
+      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "national",
@@ -207,7 +215,8 @@
       "parent": null,
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Non ajouté : voir la règle ci-dessus."
+      "counting_note": "Non ajouté : voir la règle ci-dessus.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "loritz",
@@ -223,7 +232,8 @@
       "parent": "ge",
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Non ajouté : voir la règle ci-dessus."
+      "counting_note": "Non ajouté : voir la règle ci-dessus.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "garros",
@@ -239,7 +249,8 @@
       "parent": "occ",
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Non ajouté : voir la règle ci-dessus."
+      "counting_note": "Non ajouté : voir la règle ci-dessus.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "eluard",
@@ -255,7 +266,8 @@
       "parent": "idf",
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Non ajouté : voir la règle ci-dessus."
+      "counting_note": "Non ajouté : voir la règle ci-dessus.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "aura",
@@ -266,8 +278,8 @@
       "date": "2026-10-02",
       "notes": "Part publique supposée de 20 / 50 / 80 % appliquée à 25 / 27,5 / 30 M€ de dommages bruts. Le scénario central de 50 % est une convention de sensibilité, sans preuve empirique. Aucun coût privé n’est volontairement ajouté, mais la ventilation est incertaine.",
       "included": true,
-      "amount_low": 5000000.0,
-      "amount_high": 24000000.0,
+      "amount_low": 5000000,
+      "amount_high": 24000000,
       "parent": null,
       "net_taxpayer_cost": null,
       "in_scope": true,
@@ -304,7 +316,8 @@
       ],
       "overlap": "Aucun autre bilan de dommages AURA n’est additionné, sauf Clermont dont le 17 octobre est postérieur au bilan régional du 2 octobre. Les aides lyonnaises concernent des bénéficiaires privés, pas ces réparations publiques.",
       "model_date": "2026-10-22",
-      "amount_central": 13750000.0
+      "amount_central": 13750000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "clermont",
@@ -315,7 +328,7 @@
       "date": "2026-10-21",
       "notes": "Part supportée par un organisme public supposée à 50 / 75 / 100 % des 140 000 €. Les 30 000 € de recettes perdues sont exclus.",
       "included": true,
-      "amount_low": 70000.0,
+      "amount_low": 70000,
       "amount_high": 140000,
       "parent": null,
       "net_taxpayer_cost": null,
@@ -353,7 +366,8 @@
       ],
       "overlap": "Ne pas ajouter le bilan global de 170 000 €. Bilan AURA du 2 octobre antérieur à cet épisode.",
       "model_date": "2026-10-22",
-      "amount_central": 105000.0
+      "amount_central": 105000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "clermontrev",
@@ -369,7 +383,8 @@
       "parent": null,
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Non ajouté : voir la règle ci-dessus."
+      "counting_note": "Non ajouté : voir la règle ci-dessus.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "paris",
@@ -385,7 +400,8 @@
       "parent": "cleaning",
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense."
+      "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "grenades",
@@ -401,7 +417,8 @@
       "parent": "ammunition",
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense."
+      "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "lyonpolice",
@@ -417,7 +434,8 @@
       "parent": "overtime",
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense."
+      "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "bordeauxpolice",
@@ -433,7 +451,8 @@
       "parent": "overtime",
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense."
+      "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "marseillepolice",
@@ -449,7 +468,8 @@
       "parent": "overtime",
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense."
+      "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "lyonaide",
@@ -466,13 +486,14 @@
       "net_taxpayer_cost": null,
       "in_scope": true,
       "counting_note": "Inclus : enveloppe annoncée de 10 M€, comptée une seule fois. Ce n’est pas une dépense exécutée.",
-      "amount_central": 10000000.0,
+      "amount_central": 10000000,
       "category": "aides",
       "basis": "annonce",
       "horizon": "Enveloppe annoncée, versements ultérieurs",
       "anchor": "Fonds métropolitain annoncé : soutien, sécurisation et avances de trésorerie. Inclus dans les moyens publics annoncés pour sa valeur de 10 M€. Ventilation subventions/avances et versements inconnus : le coût budgétaire définitif est indéterminé. Aucun dégât privé ajouté. Les futurs versements remplaceront cette enveloppe, sans s’y additionner.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
-      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats."
+      "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "sudaide",
@@ -521,7 +542,8 @@
       ],
       "overlap": "Périmètre Région Sud, distinct du fonds de Lyon. Aides publiques seulement, aucun dommage privé ajouté.",
       "model_date": "2026-10-22",
-      "amount_central": 3000000
+      "amount_central": 3000000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "cma",
@@ -570,7 +592,8 @@
       ],
       "overlap": "Fonds CMA compté une fois au niveau national, y compris les artisans lyonnais. Aucune ligne CMA locale supplémentaire. Les financements déjà couverts par une autre enveloppe devraient être retirés.",
       "model_date": "2026-10-22",
-      "amount_central": 300000
+      "amount_central": 300000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "activite",
@@ -646,7 +669,8 @@
       ],
       "overlap": "Compte l’indemnité publique une fois, pas les salaires privés perdus. Les coûts futurs sont projetés, non dépensés à ce jour.",
       "model_date": "2026-10-22",
-      "amount_central": 3360000
+      "amount_central": 3360000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "bpi",
@@ -657,8 +681,8 @@
       "date": "2026-10-20",
       "notes": "100 / 300 / 600 prêts de 25 000 / 35 000 / 50 000 € ; coût public équivalent hypothétique de 3 / 6 / 10 % du principal, couvrant bonification, gestion et pertes résiduelles sur toute la durée. Aucun taux de défaut observé n’est revendiqué.",
       "included": true,
-      "amount_low": 75000.0,
-      "amount_high": 3000000.0,
+      "amount_low": 75000,
+      "amount_high": 3000000,
       "parent": null,
       "net_taxpayer_cost": null,
       "in_scope": true,
@@ -704,7 +728,8 @@
       ],
       "overlap": "Seule la fraction de coût est ajoutée ; les 2,5 / 10,5 / 30 M€ de capitaux mobilisés ne le sont pas. Hors avances déjà couvertes par le fonds de Lyon.",
       "model_date": "2026-10-22",
-      "amount_central": 630000.0
+      "amount_central": 630000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "reports",
@@ -715,8 +740,8 @@
       "date": "2026-10-20",
       "notes": "100 / 300 / 800 bénéficiaires, 10 000 / 20 000 / 50 000 € différés, pendant 3 / 6 / 12 mois ; taux annuel de financement marginal supposé de 3 / 4 / 5 %. Hypothèse de financement supplémentaire des sommes manquantes. Pas de taux souverain présenté comme constaté.",
       "included": true,
-      "amount_low": 7500.0,
-      "amount_high": 2000000.0,
+      "amount_low": 7500,
+      "amount_high": 2000000,
       "parent": null,
       "net_taxpayer_cost": null,
       "in_scope": true,
@@ -771,7 +796,8 @@
       ],
       "overlap": "Le principal est exclu, ainsi que les recettes privées perdues. Les bénéficiaires peuvent recevoir d’autres aides : seuls les coûts distincts sont additionnés.",
       "model_date": "2026-10-22",
-      "amount_central": 120000.0
+      "amount_central": 120000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "gm2l",
@@ -787,7 +813,8 @@
       "parent": null,
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Non ajouté : voir la règle ci-dessus."
+      "counting_note": "Non ajouté : voir la règle ci-dessus.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "genl",
@@ -803,7 +830,8 @@
       "parent": null,
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Non ajouté : voir la règle ci-dessus."
+      "counting_note": "Non ajouté : voir la règle ci-dessus.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "assourd",
@@ -819,7 +847,8 @@
       "parent": null,
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Non ajouté : voir la règle ci-dessus."
+      "counting_note": "Non ajouté : voir la règle ci-dessus.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "soline",
@@ -835,7 +864,8 @@
       "parent": null,
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Non ajouté : voir la règle ci-dessus."
+      "counting_note": "Non ajouté : voir la règle ci-dessus.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "solineveh",
@@ -851,7 +881,8 @@
       "parent": null,
       "net_taxpayer_cost": null,
       "in_scope": false,
-      "counting_note": "Non ajouté : voir la règle ci-dessus."
+      "counting_note": "Non ajouté : voir la règle ci-dessus.",
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "overtime",
@@ -900,7 +931,8 @@
       ],
       "overlap": "Exclut les heures récupérées, les traitements habituels et les heures de gendarmerie non indemnisables sous ce régime. Les heures d’enquête sont ici ; la justice ne les recompte pas.",
       "model_date": "2026-10-22",
-      "amount_central": 6000000
+      "amount_central": 6000000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "logistics",
@@ -949,7 +981,8 @@
       ],
       "overlap": "Forfait incluant indemnités, hébergement, repas, carburant et transports : ne rien ajouter séparément. Exclut munitions, salaires habituels et dépenses déjà comprises dans les réparations.",
       "model_date": "2026-10-22",
-      "amount_central": 5600000
+      "amount_central": 5600000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "ammunition",
@@ -1012,7 +1045,8 @@
       ],
       "overlap": "Ne pas ajouter les 19 000 grenades comme une autre ligne. Hors achats de stocks non consommés et hors équipements déjà comptés parmi les réparations.",
       "model_date": "2026-10-22",
-      "amount_central": 1300000
+      "amount_central": 1300000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "rescue",
@@ -1061,7 +1095,8 @@
       ],
       "overlap": "Hors soins à l’hôpital et réparations de bâtiments. Les salaires ordinaires des pompiers ne sont pas ajoutés.",
       "model_date": "2026-10-22",
-      "amount_central": 400000
+      "amount_central": 400000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "health",
@@ -1133,7 +1168,8 @@
       ],
       "overlap": "Exclut les transports déjà dans les secours, le coût humain, les dépenses privées et les soins futurs après le 22 octobre.",
       "model_date": "2026-10-22",
-      "amount_central": 420000
+      "amount_central": 420000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "justice",
@@ -1228,7 +1264,8 @@
       ],
       "overlap": "Garde à vue : interprétariat, assistance et consommables ; procédure : actes distincts et permanences supplémentaires. Exclut les heures de police, les transports déjà modélisés, les soins et les salaires ordinaires. Pas de coût de détention futur.",
       "model_date": "2026-10-22",
-      "amount_central": 1052500
+      "amount_central": 1052500,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "cleaning",
@@ -1240,8 +1277,8 @@
       "notes": "Pour Paris : 1 000 agents × 3 / 6 / 10 heures × 25 / 50 / 75 % d’heures réellement supplémentaires payées × 20 / 25 / 30 €. Ajout de 100 000 / 400 000 / 1 200 000 € de prestations et consommables à Paris et sur les autres sites non couverts par nos bilans.",
       "included": true,
       "in_scope": true,
-      "amount_low": 115000.0,
-      "amount_high": 1425000.0,
+      "amount_low": 115000,
+      "amount_high": 1425000,
       "parent": null,
       "net_taxpayer_cost": null,
       "counting_note": "Inclus au scénario choisi. Hypothèses de travail non validées par les administrations ; les sources ne valident pas le résultat.",
@@ -1309,7 +1346,8 @@
       ],
       "overlap": "Exclut entièrement Toulouse, Avignon et les sites scolaires déjà couverts par les bilans régionaux. La provision ne comprend pas le travail des agents de Paris chiffré dans la première composante.",
       "model_date": "2026-10-22",
-      "amount_central": 475000.0
+      "amount_central": 475000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "ccilyon",
@@ -1358,7 +1396,8 @@
       ],
       "overlap": "La source présente les dispositifs comme complémentaires ; pas d’ajout d’une deuxième enveloppe CCI nationale. Financement supposé distinct des 10 M€ métropolitains.",
       "model_date": "2026-10-22",
-      "amount_central": 300000
+      "amount_central": 300000,
+      "calculation_checked": "2026-10-22"
     },
     {
       "id": "nationalfund",
@@ -1413,10 +1452,35 @@
       "overlap": "Provision de scénario après abattement supposé pour doubles financements. Les règles de cumul devront remplacer cette convention.",
       "counting_note": "Inclus au scénario choisi. Hypothèses de travail non validées par les administrations ; les sources ne valident pas le résultat.",
       "model_date": "2026-10-22",
-      "amount_low": 100000.0,
-      "amount_central": 1125000.0,
+      "amount_low": 100000,
+      "amount_central": 1125000,
       "amount_high": 8000000,
-      "value": "Scénario calculé"
+      "value": "Scénario calculé",
+      "calculation_checked": "2026-10-22"
+    },
+    {
+      "id": "aura_security",
+      "name": "Auvergne-Rhône-Alpes · sécurisation des commerces",
+      "value": "15 M€ annoncés",
+      "status": "announced",
+      "source": "aura_security",
+      "date": "2026-10-22",
+      "notes": "Enveloppe régionale de 15 M€ annoncée le 22 octobre. Aide plafonnée à 5 000 € par établissement et à 50 % des dépenses éligibles. Demandes ouvertes le 23 octobre. Le nombre de bénéficiaires et les paiements effectifs sont inconnus.",
+      "included": true,
+      "amount_low": 15000000,
+      "amount_central": 15000000,
+      "amount_high": 15000000,
+      "parent": null,
+      "net_taxpayer_cost": null,
+      "in_scope": true,
+      "counting_note": "Enveloppe annoncée retenue une seule fois, à valeur identique dans les trois scénarios. Les versements remplaceront l’enveloppe. Ce montant n’est pas déjà dépensé.",
+      "category": "aides",
+      "basis": "annonce",
+      "horizon": "Dispositif futur ouvert à partir du 23 octobre 2026",
+      "confidence": "Enveloppe officielle ; consommation inconnue",
+      "anchor": "Annonce officielle régionale du 22 octobre 2026.",
+      "overlap": "Budget régional distinct du fonds métropolitain de Lyon et des réparations des lycées. Aucun investissement privé cofinancé n’est ajouté. Vérifier tout financement commun lors de la publication des versements.",
+      "calculation_checked": "2026-10-22"
     }
   ],
   "sources": {
@@ -1554,6 +1618,58 @@
       "label": "Le Monde · maintien de l’ordre du 17 octobre · 20 octobre 2026",
       "url": "https://www.lemonde.fr/en/france/article/2026/10/20/french-protests-from-intelligence-failures-to-insufficient-police-presence-overview-of-a-security-disaster_6760327_7.html",
       "kind": "human"
+    },
+    "aura_security": {
+      "label": "Région Auvergne-Rhône-Alpes · 22 octobre 2026 · source primaire",
+      "url": "https://www.auvergnerhonealpes.fr/actualites/la-region-debloque-15-millions-deuros-pour-proteger-les-commerces-dauvergne-rhone-alpes",
+      "checked": "2026-10-22"
+    },
+    "demand_check": {
+      "label": "AFP / Sud Radio · 16 octobre 2026",
+      "url": "https://www.sudradio.fr/societe/avant-les-vacances-scolaires-cinq-questions-sur-le-mouvement-lyceen",
+      "checked": "2026-10-22"
+    },
+    "h_staff": {
+      "label": "AFP / Ahram · 16 octobre 2026",
+      "url": "https://french.ahram.org.eg/NewsContentP/2/94550/International/Les-lyc%C3%A9ens-ont-d%C3%A9sormais-la-journ%C3%A9e-de-samedi-en-.aspx",
+      "checked": "2026-10-22",
+      "kind": "human"
+    },
+    "h_police_rtl": {
+      "label": "RTL · bilan du ministère de l’Intérieur · 18 octobre 2026",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/mobilisation-du-17-octobre-2-397-interpellations-dans-toute-la-france-7-membres-des-forces-de-l-ordre-grievement-blesses-7900686560",
+      "checked": "2026-10-22",
+      "kind": "human"
+    },
+    "h_bordeaux": {
+      "label": "Préfecture de la Gironde · 18 octobre 2026",
+      "url": "https://www.gironde.gouv.fr/layout/set/print/Actualites/Communiques-de-presse/Communiques-de-presse-2026/Octobre-2026/Degradations-pillages-et-violences-en-marge-de-la-journee-de-mobilisation-a-Bordeaux",
+      "checked": "2026-10-22",
+      "kind": "human"
+    },
+    "h_bayonne": {
+      "label": "Mediabask · bilan du parquet · 20 octobre 2026",
+      "url": "https://www.mediabask.eus/en/info_mbsk/20261020/mobilisation-du-17-octobre-le-bilan-judiciaire-du-parquet-de-bayonne",
+      "checked": "2026-10-22",
+      "kind": "human"
+    },
+    "h_etienne_sentences": {
+      "label": "Radio SCOOP · audiences du 19 octobre · 20 octobre 2026",
+      "url": "https://radioscoop.com/infos/violences-du-17-octobre-les-premieres-condamnations-a-saint-etienne_365956",
+      "checked": "2026-10-22",
+      "kind": "human"
+    },
+    "h_etienne_complaint": {
+      "label": "Radio SCOOP · plaintes annoncées · 20 octobre 2026",
+      "url": "https://radioscoop.com/infos/main-arrachee-a-saint-etienne-une-plainte-contre-le-ministre-de-l-interieur_365955",
+      "checked": "2026-10-22",
+      "kind": "human"
+    },
+    "h_lyon_sentences": {
+      "label": "Radio SCOOP · bilan du parquet de Lyon · 20 octobre 2026",
+      "url": "https://radioscoop.com/infos/violences-du-17-octobre-a-lyon-les-premieres-condamnations-et-poursuites-devoilees_365986",
+      "checked": "2026-10-22",
+      "kind": "human"
     }
   },
   "legacy": {
@@ -1564,9 +1680,9 @@
     "reason": "Modèle remplacé : hypothèse de remboursement non constatée et périmètre public/collectif insuffisamment ventilé."
   },
   "totals": {
-    "low": 36797500.0,
-    "central": 65862500.0,
-    "high": 148550000.0
+    "low": 51797500,
+    "central": 80862500,
+    "high": 163550000
   },
   "repair_totals": {
     "low": 16425000,
@@ -1579,30 +1695,30 @@
     "high": "Haut"
   },
   "documented_totals": {
-    "low": 26425000,
-    "central": 27925000.0,
-    "high": 29425000
+    "low": 41425000,
+    "central": 42925000,
+    "high": 44425000
   },
   "modeled_totals": {
-    "low": 10372500.0,
-    "central": 37937500.0,
-    "high": 119125000.0
+    "low": 10372500,
+    "central": 37937500,
+    "high": 119125000
   },
   "categories": {
     "degats": {
-      "low": 21495000.0,
-      "central": 31780000.0,
-      "high": 43565000.0
+      "low": 21495000,
+      "central": 31780000,
+      "high": 43565000
     },
     "operations": {
-      "low": 3580000.0,
-      "central": 15247500.0,
-      "high": 49285000.0
+      "low": 3580000,
+      "central": 15247500,
+      "high": 49285000
     },
     "aides": {
-      "low": 11722500.0,
-      "central": 18835000.0,
-      "high": 55700000.0
+      "low": 26722500,
+      "central": 33835000,
+      "high": 70700000
     }
   },
   "caveats": [
@@ -1643,11 +1759,11 @@
         "id": "etienne",
         "category": "blessures",
         "city": "Saint-Étienne",
-        "date_label": "Faits du 17 octobre · source du 18 octobre",
+        "date_label": "Faits du 17 octobre · plaintes du 19 · source du 20 octobre",
         "title": "17 ans · perte d’une main",
         "facts": "Un adolescent a eu la main arrachée lors de l’explosion d’une grenade, en marge du cortège.",
-        "status": "IGPN et IGGN saisies pour établir les circonstances. La responsabilité individuelle n’est pas tranchée dans la source.",
-        "source": "h_etienne",
+        "status": "Deux plaintes annoncées par l’avocat le 19 octobre, dont une visant le ministre devant la CJR. Enquête IGPN/IGGN en cours. Ces plaintes ne constituent pas des responsabilités établies.",
+        "source": "h_etienne_complaint",
         "checked": "2026-10-22"
       },
       {
@@ -1743,6 +1859,71 @@
           "appeal": "parquet, 20 octobre 2026",
           "included": true
         }
+      },
+      {
+        "id": "bayonne_19oct",
+        "city": "Bayonne",
+        "category": "condamnations",
+        "title": "5 + 6 mois avec sursis",
+        "facts": "Deux personnes condamnées après les faits du 17 octobre.",
+        "status": "11 mois cumulés avec sursis. Interdictions de manifestation et d’armes rapportées. Aucun emprisonnement exécuté déduit de ces peines.",
+        "source": "h_bayonne",
+        "date_label": "Jugements du 19 octobre · source du 20 octobre",
+        "checked": "2026-10-22",
+        "sentence": {
+          "people": 2,
+          "firm_months": 0,
+          "suspended_months": 11,
+          "appeal": "non précisé",
+          "included": true
+        }
+      },
+      {
+        "id": "etienne_vol_19oct",
+        "city": "Saint-Étienne",
+        "category": "condamnations",
+        "title": "6 mois ferme · mandat de dépôt",
+        "facts": "Condamnation pour vol dans un commerce après les événements du 17 octobre.",
+        "status": "Mandat de dépôt rapporté. La participation à une manifestation n’est pas établie.",
+        "source": "h_etienne_sentences",
+        "date_label": "Jugements du 19 octobre · source du 20 octobre",
+        "checked": "2026-10-22",
+        "sentence": {
+          "people": 1,
+          "firm_months": 6,
+          "suspended_months": 0,
+          "appeal": "non précisé",
+          "included": true
+        }
+      },
+      {
+        "id": "etienne_bracelets_19oct",
+        "city": "Saint-Étienne",
+        "category": "condamnations",
+        "title": "2 × 8 mois ferme · bracelets",
+        "facts": "Deux personnes condamnées à huit mois chacune pour des faits liés à un commerce pillé.",
+        "status": "16 mois cumulés, aménagés sous bracelet électronique. La qualité de manifestant n’est pas établie ; ce ne sont pas 16 mois de présence en prison.",
+        "source": "h_etienne_sentences",
+        "date_label": "Jugements du 19 octobre · source du 20 octobre",
+        "checked": "2026-10-22",
+        "sentence": {
+          "people": 2,
+          "firm_months": 16,
+          "suspended_months": 0,
+          "appeal": "non précisé",
+          "included": true
+        }
+      },
+      {
+        "id": "lyon_durations_incomplete",
+        "city": "Lyon",
+        "category": "procedures",
+        "title": "Condamnations rapportées · durées individuelles incomplètes",
+        "facts": "Le parquet rapporte plusieurs condamnations à des peines ferme et avec sursis les 19 et 20 octobre.",
+        "status": "La source donne des fourchettes, sans ventilation individuelle suffisante : ces peines restent hors cumul en mois. Les dossiers de vol et recel ne prouvent pas une participation au cortège.",
+        "source": "h_lyon_sentences",
+        "date_label": "Bilan publié le 20 octobre",
+        "checked": "2026-10-22"
       }
     ],
     "headline": {
@@ -1765,28 +1946,73 @@
           "value": 937
         }
       ],
-      "scope": "Somme des trois catégories annoncées par le Premier ministre. Ni bilan actuel exhaustif ni décompte des seules violences policières."
+      "scope": "Repère historique du 14 octobre, conservé sans le présenter comme total actuel. Bilans plus récents affichés séparément ; pas de cumul national actualisé établi.",
+      "checked": "2026-10-22"
     },
     "balances": [
+      {
+        "area": "Personnels de l’Éducation · déclaration du 15 octobre",
+        "source": "h_staff",
+        "as_of": "2026-10-15",
+        "published": "2026-10-16",
+        "checked": "2026-10-22",
+        "value": 165,
+        "text": "165 personnels blessés depuis le début du mouvement, selon le ministre, rapporté par l’AFP. Ce chiffre remplace 149 pour cette catégorie ; il ne s’y ajoute pas."
+      },
       {
         "area": "Strasbourg · 17 octobre",
         "source": "h_strasbourg",
         "text": "17 manifestants et 27 policiers blessés. Bilan local distinct, non additionné au bilan national. Les policiers peuvent être inclus dans le relevé national du 17 octobre."
       },
       {
-        "area": "France · 17 octobre",
-        "source": "h_police17",
-        "text": "997 blessures parmi les forces de l’ordre, dont 7 graves : bilan de l’Intérieur rapporté le 20 octobre. Pas de total national consolidé des manifestants établi ici. Non additionné au bilan du 14 octobre."
+        "area": "France · journée du 17 octobre",
+        "source": "h_police_rtl",
+        "as_of": "2026-10-17",
+        "published": "2026-10-18",
+        "checked": "2026-10-22",
+        "value": 997,
+        "text": "997 policiers et gendarmes blessés, dont 7 gravement, selon le bilan du ministère rapporté par RTL. Pas de total des manifestants dans cette source. Les 937 du mouvement lycéen et les 997 du 17 octobre ne sont pas additionnés en personnes uniques."
+      },
+      {
+        "area": "Bordeaux · journée du 17 octobre",
+        "source": "h_bordeaux",
+        "as_of": "2026-10-17",
+        "published": "2026-10-18",
+        "checked": "2026-10-22",
+        "value": 23,
+        "text": "Bilan préfectoral provisoire : 8 manifestants et 15 membres des forces de sécurité blessés. Bilan local, non ajouté aux autres agrégats."
       }
     ],
     "sentencing": {
-      "total_months": 28,
-      "firm_months": 16,
-      "suspended_months": 12,
-      "people": 5,
+      "total_months": 61,
+      "firm_months": 38,
+      "suspended_months": 23,
+      "people": 10,
       "exhaustive": false,
       "updated": "2026-10-22",
       "note": "Peines prononcées dans les seuls dossiers recensés, y compris une décision en appel. Ni durée exécutée ni cumul national."
+    },
+    "last_checked": "2026-10-22"
+  },
+  "last_checked": "2026-10-22",
+  "verification": {
+    "date": "2026-10-22",
+    "status": "reviewed_with_limits",
+    "note": "Recherche actualisée et calculs recalculés. Les dates propres aux bilans sont conservées. Certaines sources ne sont pas intégralement accessibles ; aucun total national actuel des blessés n’a été établi.",
+    "unconfirmed_demand": 11900000000,
+    "demand_note": "10 Md€ corroborés par Le Monde (7 octobre) et AFP/Sud Radio (16 octobre). Aucun document confirmant une revendication de 11,9 Md€ retrouvé lors de cette recherche.",
+    "limitations": [
+      "Accès incomplet au rapport historique de la Cour des comptes et à la page Région Sud.",
+      "Volumes nationaux des heures supplémentaires, soins, secours, logistique et coûts judiciaires toujours hypothétiques.",
+      "Le montant national consolidé des surcoûts réellement payés reste inconnu."
+    ]
+  },
+  "changelog": [
+    {
+      "date": "2026-10-22",
+      "version": 10,
+      "financial_delta": 15000000,
+      "note": "Ajout de l’enveloppe AURA de 15 M€. Peines : +33 mois documentés (Bayonne et Saint-Étienne), 61 mois au total. Bilans humains récents séparés, date de vérification distincte des dates des bilans. Demande de 10 Md€ corroborée ; 11,9 Md€ non confirmé."
     }
-  }
+  ]
 }
