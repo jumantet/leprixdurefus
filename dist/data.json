@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-22",
-  "version": 7,
+  "version": 9,
   "currency": "EUR",
   "scope": "Scénarios conventionnels de coûts publics et moyens annoncés : surcoûts du 18 septembre au 22 octobre 2026, réparations consécutives et aides projetées après les annonces. Ni dépenses constatées à ce jour ni coût net consolidé.",
   "demand": 10000000000,
@@ -1534,6 +1534,26 @@
       "label": "TV5MONDE / AFP · bilan publié le 15 octobre 2026",
       "url": "https://information.tv5monde.com/france/pas-davancee-notable-entre-edouard-geffray-et-les-organisations-lyceennes-2841689",
       "kind": "human"
+    },
+    "h_all": {
+      "label": "Anadolu · déclaration de Sébastien Lecornu · 14 octobre 2026",
+      "url": "https://aa.com.tr/fr/france/mobilisation-lyc%C3%A9enne-248-%C3%A9l%C3%A8ves-bless%C3%A9s/4088823",
+      "kind": "human"
+    },
+    "h_agen": {
+      "label": "La Dépêche · Agen · 21 octobre 2026",
+      "url": "https://www.ladepeche.fr/2026/10/21/manifestations-du-17-octobre-deux-femmes-condamnees-a-des-peines-de-prison-avec-sursis-apres-des-violences-envers-un-policier-a-agen-le-procureur-de-13613719.php",
+      "kind": "human"
+    },
+    "h_strasbourg": {
+      "label": "DNA · Strasbourg · article du 18 octobre 2026",
+      "url": "https://www.dna.fr/faits-divers-justice/2026/10/18/alsace-deux-personnes-grievement-blessees-aux-yeux-38-interpellations",
+      "kind": "human"
+    },
+    "h_police17": {
+      "label": "Le Monde · maintien de l’ordre du 17 octobre · 20 octobre 2026",
+      "url": "https://www.lemonde.fr/en/france/article/2026/10/20/french-protests-from-intelligence-failures-to-insufficient-police-presence-overview-of-a-security-disaster_6760327_7.html",
+      "kind": "human"
     }
   },
   "legacy": {
@@ -1650,7 +1670,14 @@
         "facts": "Un étudiant de 19 ans a été condamné après avoir reconnu des jets de pierres contre les policiers lors d’une manifestation.",
         "status": "Une peine aménageable n’établit pas une entrée en prison. Date exacte du jugement et éventuel appel non précisés.",
         "source": "h_reims",
-        "checked": "2026-10-22"
+        "checked": "2026-10-22",
+        "sentence": {
+          "people": 1,
+          "firm_months": 6,
+          "suspended_months": 0,
+          "appeal": "non précisé",
+          "included": true
+        }
       },
       {
         "id": "perpignan_lyceen",
@@ -1661,7 +1688,14 @@
         "facts": "Un lycéen de 18 ans, ayant manifesté le matin, a été arrêté le soir avec un mortier d’artifice.",
         "status": "Peine prononcée avec possibilité d’aménagement. Qualification exacte et éventuel appel non précisés dans le compte rendu.",
         "source": "h_perpignan",
-        "checked": "2026-10-22"
+        "checked": "2026-10-22",
+        "sentence": {
+          "people": 1,
+          "firm_months": 4,
+          "suspended_months": 0,
+          "appeal": "non précisé",
+          "included": true
+        }
       },
       {
         "id": "perpignan_voiture",
@@ -1672,7 +1706,14 @@
         "facts": "Un homme de 21 ans a été condamné après des dégradations d’un véhicule de police municipale.",
         "status": "Dossier en marge des événements ; participation à une manifestation non établie. Incarcération immédiate non rapportée.",
         "source": "h_perpignan",
-        "checked": "2026-10-22"
+        "checked": "2026-10-22",
+        "sentence": {
+          "people": 1,
+          "firm_months": 6,
+          "suspended_months": 0,
+          "appeal": "non précisé",
+          "included": true
+        }
       },
       {
         "id": "perpignan_cj",
@@ -1684,14 +1725,68 @@
         "status": "Le tribunal les place sous contrôle judiciaire, malgré les réquisitions de détention. Pas de condamnation rapportée à ce stade ; participation au cortège non établie.",
         "source": "h_perpignan",
         "checked": "2026-10-22"
+      },
+      {
+        "id": "agen_19oct",
+        "category": "condamnations",
+        "city": "Agen",
+        "date_label": "Jugement du 19 octobre · appel du parquet le 20 · source du 21 octobre",
+        "title": "2 × 6 mois avec sursis · appel en cours",
+        "facts": "Deux femmes majeures ont été condamnées pour violences, rébellion et outrage envers un policier en marge de la mobilisation.",
+        "status": "Le parquet a fait appel. Les 12 mois cumulés sont entièrement assortis du sursis ; ils ne représentent pas du temps passé en prison.",
+        "source": "h_agen",
+        "checked": "2026-10-22",
+        "sentence": {
+          "people": 2,
+          "firm_months": 0,
+          "suspended_months": 12,
+          "appeal": "parquet, 20 octobre 2026",
+          "included": true
+        }
       }
     ],
     "headline": {
-      "value": 200,
-      "qualifier": "plus de",
-      "label": "lycéens blessés",
-      "as_of": "2026-10-15",
-      "source": "h_bilan"
+      "value": 1334,
+      "qualifier": "BILAN AU 14 OCT.",
+      "label": "blessés déclarés",
+      "as_of": "2026-10-14",
+      "source": "h_all",
+      "components": [
+        {
+          "label": "Élèves",
+          "value": 248
+        },
+        {
+          "label": "Personnels de l’Éducation",
+          "value": 149
+        },
+        {
+          "label": "Policiers et gendarmes",
+          "value": 937
+        }
+      ],
+      "scope": "Somme des trois catégories annoncées par le Premier ministre. Ni bilan actuel exhaustif ni décompte des seules violences policières."
+    },
+    "balances": [
+      {
+        "area": "Strasbourg · 17 octobre",
+        "source": "h_strasbourg",
+        "text": "17 manifestants et 27 policiers blessés. Bilan local distinct, non additionné au bilan national. Les policiers peuvent être inclus dans le relevé national du 17 octobre."
+      },
+      {
+        "area": "France · 17 octobre",
+        "source": "h_police17",
+        "text": "997 blessures parmi les forces de l’ordre, dont 7 graves : bilan de l’Intérieur rapporté le 20 octobre. Pas de total national consolidé des manifestants établi ici. Non additionné au bilan du 14 octobre."
+      }
+    ],
+    "sentencing": {
+      "total_months": 28,
+      "firm_months": 16,
+      "suspended_months": 12,
+      "people": 5,
+      "exhaustive": false,
+      "updated": "2026-10-22",
+      "note": "Peines prononcées dans les seuls dossiers recensés, y compris une décision en appel. Ni durée exécutée ni cumul national."
     }
   }
 }
