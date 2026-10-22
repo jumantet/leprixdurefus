@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-22",
-  "version": 10,
+  "version": 11,
   "currency": "EUR",
   "scope": "Scénarios conventionnels de coûts publics et moyens annoncés : surcoûts du 18 septembre au 22 octobre 2026, réparations consécutives et aides projetées après les annonces. Ni dépenses constatées à ce jour ni coût net consolidé.",
   "demand": 10000000000,
@@ -1670,6 +1670,55 @@
       "url": "https://radioscoop.com/infos/violences-du-17-octobre-a-lyon-les-premieres-condamnations-et-poursuites-devoilees_365986",
       "checked": "2026-10-22",
       "kind": "human"
+    },
+    "ind_politis_mulhouse": {
+      "label": "Politis · enquête à Mulhouse · 18 octobre 2026",
+      "url": "https://www.politis.fr/articles/2026/10/info-politis-a-mulhouse-une-jeune-de-17-ans-perd-la-vision-dun-oeil-apres-une-charge-policiere-ligpn-saisie/",
+      "note": "Reportage consulté : témoignages, famille et réponses des autorités ; circonstances attribuées, responsabilité non établie.",
+      "kind": "human",
+      "checked": "2026-10-22"
+    },
+    "ind_politis_paris": {
+      "label": "Politis · audiences de Paris · 20 octobre 2026",
+      "url": "https://www.politis.fr/articles/2026/10/reportage-justice-il-est-lheure-de-rendre-des-comptes-en-comparution-immediate-la-justice-applique-les-consignes-de-fermete-du-gouvernement/",
+      "note": "Accès partiel : introduction et légende accessibles. Deux peines individualisées dans la légende ; article complet non consulté.",
+      "kind": "human",
+      "checked": "2026-10-22"
+    },
+    "ind_mediapart_igpn": {
+      "label": "Mediapart · enquêtes IGPN · 14 octobre 2026",
+      "url": "https://www.mediapart.fr/journal/france/141026/lyceens-mutiles-la-justice-accelere-le-ministre-ne-cede-rien",
+      "note": "Premier paragraphe accessible : déclaration ministérielle du 13 octobre. Article complet réservé aux abonnés ; pas un décompte indépendant.",
+      "kind": "human",
+      "checked": "2026-10-22"
+    },
+    "ind_blast_justice": {
+      "label": "Blast · audiences de Paris · 20 octobre 2026",
+      "url": "https://www.blast-info.fr/articles/2026/17-octobre-le-gouvernement-ordonne-les-juges-repriment--tYOE8TATAuu6kgRrN9l5A",
+      "note": "Introduction consultée ; corps du reportage non restitué. Aucun montant de peine ajouté sur cette seule base.",
+      "kind": "context",
+      "checked": "2026-10-22"
+    },
+    "ind_lemedia": {
+      "label": "Le Média · reportage à Hélène-Boucher · 6 octobre 2026",
+      "url": "https://www.lemediatv.fr/emissions/2026/lyceens-en-lutte-enseignants-parents-et-elus-font-front-commun-5fOnkCHkS6Sy-4-J1JzB-Q",
+      "note": "Présentation écrite consultée, vidéo non visionnée. Présence de parents, enseignants et élus ; pas de bilan national chiffré.",
+      "kind": "context",
+      "checked": "2026-10-22"
+    },
+    "ind_basta": {
+      "label": "Basta! · inégalités scolaires · 12–13 octobre 2026",
+      "url": "https://basta.media/mouvement-lyceen-bloquages-revendications-qu-en-est-il-vraiment-des-inegalites-scolaires",
+      "note": "Reportage consulté : conditions d’étude et disparités territoriales. Ne valide pas le montant de notre scénario financier.",
+      "kind": "context",
+      "checked": "2026-10-22"
+    },
+    "ind_education_note": {
+      "label": "L’Hermine Rouge · reprise de L’Humanité · 10 octobre 2026",
+      "url": "https://lherminerouge.fr/deux-economistes-donnent-raison-aux-lyceens-et-vont-encore-plus-loin-il-faudrait-au-moins-11-milliards-pour-renforcer-le-systeme-educatif-h-fr-10-10-26/",
+      "note": "Reprise consultée : proposition de 11,8 Md€ attribuée à Élise Huillery et Roman Paris. Original et note non vérifiés ; distinct des revendications syndicales.",
+      "kind": "context",
+      "checked": "2026-10-22"
     }
   },
   "legacy": {
@@ -1771,11 +1820,14 @@
         "category": "blessures",
         "city": "Mulhouse",
         "date_label": "Faits du 17 octobre · source du 18 octobre",
-        "title": "17 ans · perte d’un œil",
-        "facts": "Le parquet confirme la perte de l’œil gauche après une blessure en marge de la mobilisation.",
-        "status": "Enquête pour violences aggravées confiée à l’IGPN. La source ne permet pas d’établir l’auteur ni le projectile en cause.",
-        "source": "h_mulhouse",
-        "checked": "2026-10-22"
+        "title": "17 ans · perte de vision d’un œil",
+        "facts": "Perte de vision de l’œil gauche, selon la famille interrogée par Politis. La source n’établit pas une ablation de l’œil. Selon ses proches, la jeune fille sortait d’un restaurant et ne participait pas au cortège.",
+        "status": "Des témoins interrogés par Politis décrivent un tir tendu de grenade lacrymogène. Le procureur cité indique que le projectile n’est pas encore déterminé. Enquête IGPN ; responsabilité non établie.",
+        "source": "ind_politis_mulhouse",
+        "checked": "2026-10-22",
+        "additional_sources": [
+          "h_mulhouse"
+        ]
       },
       {
         "id": "reims",
@@ -1924,6 +1976,53 @@
         "source": "h_lyon_sentences",
         "date_label": "Bilan publié le 20 octobre",
         "checked": "2026-10-22"
+      },
+      {
+        "id": "igpn_13oct",
+        "category": "procedures",
+        "city": "France",
+        "date_label": "Déclaration du 13 octobre · article du 14 octobre",
+        "title": "36 enquêtes judiciaires confiées à l’IGPN",
+        "facts": "Selon une déclaration du ministre au Sénat rapportée dans le paragraphe accessible de Mediapart, quatre affaires portent sur des blessures mutilantes et six sur des blessures significatives.",
+        "status": "Bilan déclaré, pas recensement indépendant. Ni nombre de victimes ni fautes établies ; ne s’ajoute pas au compteur des blessés. Article complet non consulté.",
+        "source": "ind_mediapart_igpn",
+        "checked": "2026-10-22"
+      },
+      {
+        "id": "paris_politis_ferme",
+        "category": "condamnations",
+        "city": "Paris",
+        "date_label": "Audience rapportée le 20 octobre · date exacte non précisée dans l’extrait",
+        "title": "2 mois ferme · jugement rapporté",
+        "facts": "Politis rapporte une condamnation après une participation à un rassemblement interdit avec un poing américain dans un sac.",
+        "status": "Peine et circonstances précisées dans la légende accessible du reportage. Article complet non consulté ; aménagement, incarcération effective et appel non précisés.",
+        "source": "ind_politis_paris",
+        "checked": "2026-10-22",
+        "sentence": {
+          "people": 1,
+          "firm_months": 2,
+          "suspended_months": 0,
+          "appeal": "non précisé",
+          "included": true
+        }
+      },
+      {
+        "id": "paris_politis_sursis",
+        "category": "condamnations",
+        "city": "Paris",
+        "date_label": "Audience rapportée le 20 octobre · date exacte non précisée dans l’extrait",
+        "title": "5 mois avec sursis · jugement rapporté",
+        "facts": "La légende accessible du reportage de Politis rapporte une seconde condamnation, concernant une femme, à cinq mois avec sursis.",
+        "status": "Qualification et appel non précisés dans l’extrait. Article complet non consulté ; pas d’incarcération déduite de cette peine.",
+        "source": "ind_politis_paris",
+        "checked": "2026-10-22",
+        "sentence": {
+          "people": 1,
+          "firm_months": 0,
+          "suspended_months": 5,
+          "appeal": "non précisé",
+          "included": true
+        }
       }
     ],
     "headline": {
@@ -1984,10 +2083,10 @@
       }
     ],
     "sentencing": {
-      "total_months": 61,
-      "firm_months": 38,
-      "suspended_months": 23,
-      "people": 10,
+      "total_months": 68,
+      "firm_months": 40,
+      "suspended_months": 28,
+      "people": 12,
       "exhaustive": false,
       "updated": "2026-10-22",
       "note": "Peines prononcées dans les seuls dossiers recensés, y compris une décision en appel. Ni durée exécutée ni cumul national."
@@ -2000,14 +2099,32 @@
     "status": "reviewed_with_limits",
     "note": "Recherche actualisée et calculs recalculés. Les dates propres aux bilans sont conservées. Certaines sources ne sont pas intégralement accessibles ; aucun total national actuel des blessés n’a été établi.",
     "unconfirmed_demand": 11900000000,
-    "demand_note": "10 Md€ corroborés par Le Monde (7 octobre) et AFP/Sud Radio (16 octobre). Aucun document confirmant une revendication de 11,9 Md€ retrouvé lors de cette recherche.",
+    "demand_note": "10 Md€ corroborés par Le Monde (7 octobre) et AFP/Sud Radio (16 octobre). Aucun document confirmant une revendication de 11,9 Md€ retrouvé lors de cette recherche. Une reprise de L’Humanité évoque une proposition de deux économistes à 11,8 Md€, distincte des demandes syndicales ; original et note non vérifiés.",
     "limitations": [
       "Accès incomplet au rapport historique de la Cour des comptes et à la page Région Sud.",
       "Volumes nationaux des heures supplémentaires, soins, secours, logistique et coûts judiciaires toujours hypothétiques.",
       "Le montant national consolidé des surcoûts réellement payés reste inconnu."
-    ]
+    ],
+    "independent_press_review": {
+      "date": "2026-10-22",
+      "sources": [
+        "ind_politis_mulhouse",
+        "ind_politis_paris",
+        "ind_mediapart_igpn",
+        "ind_blast_justice",
+        "ind_lemedia",
+        "ind_basta"
+      ],
+      "outcome": "Mulhouse précisé, 7 mois de peines ajoutés à Paris, bilan IGPN déclaré séparé. Aucun nouveau total national de blessés ni coût consolidé établi."
+    }
   },
   "changelog": [
+    {
+      "date": "2026-10-22",
+      "version": 11,
+      "financial_delta": 0,
+      "note": "Croisement avec la presse indépendante : correction de Mulhouse (perte de vision), +7 mois documentés à Paris d’après la légende accessible de Politis (68 mois, 12 personnes), ajout du bilan IGPN déclaré rapporté par Mediapart. Coûts inchangés. Limites d’accès explicitées."
+    },
     {
       "date": "2026-10-22",
       "version": 10,
