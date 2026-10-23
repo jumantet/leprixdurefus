@@ -128,11 +128,20 @@
       "categoryId": "aides",
       "title": "On gagne plus avec les aides qu’en travaillant",
       "outline": [
-        "Une personne au SMIC peut-elle recevoir des aides ?",
-        "Comment comparer deux foyers à situation identique ?",
-        "Que changent les frais de garde et de transport ?"
+        "Un post compare 1 800 € d’aides pour une famille avec trois enfants à 1 500 € de salaire pour une personne seule. Peut-on conclure que ne pas travailler rapporte plus ?",
+        "Une salariée aux revenus modestes peut-elle toucher une prestation en plus de son salaire ?",
+        "Un tableau additionne RSA maximal, allocations familiales et APL maximales. Quelle vérification est indispensable ?",
+        "Une personne reçoit l’APL et demande le RSA. Comment le logement intervient-il dans le calcul du RSA ?",
+        "Une personne sans revenu vit avec un conjoint salarié. Son RSA se calcule-t-il seulement sur ses revenus personnels ?",
+        "Un parent reprend un emploi. Pour savoir si son budget s’améliore, que faut-il ajouter à la comparaison des ressources ?",
+        "Budget fictif : sans emploi, 950 € de ressources et 550 € de dépenses ; avec emploi, 1 550 € et 800 €. Quel est le gain de reste à vivre ?",
+        "Une hausse de salaire peut-elle modifier une aide au logement ?",
+        "La prime d’activité est-elle calculée seulement à partir du salaire de la personne qui la demande ?",
+        "D’après l’étude DREES publiée en mai 2026, quelle part des foyers éligibles ne touchait pas le RSA fin 2021 ?",
+        "Budget fictif : reprendre un emploi augmente les ressources de 200 € mais ajoute 260 € de frais nets. Que montre ce cas ?",
+        "Quelle comparaison permet réellement de tester l’affirmation « les aides rapportent plus que le travail » ?"
       ],
-      "position": 0
+      "position": -4
     },
     {
       "id": "q002",
@@ -246,13 +255,22 @@
       "id": "q011",
       "slug": "les-allocations-sont-notre-premiere-depense-publique",
       "categoryId": "dette",
-      "title": "Les allocations sont notre première dépense publique",
+      "title": "Les allocations ruinent la France",
       "outline": [
-        "Que comprend le mot allocations ?",
-        "Quel est le poids des retraites ?",
-        "Quelle différence entre protection sociale et aides sans emploi ?"
+        "Quand une infographie annonce une énorme dépense de « protection sociale », de quoi peut-elle parler ?",
+        "En 2024, quel risque représente le premier poste des prestations de protection sociale dans les comptes DREES ?",
+        "Tous minima sociaux réunis, quel ordre de grandeur a été versé en 2024 selon la DREES ?",
+        "Quel groupe figure aussi parmi les bénéficiaires de minima sociaux ?",
+        "L’Insee chiffre les dépenses publiques à environ 1 672 milliards d’euros en 2024. Quel est l’ordre de grandeur de 33,3 milliards rapportés à ce total ?",
+        "Dans la ventilation Insee des dépenses publiques de 2024, quelle fonction arrive en tête ?",
+        "Une personne ne touche ni RSA ni APL mais reçoit une pension de retraite. Bénéficie-t-elle de la protection sociale ?",
+        "Dans le tableau Insee, peut-on ajouter les salaires des enseignants au total de la fonction « enseignement » pour obtenir son coût complet ?",
+        "Supprimer une dépense annuelle de 10 milliards effacerait-il immédiatement 10 milliards de dette déjà existante ?",
+        "Budget fictif : 1 000 de dépenses et 900 de recettes. On réduit une dépense de 20. Que devient le déficit si rien d’autre ne change ?",
+        "Une hausse du déficit prouve-t-elle, à elle seule, une hausse des allocations ?",
+        "Les aides aux ménages modestes ne feraient que coûter : quel résultat la DREES mesure-t-elle pour la redistribution en 2022 ?"
       ],
-      "position": 10
+      "position": -3
     },
     {
       "id": "q012",
@@ -608,11 +626,20 @@
       "categoryId": "accueil",
       "title": "Les immigrés touchent toutes les aides en arrivant",
       "outline": [
-        "Quel statut est concerné ?",
-        "Quelles conditions s’appliquent à l’aide ?",
-        "Pourquoi ne pas généraliser à toutes les prestations ?"
+        "Une personne née étrangère à l’étranger est devenue française. Dans les statistiques de l’Insee, est-elle encore immigrée ?",
+        "Hors régimes particuliers et exceptions, quelle condition concerne le RSA d’un ressortissant hors UE titulaire d’un titre temporaire autorisant le travail ?",
+        "Une personne reconnue réfugiée doit-elle toujours attendre ces cinq ans pour pouvoir demander le RSA ?",
+        "Une personne majeure demande l’asile et remplit les conditions d’accueil et de ressources. Quelle aide financière spécifique peut-elle percevoir ?",
+        "Pour une personne seule, quel est le montant journalier de base de l’ADA indiqué par Service Public, hors supplément ?",
+        "Un demandeur d’asile nouvellement arrivé peut-il simplement travailler pendant l’examen de son dossier ?",
+        "L’aide médicale de l’État (AME) est-elle une somme mensuelle versée librement au bénéficiaire ?",
+        "Dans le cas général, un adulte en situation irrégulière a-t-il accès à l’AME dès son arrivée ?",
+        "Un étranger peut-il toucher l’APL uniquement parce qu’il est étranger ?",
+        "Pour les prestations familiales, vivre en France avec ses enfants suffit-il toujours à un ressortissant hors UE ?",
+        "Deux personnes étrangères ont le même salaire. Cela garantit-il qu’elles ont exactement les mêmes droits sociaux ?",
+        "Ces règles permettent-elles de conclure que les personnes immigrent principalement pour toucher des aides ?"
       ],
-      "position": 40
+      "position": -2
     },
     {
       "id": "q042",
@@ -1028,11 +1055,20 @@
       "categoryId": "rn",
       "title": "Le RN n’est plus d’extrême droite",
       "outline": [
-        "Comment la source définit-elle cette famille ?",
-        "Quels éléments de programme et d’histoire examine-t-elle ?",
-        "Quelle différence entre classifications et discours du parti ?"
+        "Le RN conteste son rattachement au bloc « extrême droite » pour les sénatoriales de 2023. Quelle est l’issue du recours jugé le 11 mars 2024 ?",
+        "Un candidat se présente comme « patriote ». Cette étiquette oblige-t-elle l’administration à reprendre ce terme comme nuance ?",
+        "Que permet exactement d’affirmer la décision de mars 2024 ?",
+        "Dans la déclaration officielle de campagne de Marine Le Pen en 2022, la priorité nationale concernait quels domaines ?",
+        "Dans un exemple hypothétique, deux salariés remplissent les mêmes conditions de ressources et de logement. Que changerait une priorité fondée sur la nationalité ?",
+        "Le document présidentiel de 2022 se limitait-il à l’immigration et à la sécurité ?",
+        "À quel groupe européen Jordan Bardella appartient-il depuis juillet 2024 selon le Parlement européen ?",
+        "Le classement du RN dans le bloc « extrême droite » a-t-il disparu des documents administratifs des municipales de 2026 ?",
+        "Les décisions de justice permettent-elles d’affirmer que toute restriction de prestations aux étrangers serait autorisée ?",
+        "Un programme conservé sur un site officiel prouve-t-il que ses promesses sont vraies et réalisables ?",
+        "Le classement du RN permet-il de déduire les motivations exactes de toutes les personnes qui votent pour lui ?",
+        "Quelle conclusion respecte les documents examinés dans ce parcours ?"
       ],
-      "position": 75
+      "position": -1
     },
     {
       "id": "q077",

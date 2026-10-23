@@ -1,103 +1,412 @@
 {
   "q011": {
-    "title": "Les allocations sont notre première dépense publique",
-    "intro": "Avant de comparer les montants, distinguons les aides sous condition de ressources et l’ensemble de la protection sociale. Données françaises de 2024.",
+    "title": "Les allocations ruinent la France",
+    "intro": "Quand on parle des « aides », met-on le RSA, les retraites et l’hôpital dans le même sac ? Ordres de grandeur, bénéficiaires et déficit : douze questions pour examiner ce que cette accusation recouvre. Les données sont datées, sans les présenter comme des comptes 2026.",
     "questions": [
       {
-        "id": "q011-1",
-        "prompt": "Dans la classification de l’Insee utilisée ici, quelle dépense relève de la protection sociale ?",
+        "id": "q011-r2-01",
+        "prompt": "Quand une infographie annonce une énorme dépense de « protection sociale », de quoi peut-elle parler ?",
         "choices": [
           {
             "id": "a",
-            "text": "L’entretien des ambassades"
+            "text": "Uniquement des aides versées aux personnes sans emploi"
           },
           {
             "id": "b",
-            "text": "Les pensions de retraite"
+            "text": "D’un ensemble incluant notamment retraites et santé"
           },
           {
             "id": "c",
-            "text": "L’achat de matériel militaire"
+            "text": "Uniquement du RSA, de l’AAH et du minimum vieillesse"
           },
           {
             "id": "d",
-            "text": "La construction des tribunaux"
+            "text": "Uniquement des prestations gérées par les CAF"
           }
         ],
         "correctChoiceId": "b",
-        "explanation": "Les pensions de retraite appartiennent aux dépenses de protection sociale. Cette catégorie dépasse donc les seules aides destinées aux ménages sans emploi.",
-        "nuance": "Le mot « allocations » est trop imprécis pour désigner tout ce périmètre.",
+        "explanation": "Dans les comptes de la protection sociale de la DREES, le champ dépasse largement les aides aux personnes sans emploi. Confondre ces catégories fait changer le sens du chiffre présenté.",
+        "nuance": "La santé est une fonction séparée dans la nomenclature des dépenses publiques de l’Insee : les périmètres ne sont pas interchangeables.",
         "sources": [
           {
+            "publisher": "DREES",
+            "title": "La protection sociale en France et en Europe en 2024 — édition 2025",
+            "url": "https://www.drees.solidarites-sante.gouv.fr/sites/default/files/2025-12/La%20protection%20sociale%20en%20France%20et%20en%20Europe%20en%202024%20-%20R%C3%A9sultats%20des%20comptes%20de%20la%20protection%20sociale%20-%20%C3%89dition%202025.pdf",
+            "checkedAt": "2026-10-23"
+          },
+          {
             "publisher": "Insee",
-            "title": "Les dépenses publiques par fonction en 2024",
+            "title": "Usage de l’argent public : les dépenses publiques par fonction en 2024 — Insee Première n° 2093",
             "url": "https://www.insee.fr/fr/statistiques/8735252",
             "checkedAt": "2026-10-23"
           }
         ]
       },
       {
-        "id": "q011-2",
-        "prompt": "En 2024, quelle fonction représente la plus grande part des dépenses publiques dans cette publication ?",
+        "id": "q011-r2-02",
+        "prompt": "En 2024, quel risque représente le premier poste des prestations de protection sociale dans les comptes DREES ?",
         "choices": [
           {
             "id": "a",
-            "text": "La protection sociale, hors santé"
+            "text": "La vieillesse et la survie"
           },
           {
             "id": "b",
-            "text": "La défense"
+            "text": "Le chômage"
           },
           {
             "id": "c",
-            "text": "L’enseignement"
+            "text": "Le logement"
           },
           {
             "id": "d",
-            "text": "La protection de l’environnement"
+            "text": "La pauvreté et l’exclusion sociale"
           }
         ],
         "correctChoiceId": "a",
-        "explanation": "La protection sociale hors santé représente environ 41 % du total en 2024, devant la santé. Le classement porte sur des fonctions de dépense.",
-        "nuance": "Ce résultat ne signifie pas que les minima sociaux représentent 41 % des dépenses.",
+        "explanation": "Vieillesse et survie représentent 426,7 milliards d’euros, soit 45,8 % des prestations dans ces comptes. Ce poste comprend principalement les retraites et les prestations liées au décès d’un proche.",
+        "nuance": "Il ne s’agit pas de la part du RSA ni d’un pourcentage de l’ensemble des dépenses publiques.",
+        "sources": [
+          {
+            "publisher": "DREES",
+            "title": "La protection sociale en France et en Europe en 2024 — édition 2025",
+            "url": "https://www.drees.solidarites-sante.gouv.fr/sites/default/files/2025-12/La%20protection%20sociale%20en%20France%20et%20en%20Europe%20en%202024%20-%20R%C3%A9sultats%20des%20comptes%20de%20la%20protection%20sociale%20-%20%C3%89dition%202025.pdf",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q011-r2-03",
+        "prompt": "Tous minima sociaux réunis, quel ordre de grandeur a été versé en 2024 selon la DREES ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "3 milliards d’euros"
+          },
+          {
+            "id": "b",
+            "text": "330 milliards d’euros"
+          },
+          {
+            "id": "c",
+            "text": "900 milliards d’euros"
+          },
+          {
+            "id": "d",
+            "text": "33 milliards d’euros"
+          }
+        ],
+        "correctChoiceId": "d",
+        "explanation": "La DREES chiffre les minima sociaux à 33,3 milliards d’euros en 2024. Ce périmètre comprend plusieurs dispositifs ; ce n’est pas le coût du seul RSA.",
+        "nuance": "Un montant important pour les bénéficiaires peut rester minoritaire dans un budget public beaucoup plus vaste.",
+        "sources": [
+          {
+            "publisher": "DREES",
+            "title": "Minima sociaux et prestations de solidarité — édition 2025",
+            "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/panoramas-de-la-drees/251204-minima-sociaux-et-prestations-de-solidarite",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q011-r2-04",
+        "prompt": "Quel groupe figure aussi parmi les bénéficiaires de minima sociaux ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Seulement les personnes inscrites à France Travail"
+          },
+          {
+            "id": "b",
+            "text": "Seulement les adultes n’ayant jamais cotisé"
+          },
+          {
+            "id": "c",
+            "text": "Des personnes handicapées et des personnes âgées aux faibles ressources"
+          },
+          {
+            "id": "d",
+            "text": "Seulement les personnes en âge de reprendre immédiatement un emploi"
+          }
+        ],
+        "correctChoiceId": "c",
+        "explanation": "L’AAH et le minimum vieillesse font partie des minima sociaux. Parler de leur ensemble comme d’un revenu destiné aux personnes « qui refusent de travailler » confond des situations très différentes.",
+        "nuance": "Un minimum social n’est pas synonyme d’allocation chômage.",
         "sources": [
           {
             "publisher": "Insee",
-            "title": "Les dépenses publiques par fonction en 2024",
+            "title": "Allocataires de minima sociaux — données 2024, publication du 2 octobre 2026",
+            "url": "https://www.insee.fr/fr/statistiques/2411049",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q011-r2-05",
+        "prompt": "L’Insee chiffre les dépenses publiques à environ 1 672 milliards d’euros en 2024. Quel est l’ordre de grandeur de 33,3 milliards rapportés à ce total ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Environ 20 %"
+          },
+          {
+            "id": "b",
+            "text": "Environ 2 %"
+          },
+          {
+            "id": "c",
+            "text": "Environ 40 %"
+          },
+          {
+            "id": "d",
+            "text": "Environ 60 %"
+          }
+        ],
+        "correctChoiceId": "b",
+        "explanation": "Calcul d’ordre de grandeur : 33,3 ÷ 1 672 × 100 ≈ 2 %. Les minima sociaux ne constituent donc pas le premier poste de dépense.",
+        "nuance": "Rapprochement de deux publications aux conventions distinctes ; ce n’est pas une nouvelle ventilation comptable officielle.",
+        "sources": [
+          {
+            "publisher": "DREES",
+            "title": "Minima sociaux et prestations de solidarité — édition 2025",
+            "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/panoramas-de-la-drees/251204-minima-sociaux-et-prestations-de-solidarite",
+            "checkedAt": "2026-10-23"
+          },
+          {
+            "publisher": "Insee",
+            "title": "Usage de l’argent public : les dépenses publiques par fonction en 2024 — Insee Première n° 2093",
             "url": "https://www.insee.fr/fr/statistiques/8735252",
             "checkedAt": "2026-10-23"
           }
         ]
       },
       {
-        "id": "q011-3",
-        "prompt": "Pourquoi ne peut-on pas attribuer les 693 milliards d’euros de protection sociale au seul RSA ?",
+        "id": "q011-r2-06",
+        "prompt": "Dans la ventilation Insee des dépenses publiques de 2024, quelle fonction arrive en tête ?",
         "choices": [
           {
             "id": "a",
-            "text": "Le RSA représente exactement toutes les retraites"
+            "text": "La protection sociale, devant la santé"
           },
           {
             "id": "b",
-            "text": "Ce montant est le budget militaire"
+            "text": "La défense, devant l’enseignement"
           },
           {
             "id": "c",
-            "text": "L’Insee ne compte aucune prestation"
+            "text": "Les intérêts de la dette, devant la santé"
           },
           {
             "id": "d",
-            "text": "Ce montant regroupe plusieurs risques et prestations, dont les retraites"
+            "text": "Le logement, devant la protection sociale"
           }
         ],
-        "correctChoiceId": "d",
-        "explanation": "Les 693 milliards couvrent un ensemble de dépenses sociales. Les attribuer à une seule allocation change le sens du chiffre.",
-        "nuance": "Pour comparer une prestation précise, il faut son propre montant et la même année de référence.",
+        "correctChoiceId": "a",
+        "explanation": "La protection sociale représente 41 % des dépenses publiques dans cette ventilation. La santé vient ensuite à 16 %. Le terme « protection sociale » ne signifie pas ici « RSA et allocations familiales ».",
+        "nuance": "Les chiffres sont ceux de la publication citée sur 2024, pas une estimation pour 2026.",
         "sources": [
           {
             "publisher": "Insee",
-            "title": "Les dépenses publiques par fonction en 2024",
+            "title": "Usage de l’argent public : les dépenses publiques par fonction en 2024 — Insee Première n° 2093",
             "url": "https://www.insee.fr/fr/statistiques/8735252",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q011-r2-07",
+        "prompt": "Une personne ne touche ni RSA ni APL mais reçoit une pension de retraite. Bénéficie-t-elle de la protection sociale ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Non, puisqu’elle a cotisé"
+          },
+          {
+            "id": "b",
+            "text": "Seulement si sa pension est inférieure au minimum vieillesse"
+          },
+          {
+            "id": "c",
+            "text": "Seulement si elle reçoit aussi une aide au logement"
+          },
+          {
+            "id": "d",
+            "text": "Oui, sa retraite en fait partie"
+          }
+        ],
+        "correctChoiceId": "d",
+        "explanation": "La protection sociale inclut des mécanismes d’assurance financés par des cotisations, ainsi que des prestations de solidarité. Avoir cotisé ne fait pas sortir la pension du champ des prestations sociales.",
+        "nuance": "Cela ne signifie pas que retraite contributive et RSA obéissent aux mêmes règles ou poursuivent exactement le même objectif.",
+        "sources": [
+          {
+            "publisher": "DREES",
+            "title": "La protection sociale en France et en Europe en 2024 — édition 2025",
+            "url": "https://www.drees.solidarites-sante.gouv.fr/sites/default/files/2025-12/La%20protection%20sociale%20en%20France%20et%20en%20Europe%20en%202024%20-%20R%C3%A9sultats%20des%20comptes%20de%20la%20protection%20sociale%20-%20%C3%89dition%202025.pdf",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q011-r2-08",
+        "prompt": "Dans le tableau Insee, peut-on ajouter les salaires des enseignants au total de la fonction « enseignement » pour obtenir son coût complet ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, les fonctions excluent tous les salaires"
+          },
+          {
+            "id": "b",
+            "text": "Oui, mais seulement ceux des enseignants titulaires"
+          },
+          {
+            "id": "c",
+            "text": "Non, ils sont déjà compris dans cette fonction"
+          },
+          {
+            "id": "d",
+            "text": "Non, parce que les enseignants sont payés par les collectivités"
+          }
+        ],
+        "correctChoiceId": "c",
+        "explanation": "Le tableau croise la fonction d’une dépense et sa nature. Les rémunérations de l’enseignement figurent déjà dans le total de cette fonction. Les additionner une seconde fois gonflerait artificiellement la facture.",
+        "nuance": "Un même euro peut être décrit de plusieurs façons ; il ne doit être compté qu’une fois dans un total.",
+        "sources": [
+          {
+            "publisher": "Insee",
+            "title": "Usage de l’argent public : les dépenses publiques par fonction en 2024 — Insee Première n° 2093",
+            "url": "https://www.insee.fr/fr/statistiques/8735252",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q011-r2-09",
+        "prompt": "Supprimer une dépense annuelle de 10 milliards effacerait-il immédiatement 10 milliards de dette déjà existante ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, le stock de dette baisse automatiquement du même montant"
+          },
+          {
+            "id": "b",
+            "text": "Pas nécessairement : cela réduit d’abord le besoin de financement, toutes choses égales par ailleurs"
+          },
+          {
+            "id": "c",
+            "text": "Non, car une baisse de dépenses ne peut jamais affecter la dette"
+          },
+          {
+            "id": "d",
+            "text": "Oui, et les intérêts passés seraient aussi remboursés"
+          }
+        ],
+        "correctChoiceId": "b",
+        "explanation": "Dette et déficit sont différents. Une économie peut réduire le déficit annuel tout en laissant un déficit positif : la dette peut alors continuer d’augmenter, moins vite.",
+        "nuance": "Les effets réels dépendent aussi des recettes, de l’activité économique et des autres opérations financières.",
+        "sources": [
+          {
+            "publisher": "Ministère de l’Économie",
+            "title": "Décryptage : 5 minutes pour comprendre la dette publique",
+            "url": "https://www.economie.gouv.fr/decryptage-5-minutes-pour-comprendre-la-dette-publique",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q011-r2-10",
+        "prompt": "Budget fictif : 1 000 de dépenses et 900 de recettes. On réduit une dépense de 20. Que devient le déficit si rien d’autre ne change ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Il passe de 100 à 80"
+          },
+          {
+            "id": "b",
+            "text": "Il passe de 100 à 20"
+          },
+          {
+            "id": "c",
+            "text": "Il disparaît"
+          },
+          {
+            "id": "d",
+            "text": "Il passe de 100 à 120"
+          }
+        ],
+        "correctChoiceId": "a",
+        "explanation": "Le déficit initial vaut 1 000 − 900 = 100. Après la baisse, 980 − 900 = 80. Une économie n’équilibre pas nécessairement tout le budget.",
+        "nuance": "Exemple arithmétique inventé ; aucune prévision macroéconomique n’est cachée dans ces nombres.",
+        "sources": [
+          {
+            "publisher": "Ministère de l’Économie",
+            "title": "Décryptage : 5 minutes pour comprendre la dette publique",
+            "url": "https://www.economie.gouv.fr/decryptage-5-minutes-pour-comprendre-la-dette-publique",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q011-r2-11",
+        "prompt": "Une hausse du déficit prouve-t-elle, à elle seule, une hausse des allocations ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, puisque les allocations sont financées à crédit"
+          },
+          {
+            "id": "b",
+            "text": "Oui, si le chômage n’a pas baissé"
+          },
+          {
+            "id": "c",
+            "text": "Non, le déficit dépend uniquement des intérêts"
+          },
+          {
+            "id": "d",
+            "text": "Non, les recettes et les autres dépenses peuvent aussi évoluer"
+          }
+        ],
+        "correctChoiceId": "d",
+        "explanation": "Le solde dépend de toutes les recettes et dépenses. Attribuer son évolution à une prestation exige d’isoler cette prestation et de mesurer sa contribution.",
+        "nuance": "Identifier une cause comptable n’établit pas, à elle seule, quelle politique serait préférable.",
+        "sources": [
+          {
+            "publisher": "Ministère de l’Économie",
+            "title": "Décryptage : 5 minutes pour comprendre la dette publique",
+            "url": "https://www.economie.gouv.fr/decryptage-5-minutes-pour-comprendre-la-dette-publique",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q011-r2-12",
+        "prompt": "Les aides aux ménages modestes ne feraient que coûter : quel résultat la DREES mesure-t-elle pour la redistribution en 2022 ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Aucun changement du taux de pauvreté"
+          },
+          {
+            "id": "b",
+            "text": "La disparition de la pauvreté monétaire"
+          },
+          {
+            "id": "c",
+            "text": "Une diminution du taux de pauvreté monétaire après prestations non contributives et impôts directs"
+          },
+          {
+            "id": "d",
+            "text": "Une hausse du taux de pauvreté dans toutes les catégories"
+          }
+        ],
+        "correctChoiceId": "c",
+        "explanation": "La DREES estime un taux de pauvreté de 14,4 % après cette redistribution, contre 21,3 % avant. Cela documente un effet redistributif, sans trancher tous les débats sur le coût ou la conception des dispositifs.",
+        "nuance": "Comparaison statistique à comportements inchangés, pas prédiction complète d’une suppression des aides. Données de 2022.",
+        "sources": [
+          {
+            "publisher": "DREES",
+            "title": "Minima sociaux et prestations de solidarité — édition 2025",
+            "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/panoramas-de-la-drees/251204-minima-sociaux-et-prestations-de-solidarite",
             "checkedAt": "2026-10-23"
           }
         ]
@@ -1061,210 +1370,1248 @@
       }
     ]
   },
-  "q096": {
-    "title": "Le vote blanc compte comme un vote pour un candidat",
-    "intro": "Comprendre comment les bulletins sont classés et comment les résultats sont calculés.",
+  "q001": {
+    "title": "On gagne plus avec les aides qu’en travaillant",
+    "intro": "RSA, salaire, prime d’activité, loyer : que reste-t-il vraiment à la fin du mois ? Douze questions pour démonter les comparaisons trompeuses, sans nier les situations où reprendre un emploi rapporte peu. Les budgets fictifs sont explicitement signalés.",
     "questions": [
       {
-        "id": "q096-1",
-        "prompt": "Une enveloppe vide déposée dans l’urne correspond à quel type de vote ?",
+        "id": "q001-r2-01",
+        "prompt": "Un post compare 1 800 € d’aides pour une famille avec trois enfants à 1 500 € de salaire pour une personne seule. Peut-on conclure que ne pas travailler rapporte plus ?",
         "choices": [
           {
             "id": "a",
-            "text": "Un vote blanc"
+            "text": "Oui : 1 800 € reste supérieur à 1 500 €"
           },
           {
             "id": "b",
-            "text": "Un vote pour le candidat arrivé premier"
+            "text": "Non : il faut comparer des foyers et des ressources comparables"
           },
           {
             "id": "c",
-            "text": "Une abstention"
+            "text": "Oui, si les deux montants sont mensuels"
           },
           {
             "id": "d",
-            "text": "Un vote pour tous les candidats"
+            "text": "Non : il faut seulement comparer les montants bruts"
+          }
+        ],
+        "correctChoiceId": "b",
+        "explanation": "Le même montant ne fait pas vivre une personne ou cinq de la même manière. L’Insee rapporte le revenu disponible à la composition du ménage. Il faut aussi compter les aides éventuelles du salarié : un salaire seul n’est pas son budget complet.",
+        "nuance": "Cette comparaison ne prouve ni que tous les emplois améliorent le budget, ni l’inverse.",
+        "sources": [
+          {
+            "publisher": "Insee",
+            "title": "Niveau de vie et revenu disponible — définitions",
+            "url": "https://www.insee.fr/fr/statistiques/1912151?sommaire=1912155",
+            "checkedAt": "2026-10-23"
+          },
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Prime d’activité : salarié ou fonctionnaire",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2882",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q001-r2-02",
+        "prompt": "Une salariée aux revenus modestes peut-elle toucher une prestation en plus de son salaire ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, notamment la prime d’activité sous conditions"
+          },
+          {
+            "id": "b",
+            "text": "Non, les prestations sont réservées aux personnes sans emploi"
+          },
+          {
+            "id": "c",
+            "text": "Oui, mais seulement si elle élève seule un enfant"
+          },
+          {
+            "id": "d",
+            "text": "Oui, mais uniquement pendant les trois premiers mois de son contrat"
           }
         ],
         "correctChoiceId": "a",
-        "explanation": "L’enveloppe vide est comptabilisée comme vote blanc. Elle marque une participation sans choix d’un candidat.",
-        "nuance": "Ce quiz décrit les règles françaises exposées par la DILA.",
+        "explanation": "La prime d’activité complète certains revenus professionnels modestes. Oublier cette prestation dans la colonne « avec emploi » fausse la comparaison.",
+        "nuance": "L’éligibilité et le montant dépendent du foyer ; ce n’est pas un supplément identique pour tous.",
         "sources": [
           {
-            "publisher": "Vie publique — DILA",
-            "title": "Vote blanc, vote nul : quelles différences ?",
-            "url": "https://www.vie-publique.fr/fiches/23931-vote-blanc-vote-nul-quelles-differences",
+            "publisher": "Service Public — DILA",
+            "title": "Prime d’activité : salarié ou fonctionnaire",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2882",
             "checkedAt": "2026-10-23"
           }
         ]
       },
       {
-        "id": "q096-2",
-        "prompt": "Les votes blancs entrent-ils dans les suffrages exprimés ?",
+        "id": "q001-r2-03",
+        "prompt": "Un tableau additionne RSA maximal, allocations familiales et APL maximales. Quelle vérification est indispensable ?",
         "choices": [
           {
             "id": "a",
-            "text": "Oui, au bénéfice du gagnant"
+            "text": "Vérifier seulement que chaque prestation existe"
           },
           {
             "id": "b",
-            "text": "Oui, divisés entre les candidats"
+            "text": "Appliquer une réduction forfaitaire de 10 % au total"
           },
           {
             "id": "c",
-            "text": "Oui, uniquement au second tour"
+            "text": "Supprimer seulement l’APL du calcul"
           },
           {
             "id": "d",
-            "text": "Non"
+            "text": "Vérifier les ressources retenues et les règles de cumul"
           }
         ],
         "correctChoiceId": "d",
-        "explanation": "Ils sont comptés séparément, mais ne font pas partie des suffrages exprimés utilisés pour les pourcentages des candidats.",
-        "nuance": "Être décompté ne signifie donc pas être inclus dans ce dénominateur.",
+        "explanation": "Les montants maximaux ne s’additionnent pas librement. Certaines prestations et d’autres revenus sont pris en compte pour calculer le RSA. Le bon calcul porte sur un dossier précis, pas sur un panier de maxima.",
+        "nuance": "Certaines ressources sont exclues : il faut appliquer la règle de chaque prestation.",
         "sources": [
           {
-            "publisher": "Vie publique — DILA",
-            "title": "Vote blanc, vote nul : quelles différences ?",
-            "url": "https://www.vie-publique.fr/fiches/23931-vote-blanc-vote-nul-quelles-differences",
+            "publisher": "Service Public — DILA",
+            "title": "Quelles sont les ressources prises en compte pour le calcul des droits au RSA ?",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F24585",
             "checkedAt": "2026-10-23"
           }
         ]
       },
       {
-        "id": "q096-3",
-        "prompt": "Quelle différence entre vote blanc et abstention ?",
+        "id": "q001-r2-04",
+        "prompt": "Une personne reçoit l’APL et demande le RSA. Comment le logement intervient-il dans le calcul du RSA ?",
         "choices": [
           {
             "id": "a",
-            "text": "Le vote blanc vaut deux abstentions"
+            "text": "L’APL est toujours déduite euro pour euro du RSA"
           },
           {
             "id": "b",
-            "text": "L’abstention est attribuée à un candidat"
+            "text": "Le RSA ne dépend jamais de la situation de logement"
           },
           {
             "id": "c",
-            "text": "Voter blanc implique de participer au vote ; s’abstenir signifie ne pas voter"
+            "text": "Un forfait logement est pris en compte"
           },
           {
             "id": "d",
-            "text": "Aucune, ils sont classés ensemble"
+            "text": "Le RSA est majoré du montant exact du loyer"
           }
         ],
         "correctChoiceId": "c",
-        "explanation": "Le vote blanc et l’abstention correspondent à deux comportements et deux catégories distincts.",
-        "nuance": "On ne peut pas déduire les motivations individuelles de ces seules catégories.",
+        "explanation": "Le RSA tient compte d’un forfait logement, notamment en cas d’aide au logement ou d’hébergement gratuit. Additionner le RSA maximal et l’APL sans ce correctif surestime donc les ressources.",
+        "nuance": "Le forfait dépend de la taille du foyer ; il ne correspond pas nécessairement à l’aide reçue.",
         "sources": [
           {
-            "publisher": "Vie publique — DILA",
-            "title": "Vote blanc, vote nul : quelles différences ?",
-            "url": "https://www.vie-publique.fr/fiches/23931-vote-blanc-vote-nul-quelles-differences",
+            "publisher": "Service Public — DILA",
+            "title": "RSA : demandeur de 25 ans et plus — conditions et calcul",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19778",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q001-r2-05",
+        "prompt": "Une personne sans revenu vit avec un conjoint salarié. Son RSA se calcule-t-il seulement sur ses revenus personnels ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, tant que le couple n’est pas marié"
+          },
+          {
+            "id": "b",
+            "text": "Non, les ressources du foyer entrent dans le calcul"
+          },
+          {
+            "id": "c",
+            "text": "Oui, si chacun possède son compte bancaire"
+          },
+          {
+            "id": "d",
+            "text": "Oui, sauf si le conjoint gagne plus de deux SMIC"
+          }
+        ],
+        "correctChoiceId": "b",
+        "explanation": "Le RSA est calculé à l’échelle du foyer. L’absence de salaire personnel ne suffit pas à ouvrir un droit au montant maximal si le conjoint dispose de revenus.",
+        "nuance": "Il ne faut pas transposer à toutes les aides cette règle : leurs calculs peuvent différer.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Quelles sont les ressources prises en compte pour le calcul des droits au RSA ?",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F24585",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q001-r2-06",
+        "prompt": "Un parent reprend un emploi. Pour savoir si son budget s’améliore, que faut-il ajouter à la comparaison des ressources ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Les frais supplémentaires de garde et de transport, après les aides éventuelles"
+          },
+          {
+            "id": "b",
+            "text": "Seulement la hausse de ses impôts"
+          },
+          {
+            "id": "c",
+            "text": "La totalité de son loyer, même s’il reste identique"
+          },
+          {
+            "id": "d",
+            "text": "Uniquement ses frais de repas"
+          }
+        ],
+        "correctChoiceId": "a",
+        "explanation": "Un gain de ressources peut être en partie absorbé par les coûts nécessaires au travail. Dans notre comparaison de budgets, on soustrait les frais supplémentaires, pas des dépenses inchangées déjà présentes avant la reprise.",
+        "nuance": "C’est une méthode de comparaison du reste à vivre, distincte de l’indicateur statistique de niveau de vie.",
+        "sources": [
+          {
+            "publisher": "Insee",
+            "title": "Niveau de vie et revenu disponible — définitions",
+            "url": "https://www.insee.fr/fr/statistiques/1912151?sommaire=1912155",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q001-r2-07",
+        "prompt": "Budget fictif : sans emploi, 950 € de ressources et 550 € de dépenses ; avec emploi, 1 550 € et 800 €. Quel est le gain de reste à vivre ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "600 € par mois"
+          },
+          {
+            "id": "b",
+            "text": "250 € par mois"
+          },
+          {
+            "id": "c",
+            "text": "750 € par mois"
+          },
+          {
+            "id": "d",
+            "text": "350 € par mois"
+          }
+        ],
+        "correctChoiceId": "d",
+        "explanation": "Sans emploi : 950 − 550 = 400 €. Avec emploi : 1 550 − 800 = 750 €. La différence est de 350 €. Comparer seulement les ressources aurait donné 600 €, en oubliant les dépenses supplémentaires.",
+        "nuance": "Exercice inventé, pas une simulation du RSA ou du SMIC. La source explique le périmètre des revenus ; le calcul est le nôtre.",
+        "sources": [
+          {
+            "publisher": "Insee",
+            "title": "Niveau de vie et revenu disponible — définitions",
+            "url": "https://www.insee.fr/fr/statistiques/1912151?sommaire=1912155",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q001-r2-08",
+        "prompt": "Une hausse de salaire peut-elle modifier une aide au logement ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Non, l’APL dépend uniquement du loyer"
+          },
+          {
+            "id": "b",
+            "text": "Oui, toute reprise d’emploi supprime immédiatement l’APL"
+          },
+          {
+            "id": "c",
+            "text": "Oui, les ressources prises en compte peuvent modifier le droit"
+          },
+          {
+            "id": "d",
+            "text": "Non, le montant reste acquis jusqu’au déménagement"
+          }
+        ],
+        "correctChoiceId": "c",
+        "explanation": "Les aides au logement sont soumises à conditions de ressources. Il faut donc intégrer leur éventuelle évolution à la comparaison avant/après emploi.",
+        "nuance": "Un nouveau salaire ne signifie pas automatiquement une suppression totale et immédiate.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Aide personnalisée au logement (APL)",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12006",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q001-r2-09",
+        "prompt": "La prime d’activité est-elle calculée seulement à partir du salaire de la personne qui la demande ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, le salaire net suffit à déterminer le montant"
+          },
+          {
+            "id": "b",
+            "text": "Non, la composition et les ressources du foyer comptent aussi"
+          },
+          {
+            "id": "c",
+            "text": "Oui, avec un montant fixe par tranche de salaire"
+          },
+          {
+            "id": "d",
+            "text": "Non, seul le nombre d’heures travaillées compte"
+          }
+        ],
+        "correctChoiceId": "b",
+        "explanation": "Deux salariés ayant le même salaire peuvent recevoir des montants différents. Le calcul tient compte du foyer, pas seulement du bulletin de paie individuel.",
+        "nuance": "Un chiffre présenté comme « la prime pour un SMIC » nécessite donc des hypothèses familiales.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Prime d’activité : salarié ou fonctionnaire",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2882",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q001-r2-10",
+        "prompt": "D’après l’étude DREES publiée en mai 2026, quelle part des foyers éligibles ne touchait pas le RSA fin 2021 ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Environ un tiers : entre 33 % et 37 %"
+          },
+          {
+            "id": "b",
+            "text": "Moins de 5 %"
+          },
+          {
+            "id": "c",
+            "text": "Environ un dixième : entre 8 % et 12 %"
+          },
+          {
+            "id": "d",
+            "text": "Plus des deux tiers : entre 65 % et 70 %"
+          }
+        ],
+        "correctChoiceId": "a",
+        "explanation": "La DREES estime le non-recours entre 33 % et 37 % dans le champ étudié. Être éligible ne signifie pas percevoir effectivement une allocation. Une simulation de droits théoriques n’est donc pas une photographie des revenus reçus.",
+        "nuance": "Données du dernier trimestre 2021, France métropolitaine, logements ordinaires ; ce n’est pas un taux observé en 2026.",
+        "sources": [
+          {
+            "publisher": "DREES",
+            "title": "Non-recours au RSA : plus d’un tiers des foyers éligibles ne le percevaient pas fin 2021 — mai 2026",
+            "url": "https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-05/ER1370_Non-recours_RSA.pdf",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q001-r2-11",
+        "prompt": "Budget fictif : reprendre un emploi augmente les ressources de 200 € mais ajoute 260 € de frais nets. Que montre ce cas ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Que travailler fait toujours perdre de l’argent"
+          },
+          {
+            "id": "b",
+            "text": "Que toutes les prestations ont nécessairement disparu"
+          },
+          {
+            "id": "c",
+            "text": "Que le salaire est inférieur au RSA"
+          },
+          {
+            "id": "d",
+            "text": "Une perte de 60 € dans ce cas précis"
+          }
+        ],
+        "correctChoiceId": "d",
+        "explanation": "200 − 260 = −60 €. Une situation défavorable peut exister dans les hypothèses d’un budget. La reconnaître n’autorise pas à généraliser ce résultat à toutes les personnes, tous les emplois ou tous les territoires.",
+        "nuance": "Montants inventés. Pour un cas réel, vérifier notamment les aides à la garde et au transport.",
+        "sources": [
+          {
+            "publisher": "Insee",
+            "title": "Niveau de vie et revenu disponible — définitions",
+            "url": "https://www.insee.fr/fr/statistiques/1912151?sommaire=1912155",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q001-r2-12",
+        "prompt": "Quelle comparaison permet réellement de tester l’affirmation « les aides rapportent plus que le travail » ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Le RSA maximal d’une famille et le salaire moyen individuel"
+          },
+          {
+            "id": "b",
+            "text": "Le seul montant du salaire comparé au total national des aides"
+          },
+          {
+            "id": "c",
+            "text": "Le même foyer avant/après emploi, avec tous ses revenus, droits et frais"
+          },
+          {
+            "id": "d",
+            "text": "Le témoignage qui affiche le montant d’aides le plus élevé"
+          }
+        ],
+        "correctChoiceId": "c",
+        "explanation": "Un cas complet évite les faux cumuls et les changements de taille du foyer. Plusieurs cas représentatifs sont nécessaires pour dépasser l’anecdote. Le résultat dépend aussi du temps de travail et des coûts liés à l’emploi.",
+        "nuance": "Ce quiz ne fournit pas une simulation individuelle de droits ; les barèmes et les situations évoluent.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Prime d’activité : salarié ou fonctionnaire",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2882",
+            "checkedAt": "2026-10-23"
+          },
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Aide personnalisée au logement (APL)",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12006",
+            "checkedAt": "2026-10-23"
+          },
+          {
+            "publisher": "Insee",
+            "title": "Niveau de vie et revenu disponible — définitions",
+            "url": "https://www.insee.fr/fr/statistiques/1912151?sommaire=1912155",
             "checkedAt": "2026-10-23"
           }
         ]
       }
     ]
   },
-  "q099": {
-    "title": "Un candidat à 30 % est soutenu par 30 % des Français",
-    "intro": "Un pourcentage ne signifie rien sans sa population de référence. Exercices fictifs, pas résultats d’une élection réelle.",
+  "q041": {
+    "title": "Les immigrés touchent toutes les aides en arrivant",
+    "intro": "RSA, allocation d’asile, AME, logement : derrière le mot « immigré », des statuts et des droits très différents. Douze questions pour vérifier ce qui est réellement accessible, à quelles conditions et pour quels montants.",
     "questions": [
       {
-        "id": "q099-1",
-        "prompt": "Dans « 30 % des suffrages exprimés », quel est le dénominateur ?",
+        "id": "q041-r2-01",
+        "prompt": "Une personne née étrangère à l’étranger est devenue française. Dans les statistiques de l’Insee, est-elle encore immigrée ?",
         "choices": [
           {
             "id": "a",
-            "text": "Tous les inscrits, automatiquement"
+            "text": "Non, les deux catégories disparaissent avec la naturalisation"
           },
           {
             "id": "b",
-            "text": "Les suffrages exprimés, pas toute la population"
+            "text": "Oui, mais elle n’est plus étrangère"
           },
           {
             "id": "c",
-            "text": "Tous les habitants, enfants compris"
+            "text": "Oui, et elle reste juridiquement étrangère"
           },
           {
             "id": "d",
-            "text": "Tous les abstentionnistes"
+            "text": "Seulement pendant les cinq années suivant sa naturalisation"
           }
         ],
         "correctChoiceId": "b",
-        "explanation": "Le pourcentage se rapporte aux suffrages exprimés. Les votes blancs et nuls n’y sont pas inclus.",
-        "nuance": "Les personnes non inscrites ne figurent pas non plus dans ce dénominateur.",
+        "explanation": "La catégorie statistique d’immigré repose sur la naissance, tandis que la nationalité peut changer. Une mesure ciblant les étrangers ne concerne donc pas automatiquement tous les immigrés.",
+        "nuance": "On ne peut pas déduire un statut de séjour du seul mot « immigré ».",
         "sources": [
           {
-            "publisher": "Ministère de l’Intérieur",
-            "title": "Qu’est-ce que le vote blanc ?",
-            "url": "https://www.interieur.gouv.fr/archive/qu-est-ce-que-le-vote-blanc",
+            "publisher": "Insee",
+            "title": "Définition : immigré",
+            "url": "https://www.insee.fr/fr/metadonnees/definition/c1328",
             "checkedAt": "2026-10-23"
           }
         ]
       },
       {
-        "id": "q099-2",
-        "prompt": "Sur 1 000 inscrits, 600 suffrages sont exprimés. Un candidat en obtient 180. Quelle part des inscrits cela représente-t-il ?",
+        "id": "q041-r2-02",
+        "prompt": "Hors régimes particuliers et exceptions, quelle condition concerne le RSA d’un ressortissant hors UE titulaire d’un titre temporaire autorisant le travail ?",
         "choices": [
           {
             "id": "a",
-            "text": "18 %"
+            "text": "Détenir depuis au moins cinq ans un titre permettant de travailler"
           },
           {
             "id": "b",
-            "text": "30 %"
+            "text": "Être entré en France depuis trois mois"
           },
           {
             "id": "c",
-            "text": "60 %"
+            "text": "Avoir simplement une adresse en France"
           },
           {
             "id": "d",
-            "text": "180 %"
+            "text": "Avoir déposé une première demande de titre de séjour"
           }
         ],
         "correctChoiceId": "a",
-        "explanation": "180 divisé par 1 000 donne 18 %. Le même candidat a 30 % des 600 suffrages exprimés.",
-        "nuance": "Exemple arithmétique fictif : les deux pourcentages répondent à des questions différentes.",
+        "explanation": "La règle générale exige cinq ans de titre autorisant le travail. L’arrivée sur le territoire ne suffit pas.",
+        "nuance": "Il existe notamment des exceptions pour les réfugiés, les titulaires d’une carte de résident et certains statuts ; les ressortissants algériens relèvent de règles particulières.",
         "sources": [
           {
-            "publisher": "Ministère de l’Intérieur",
-            "title": "Qu’est-ce que le vote blanc ?",
-            "url": "https://www.interieur.gouv.fr/archive/qu-est-ce-que-le-vote-blanc",
+            "publisher": "Service Public — DILA",
+            "title": "RSA : demandeur de 25 ans et plus — conditions et calcul",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19778",
             "checkedAt": "2026-10-23"
           }
         ]
       },
       {
-        "id": "q099-3",
-        "prompt": "Peut-on attribuer une opinion précise à tous ceux qui n’ont pas voté pour ce candidat ?",
+        "id": "q041-r2-03",
+        "prompt": "Une personne reconnue réfugiée doit-elle toujours attendre ces cinq ans pour pouvoir demander le RSA ?",
         "choices": [
           {
             "id": "a",
-            "text": "Oui, ils pensent tous exactement la même chose"
+            "text": "Oui, la condition est identique pour tous les étrangers"
           },
           {
             "id": "b",
-            "text": "Oui, ils soutiennent tous le deuxième"
+            "text": "Non, parce que le RSA lui est versé sans aucune condition"
           },
           {
             "id": "c",
-            "text": "Oui, ils ont tous voté blanc"
+            "text": "Oui, sauf si elle a déjà travaillé cinq ans en France"
           },
           {
             "id": "d",
-            "text": "Non, les raisons et comportements peuvent être différents"
+            "text": "Non, le statut de réfugié fait partie des exceptions"
           }
         ],
         "correctChoiceId": "d",
-        "explanation": "Les catégories du vote distinguent participation, abstention et bulletins. Elles ne révèlent pas à elles seules toutes les motivations.",
-        "nuance": "Un résultat électoral ne remplace pas une enquête sur les opinions.",
+        "explanation": "Le statut de réfugié écarte cette condition de cinq ans. Il ne supprime pas les autres conditions du RSA.",
+        "nuance": "Demandeur d’asile et réfugié ne sont pas des statuts équivalents.",
         "sources": [
           {
-            "publisher": "Ministère de l’Intérieur",
-            "title": "Qu’est-ce que le vote blanc ?",
-            "url": "https://www.interieur.gouv.fr/archive/qu-est-ce-que-le-vote-blanc",
+            "publisher": "Service Public — DILA",
+            "title": "RSA : demandeur de 25 ans et plus — conditions et calcul",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19778",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q041-r2-04",
+        "prompt": "Une personne majeure demande l’asile et remplit les conditions d’accueil et de ressources. Quelle aide financière spécifique peut-elle percevoir ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Le RSA à taux plein dès le dépôt de la demande"
+          },
+          {
+            "id": "b",
+            "text": "Une allocation chômage sans activité antérieure"
+          },
+          {
+            "id": "c",
+            "text": "L’allocation pour demandeur d’asile (ADA)"
+          },
+          {
+            "id": "d",
+            "text": "La prime d’activité même sans activité professionnelle"
+          }
+        ],
+        "correctChoiceId": "c",
+        "explanation": "L’ADA est un dispositif spécifique, soumis à conditions. Présenter les demandeurs d’asile comme bénéficiaires automatiques du RSA mélange deux prestations.",
+        "nuance": "Le montant dépend notamment de la taille de la famille et de la situation d’hébergement.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "En quoi consiste l’allocation pour demandeur d’asile (Ada) ?",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33314",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q041-r2-05",
+        "prompt": "Pour une personne seule, quel est le montant journalier de base de l’ADA indiqué par Service Public, hors supplément ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "14,20 €"
+          },
+          {
+            "id": "b",
+            "text": "6,80 €"
+          },
+          {
+            "id": "c",
+            "text": "21 €"
+          },
+          {
+            "id": "d",
+            "text": "32 €"
+          }
+        ],
+        "correctChoiceId": "b",
+        "explanation": "Le montant de base est de 6,80 € par jour, soit 204 € sur un mois de 30 jours. Un supplément peut s’appliquer dans certaines situations d’absence d’hébergement.",
+        "nuance": "Ce montant n’est ni celui du RSA ni la valeur totale de toutes les prises en charge éventuelles. Barème consulté le 23 octobre 2026.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "En quoi consiste l’allocation pour demandeur d’asile (Ada) ?",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33314",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q041-r2-06",
+        "prompt": "Un demandeur d’asile nouvellement arrivé peut-il simplement travailler pendant l’examen de son dossier ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "L’accès au travail est soumis à un délai et à une autorisation"
+          },
+          {
+            "id": "b",
+            "text": "Oui, le dépôt de la demande vaut autorisation immédiate"
+          },
+          {
+            "id": "c",
+            "text": "Non, aucun demandeur d’asile ne peut jamais travailler"
+          },
+          {
+            "id": "d",
+            "text": "Oui, mais uniquement dans la fonction publique"
+          }
+        ],
+        "correctChoiceId": "a",
+        "explanation": "Pendant les six premiers mois, il ne peut pas obtenir l’autorisation prévue pour ce statut. Après ce délai, une autorisation peut être sollicitée sous conditions si l’Ofpra n’a pas statué.",
+        "nuance": "Le point de départ du délai a changé pour les demandes enregistrées depuis le 12 juin 2026 ; travailler après six mois n’est pas automatique.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Accès au travail du demandeur d’asile",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2741",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q041-r2-07",
+        "prompt": "L’aide médicale de l’État (AME) est-elle une somme mensuelle versée librement au bénéficiaire ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, c’est une allocation comparable au RSA"
+          },
+          {
+            "id": "b",
+            "text": "Oui, mais elle doit être dépensée uniquement en pharmacie"
+          },
+          {
+            "id": "c",
+            "text": "Non, c’est un prêt remboursable après régularisation"
+          },
+          {
+            "id": "d",
+            "text": "Non, elle permet une prise en charge de soins"
+          }
+        ],
+        "correctChoiceId": "d",
+        "explanation": "L’AME ouvre une prise en charge de soins aux personnes qui remplissent ses conditions. Ce n’est pas de l’argent de poche ajouté à leur revenu mensuel.",
+        "nuance": "Dépense publique de santé et revenu disponible d’un ménage sont deux mesures différentes.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Qu’est-ce que l’aide médicale de l’État (AME) ?",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3079",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q041-r2-08",
+        "prompt": "Dans le cas général, un adulte en situation irrégulière a-t-il accès à l’AME dès son arrivée ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, la nationalité étrangère suffit"
+          },
+          {
+            "id": "b",
+            "text": "Non, il faut avoir cotisé cinq années"
+          },
+          {
+            "id": "c",
+            "text": "Non, des conditions de durée de résidence et de ressources s’appliquent"
+          },
+          {
+            "id": "d",
+            "text": "Oui, si son passeport est encore valide"
+          }
+        ],
+        "correctChoiceId": "c",
+        "explanation": "La fiche officielle prévoit notamment plus de trois mois de résidence et un plafond de ressources. L’AME n’est donc pas ouverte sans condition à toute personne qui arrive.",
+        "nuance": "Les mineurs et les soins urgents relèvent de règles particulières ; l’AME ne s’applique pas à Mayotte.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Qu’est-ce que l’aide médicale de l’État (AME) ?",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3079",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q041-r2-09",
+        "prompt": "Un étranger peut-il toucher l’APL uniquement parce qu’il est étranger ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, la nationalité étrangère crée une priorité financière"
+          },
+          {
+            "id": "b",
+            "text": "Non : séjour, logement et ressources doivent notamment respecter les conditions"
+          },
+          {
+            "id": "c",
+            "text": "Non, l’APL est réservée aux Français"
+          },
+          {
+            "id": "d",
+            "text": "Oui, mais seulement pendant la première année"
+          }
+        ],
+        "correctChoiceId": "b",
+        "explanation": "L’APL est une aide au logement sous conditions. La fiche prévoit des règles de séjour pour les étrangers et des critères liés au logement et aux ressources.",
+        "nuance": "Les règles de séjour applicables aux citoyens européens doivent être distinguées de celles des ressortissants d’autres pays.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Aide personnalisée au logement (APL)",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12006",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q041-r2-10",
+        "prompt": "Pour les prestations familiales, vivre en France avec ses enfants suffit-il toujours à un ressortissant hors UE ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Non, la régularité du séjour et la situation des enfants interviennent aussi"
+          },
+          {
+            "id": "b",
+            "text": "Oui, aucune pièce relative au séjour ne peut être demandée"
+          },
+          {
+            "id": "c",
+            "text": "Non, il faut obligatoirement être naturalisé"
+          },
+          {
+            "id": "d",
+            "text": "Oui, dès lors qu’un enfant est scolarisé"
+          }
+        ],
+        "correctChoiceId": "a",
+        "explanation": "Des conditions liées au séjour du parent et, selon les situations, à l’entrée ou au séjour des enfants s’ajoutent aux autres critères. Il n’existe pas un accès indifférencié à toutes les prestations.",
+        "nuance": "Les justificatifs et exceptions varient selon le statut ; la fiche détaille les cas.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Un étranger peut-il percevoir des prestations familiales en France ?",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2787",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q041-r2-11",
+        "prompt": "Deux personnes étrangères ont le même salaire. Cela garantit-il qu’elles ont exactement les mêmes droits sociaux ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, le salaire est le seul critère"
+          },
+          {
+            "id": "b",
+            "text": "Oui, si elles résident dans le même département"
+          },
+          {
+            "id": "c",
+            "text": "Non, seule leur langue maternelle détermine les droits"
+          },
+          {
+            "id": "d",
+            "text": "Non, leur statut, leur foyer et la prestation examinée peuvent changer la réponse"
+          }
+        ],
+        "correctChoiceId": "d",
+        "explanation": "L’exemple du RSA, de l’ADA et des prestations familiales montre des conditions distinctes. Additionner les droits de plusieurs statuts pour fabriquer un bénéficiaire unique produit un cas fictif trompeur.",
+        "nuance": "Pour vérifier une affirmation, il faut identifier une personne-type cohérente et une prestation précise.",
+        "sources": [
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Un étranger peut-il percevoir des prestations familiales en France ?",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2787",
+            "checkedAt": "2026-10-23"
+          },
+          {
+            "publisher": "Service Public — DILA",
+            "title": "En quoi consiste l’allocation pour demandeur d’asile (Ada) ?",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33314",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q041-r2-12",
+        "prompt": "Ces règles permettent-elles de conclure que les personnes immigrent principalement pour toucher des aides ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, dès qu’au moins une aide existe"
+          },
+          {
+            "id": "b",
+            "text": "Oui, dès qu’un bénéficiaire est étranger"
+          },
+          {
+            "id": "c",
+            "text": "Non, des conditions d’accès ne mesurent pas les motivations migratoires"
+          },
+          {
+            "id": "d",
+            "text": "Non, elles prouvent qu’aucun migrant ne pense jamais aux aides"
+          }
+        ],
+        "correctChoiceId": "c",
+        "explanation": "Un règlement décrit des droits, pas les raisons d’un départ. Démontrer une motivation dominante demanderait des données adaptées ; les documents examinés ici ne l’établissent pas.",
+        "nuance": "Ne pas démontrer une affirmation ne revient pas à démontrer son contraire. Le quiz établit les conditions d’accès, pas un bilan global de l’immigration.",
+        "sources": [
+          {
+            "publisher": "Insee",
+            "title": "Définition : immigré",
+            "url": "https://www.insee.fr/fr/metadonnees/definition/c1328",
+            "checkedAt": "2026-10-23"
+          },
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Un étranger peut-il percevoir des prestations familiales en France ?",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2787",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      }
+    ]
+  },
+  "q076": {
+    "title": "Le RN n’est plus d’extrême droite",
+    "intro": "Le nom, le classement, le programme ou les alliances : sur quoi repose cette affirmation ? Douze questions sur des pièces vérifiables. Les programmes historiques sont datés ; ils ne sont pas présentés comme un programme officiel pour 2027.",
+    "questions": [
+      {
+        "id": "q076-r2-01",
+        "prompt": "Le RN conteste son rattachement au bloc « extrême droite » pour les sénatoriales de 2023. Quelle est l’issue du recours jugé le 11 mars 2024 ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Le Conseil d’État impose le classement à droite"
+          },
+          {
+            "id": "b",
+            "text": "Le Conseil d’État rejette le recours"
+          },
+          {
+            "id": "c",
+            "text": "Le Conseil d’État impose le classement au centre"
+          },
+          {
+            "id": "d",
+            "text": "Le Conseil d’État supprime tous les blocs politiques"
+          }
+        ],
+        "correctChoiceId": "b",
+        "explanation": "Le classement contesté est maintenu. La décision n° 488378 écarte notamment l’existence d’une erreur manifeste d’appréciation.",
+        "nuance": "C’est le contrôle d’une classification administrative déterminée, pas une condamnation pénale.",
+        "sources": [
+          {
+            "publisher": "Conseil d’État",
+            "title": "Décision n° 488378 du 11 mars 2024 — paragraphes 5 à 7",
+            "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2024-03-11/488378",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q076-r2-02",
+        "prompt": "Un candidat se présente comme « patriote ». Cette étiquette oblige-t-elle l’administration à reprendre ce terme comme nuance ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Non, étiquette déclarée et nuance administrative sont distinctes"
+          },
+          {
+            "id": "b",
+            "text": "Oui, le candidat choisit juridiquement les deux"
+          },
+          {
+            "id": "c",
+            "text": "Oui, si son parti dépasse 5 % des voix"
+          },
+          {
+            "id": "d",
+            "text": "Non, la nuance est choisie par les instituts de sondage"
+          }
+        ],
+        "correctChoiceId": "a",
+        "explanation": "L’étiquette relève de la déclaration du candidat ; la nuance est attribuée par l’administration. La façon dont un parti se définit ne suffit donc pas à fixer sa classification officielle.",
+        "nuance": "Cette distinction explique le litige ; elle ne remplace pas une analyse de son programme.",
+        "sources": [
+          {
+            "publisher": "Vie publique — DILA",
+            "title": "Municipales 2026 : la circulaire pour l’attribution des nuances",
+            "url": "https://www.vie-publique.fr/en-bref/301970-municipales-2026-la-circulaire-pour-lattribution-des-nuances",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q076-r2-03",
+        "prompt": "Que permet exactement d’affirmer la décision de mars 2024 ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Chaque électeur RN a été juridiquement qualifié d’extrémiste"
+          },
+          {
+            "id": "b",
+            "text": "Le programme RN a été déclaré pénalement illégal"
+          },
+          {
+            "id": "c",
+            "text": "Toute future classification du RN est définitivement fixée"
+          },
+          {
+            "id": "d",
+            "text": "Le rattachement contesté à l’extrême droite n’était pas manifestement erroné"
+          }
+        ],
+        "correctChoiceId": "d",
+        "explanation": "Le juge statue sur la circulaire attaquée. Étendre cette décision aux motivations de chaque électeur ou à toutes les situations futures dépasserait sa portée.",
+        "nuance": "Un jugement porte sur une question et un contexte précis.",
+        "sources": [
+          {
+            "publisher": "Conseil d’État",
+            "title": "Décision n° 488378 du 11 mars 2024 — paragraphes 5 à 7",
+            "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2024-03-11/488378",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q076-r2-04",
+        "prompt": "Dans la déclaration officielle de campagne de Marine Le Pen en 2022, la priorité nationale concernait quels domaines ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Uniquement l’accès aux fonctions militaires"
+          },
+          {
+            "id": "b",
+            "text": "Uniquement les marchés publics de défense"
+          },
+          {
+            "id": "c",
+            "text": "L’emploi, le logement et les aides sociales"
+          },
+          {
+            "id": "d",
+            "text": "Uniquement les visas touristiques"
+          }
+        ],
+        "correctChoiceId": "c",
+        "explanation": "La déclaration de 2022 prévoit cette priorité dans trois domaines de la vie quotidienne. Il s’agit d’un contenu programmatique vérifiable, au-delà du choix des mots pour décrire le parti.",
+        "nuance": "Archive officielle de campagne : elle prouve une proposition de la candidate à cette date, pas son application ni sa validité juridique.",
+        "sources": [
+          {
+            "publisher": "CNCCEP — archive officielle de campagne",
+            "title": "Marine Le Pen — déclaration présidentielle 2022 (document de la candidate)",
+            "url": "https://www.cnccep.fr/pdfs/Candidat-06-Marine-Le-Pen-Declaration-accessible.pdf",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q076-r2-05",
+        "prompt": "Dans un exemple hypothétique, deux salariés remplissent les mêmes conditions de ressources et de logement. Que changerait une priorité fondée sur la nationalité ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elle classerait seulement les dossiers selon leur ancienneté"
+          },
+          {
+            "id": "b",
+            "text": "La nationalité pourrait les départager malgré des besoins comparables"
+          },
+          {
+            "id": "c",
+            "text": "Elle donnerait automatiquement priorité au salaire le plus faible"
+          },
+          {
+            "id": "d",
+            "text": "Elle s’appliquerait seulement aux personnes sans titre de séjour"
+          }
+        ],
+        "correctChoiceId": "b",
+        "explanation": "C’est la différence entre sélectionner selon les besoins et introduire un critère de nationalité. Cet exemple explicite le mécanisme annoncé, sans inventer ses modalités d’application.",
+        "nuance": "Un étranger peut vivre et travailler régulièrement en France ; nationalité et régularité du séjour ne sont pas synonymes.",
+        "sources": [
+          {
+            "publisher": "CNCCEP — archive officielle de campagne",
+            "title": "Marine Le Pen — déclaration présidentielle 2022 (document de la candidate)",
+            "url": "https://www.cnccep.fr/pdfs/Candidat-06-Marine-Le-Pen-Declaration-accessible.pdf",
+            "checkedAt": "2026-10-23"
+          },
+          {
+            "publisher": "Service Public — DILA",
+            "title": "Un étranger peut-il percevoir des prestations familiales en France ?",
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2787",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q076-r2-06",
+        "prompt": "Le document présidentiel de 2022 se limitait-il à l’immigration et à la sécurité ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Non, il comportait aussi des propositions de pouvoir d’achat et de retraite"
+          },
+          {
+            "id": "b",
+            "text": "Oui, aucune mesure sociale n’y figurait"
+          },
+          {
+            "id": "c",
+            "text": "Non, mais uniquement des réformes de l’organisation des élections"
+          },
+          {
+            "id": "d",
+            "text": "Oui, les mesures économiques étaient renvoyées à un autre candidat"
+          }
+        ],
+        "correctChoiceId": "a",
+        "explanation": "La déclaration comporte aussi des mesures fiscales et sociales. L’existence de telles mesures ne suffit pas, à elle seule, à attribuer un parti à la gauche ou à la droite : il faut examiner l’ensemble.",
+        "nuance": "Constater une promesse ne démontre ni sa faisabilité financière ni ses effets.",
+        "sources": [
+          {
+            "publisher": "CNCCEP — archive officielle de campagne",
+            "title": "Marine Le Pen — déclaration présidentielle 2022 (document de la candidate)",
+            "url": "https://www.cnccep.fr/pdfs/Candidat-06-Marine-Le-Pen-Declaration-accessible.pdf",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q076-r2-07",
+        "prompt": "À quel groupe européen Jordan Bardella appartient-il depuis juillet 2024 selon le Parlement européen ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Parti populaire européen"
+          },
+          {
+            "id": "b",
+            "text": "Renew Europe"
+          },
+          {
+            "id": "c",
+            "text": "Conservateurs et réformistes européens"
+          },
+          {
+            "id": "d",
+            "text": "Patriotes pour l’Europe"
+          }
+        ],
+        "correctChoiceId": "d",
+        "explanation": "L’historique officiel le rattache au groupe Patriotes pour l’Europe, dont il assure la présidence depuis le 16 juillet 2024. Les alliances constituent une autre pièce à examiner.",
+        "nuance": "Le nom d’un groupe ne suffit pas à démontrer une idéologie : sa composition et ses positions doivent aussi être étudiées.",
+        "sources": [
+          {
+            "publisher": "Parlement européen",
+            "title": "Jordan Bardella — historique de la 10e législature",
+            "url": "https://www.europarl.europa.eu/meps/fr/131580/JORDAN_BARDELLA/history/10",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q076-r2-08",
+        "prompt": "Le classement du RN dans le bloc « extrême droite » a-t-il disparu des documents administratifs des municipales de 2026 ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, il est remplacé par le bloc « centre »"
+          },
+          {
+            "id": "b",
+            "text": "Oui, le RN n’a plus aucun classement"
+          },
+          {
+            "id": "c",
+            "text": "Non, la décision du Conseil d’État du 27 février 2026 mentionne encore ce classement"
+          },
+          {
+            "id": "d",
+            "text": "Oui, le classement de 2024 avait une validité limitée à deux ans"
+          }
+        ],
+        "correctChoiceId": "c",
+        "explanation": "La décision n° 512694 mentionne explicitement le RN comme classé dans le bloc « extrême droite » par la circulaire des municipales de 2026. Le débat ne repose donc pas seulement sur une archive de 2024.",
+        "nuance": "Le recours de 2026 examiné ici est celui de l’UDR et d’Éric Ciotti ; il ne faut pas le présenter comme un nouveau recours du RN.",
+        "sources": [
+          {
+            "publisher": "Conseil d’État",
+            "title": "Décision n° 512694 du 27 février 2026 — rattachement de l’UDR et classement du RN mentionné dans les motifs",
+            "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2026-02-27/512694",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q076-r2-09",
+        "prompt": "Les décisions de justice permettent-elles d’affirmer que toute restriction de prestations aux étrangers serait autorisée ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, dès lors qu’elle figure dans un programme électoral"
+          },
+          {
+            "id": "b",
+            "text": "Non : une restriction précise a été jugée disproportionnée le 11 avril 2024"
+          },
+          {
+            "id": "c",
+            "text": "Oui, si elle vise uniquement des étrangers en situation régulière"
+          },
+          {
+            "id": "d",
+            "text": "Non, car aucune condition de séjour n’est jamais possible"
+          }
+        ],
+        "correctChoiceId": "b",
+        "explanation": "Dans la décision 2024-6 RIP, le Conseil constitutionnel écarte une condition de cinq ans de résidence ou trente mois d’activité pour certaines prestations.",
+        "nuance": "Cette proposition n’est pas assimilable à tout le programme RN. La décision examine une mesure précise, et non toutes les distinctions de statut.",
+        "sources": [
+          {
+            "publisher": "Conseil constitutionnel — Légifrance",
+            "title": "Décision n° 2024-6 RIP du 11 avril 2024 — accès aux prestations sociales des étrangers",
+            "url": "https://www.legifrance.gouv.fr/juri/id/CONSTEXT000049424617",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q076-r2-10",
+        "prompt": "Un programme conservé sur un site officiel prouve-t-il que ses promesses sont vraies et réalisables ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Non, il établit d’abord ce que le candidat a annoncé"
+          },
+          {
+            "id": "b",
+            "text": "Oui, l’hébergement officiel valide le chiffrage"
+          },
+          {
+            "id": "c",
+            "text": "Oui, si le candidat atteint le second tour"
+          },
+          {
+            "id": "d",
+            "text": "Non, il ne permet même pas d’établir ce qui était proposé"
+          }
+        ],
+        "correctChoiceId": "a",
+        "explanation": "L’archive de campagne fournit une preuve de la proposition. L’analyse économique et juridique de ses conséquences nécessite d’autres documents.",
+        "nuance": "Une source officielle peut héberger une parole partisane : l’institution qui conserve le document n’en approuve pas nécessairement le contenu.",
+        "sources": [
+          {
+            "publisher": "CNCCEP — archive officielle de campagne",
+            "title": "Marine Le Pen — déclaration présidentielle 2022 (document de la candidate)",
+            "url": "https://www.cnccep.fr/pdfs/Candidat-06-Marine-Le-Pen-Declaration-accessible.pdf",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q076-r2-11",
+        "prompt": "Le classement du RN permet-il de déduire les motivations exactes de toutes les personnes qui votent pour lui ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oui, tous ses électeurs approuvent nécessairement chaque mesure"
+          },
+          {
+            "id": "b",
+            "text": "Oui, à condition que le parti ait obtenu plus de 20 %"
+          },
+          {
+            "id": "c",
+            "text": "Non, parce qu’un électeur ne peut jamais adhérer à un programme"
+          },
+          {
+            "id": "d",
+            "text": "Non, classifier un parti ne décrit pas chaque électeur"
+          }
+        ],
+        "correctChoiceId": "d",
+        "explanation": "La décision examinée concerne un classement de candidatures. Elle n’est pas une enquête sur les motivations individuelles. En tirer un portrait uniforme des électeurs serait une inférence injustifiée.",
+        "nuance": "On peut analyser rigoureusement un parti sans attribuer collectivement une intention à ses électeurs.",
+        "sources": [
+          {
+            "publisher": "Conseil d’État",
+            "title": "Décision n° 488378 du 11 mars 2024 — paragraphes 5 à 7",
+            "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2024-03-11/488378",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "id": "q076-r2-12",
+        "prompt": "Quelle conclusion respecte les documents examinés dans ce parcours ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Un changement de nom suffit à démontrer une rupture idéologique"
+          },
+          {
+            "id": "b",
+            "text": "Une mesure sociale suffit à faire du RN un parti de gauche"
+          },
+          {
+            "id": "c",
+            "text": "L’auto-présentation du RN ne suffit pas : classement, programme daté et alliances doivent être examinés"
+          },
+          {
+            "id": "d",
+            "text": "Le recours de 2024 a définitivement interdit tout débat sur son évolution"
+          }
+        ],
+        "correctChoiceId": "c",
+        "explanation": "Les pièces apportent des faits distincts : un classement maintenu, des propositions explicites et des affiliations européennes. Une analyse sérieuse confronte ces éléments au lieu de transformer un slogan en preuve.",
+        "nuance": "Le parcours ne traite pas « extrême droite » comme une infraction ni comme un diagnostic individuel. Il ne prétend pas couvrir toutes les évolutions du parti.",
+        "sources": [
+          {
+            "publisher": "Vie publique — DILA",
+            "title": "Municipales 2026 : la circulaire pour l’attribution des nuances",
+            "url": "https://www.vie-publique.fr/en-bref/301970-municipales-2026-la-circulaire-pour-lattribution-des-nuances",
+            "checkedAt": "2026-10-23"
+          },
+          {
+            "publisher": "Parlement européen",
+            "title": "Jordan Bardella — historique de la 10e législature",
+            "url": "https://www.europarl.europa.eu/meps/fr/131580/JORDAN_BARDELLA/history/10",
             "checkedAt": "2026-10-23"
           }
         ]

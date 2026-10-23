@@ -25,12 +25,12 @@ test("catalogue, recherche et catégories sans débordement horizontal", async (
 }) => {
   await page.goto("/");
   await expect(
-    page.getByText("12 DISPONIBLES · 108 EN PRÉPARATION"),
+    page.getByText("13 DISPONIBLES · 107 EN PRÉPARATION"),
   ).toBeVisible();
-  await expect(page.locator(".quiz-card")).toHaveCount(12);
+  await expect(page.locator(".quiz-card")).toHaveCount(13);
   await page
     .getByRole("textbox", { name: "Rechercher un quiz" })
-    .fill("immigré");
+    .fill("immigré et étranger");
   await expect(page.locator(".quiz-card")).toHaveCount(1);
   await page.getByRole("textbox", { name: "Rechercher un quiz" }).fill("");
   await page.getByLabel("Catégorie", { exact: true }).selectOption("impots");
@@ -135,7 +135,7 @@ test("les brouillons restent explicitement non jouables", async ({ page }) => {
   await page
     .getByRole("button", { name: "En préparation", exact: true })
     .click();
-  await expect(page.locator(".quiz-card")).toHaveCount(108);
+  await expect(page.locator(".quiz-card")).toHaveCount(107);
   await expect(page.locator(".quiz-card a")).toHaveCount(0);
 });
 test("une panne de l’API affiche une erreur récupérable", async ({ page }) => {
@@ -183,4 +183,41 @@ test("formulaire démographique non précoché — session simulée uniquement p
       () => document.documentElement.scrollWidth <= window.innerWidth,
     ),
   ).toBe(true);
+});
+
+test("parcours de 12 questions, sources et récapitulatif sur mobile et ordinateur", async ({
+  page,
+}) => {
+  await page.goto("/quiz/on-gagne-plus-avec-les-aides-qu-en-travaillant/");
+  await page
+    .getByRole("button", { name: "Commencer le quiz", exact: true })
+    .click();
+  for (let i = 0; i < 12; i++) {
+    await expect(
+      page.getByText(`Question ${i + 1} sur 12`, { exact: true }),
+    ).toBeVisible();
+    await page.getByRole("radio").first().check();
+    await page.getByRole("button", { name: "Voir l’explication" }).click();
+    await expect(
+      page.getByRole("heading", { name: "Comprendre la réponse." }),
+    ).toBeVisible();
+    await expect(page.locator(".sources a").first()).toHaveAttribute(
+      "href",
+      /^https:\/\//,
+    );
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= window.innerWidth,
+      ),
+    ).toBe(true);
+    await page
+      .getByRole("button", {
+        name: i === 11 ? "Voir mon récapitulatif" : "Question suivante",
+      })
+      .click();
+  }
+  await expect(
+    page.getByText("PARCOURS TERMINÉ", { exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".review")).toHaveCount(12);
 });

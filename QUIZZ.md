@@ -4,8 +4,8 @@
 
 - Application Next.js responsive, gratuite, sans points, badges ou classement.
 - API Hono / Cloudflare Workers, D1, Drizzle, Better Auth / Google.
-- 24 catégories, 120 parcours éditoriaux, 360 questions de plan dans `content/catalog.json`.
-- **12 parcours complets (36 QCM) avec corrections et sources officielles**, 108 parcours en brouillon. Un brouillon n’est jamais présenté comme jouable. Les dossiers politiques sensibles ne sont pas artificiellement corrigés.
+- 24 catégories, 120 parcours éditoriaux, 396 questions de plan dans `content/catalog.json`.
+- **13 parcours publiés (75 QCM)** : quatre parcours approfondis de 12 questions et neuf parcours initiaux de 3 questions encore à retravailler. 107 parcours en brouillon. Les deux parcours électoraux q096/q099 sont retirés de la sélection courante ; leurs versions historiques restent conservées. Un brouillon n’est jamais présenté comme jouable. Les dossiers politiques sensibles ne sont pas artificiellement corrigés.
 - Progression invitée locale, progression connectée synchronisée, partage volontaire du lien et d’un message de fin de parcours.
 - Administration protégée par identifiants utilisateurs autorisés ; édition structurée, publication versionnée, statistiques agrégées et export CSV.
 - Le site historique dans `dist/` n’est pas modifié. Son Worker Cloudflare reste indépendant.
@@ -87,3 +87,13 @@ Chaque QCM publié exige quatre propositions distinctes, une seule réponse déf
 Les sources sont des documents précis, avec institution, titre et date de consultation. Une citation de parti peut établir ce que ce parti déclare, sans démontrer sa véracité ; la liste actuelle privilégie les archives parlementaires et institutionnelles. Les corrections ne demandent pas au lecteur d’adhérer à un verdict global sur un groupe politique.
 
 Les scripts `build-outline.mjs`, `initial-content.mjs` et `seed.mjs` reconstruisent le seed initial. Ne pas modifier une migration déjà appliquée en production pour changer les contenus : utiliser l’administration (nouvelle version) ou une nouvelle migration. Le seed est idempotent et ne remplace pas une version existante.
+
+## Refonte éditoriale du 23 octobre 2026
+
+Première série : q001 (aides et travail), q011 (coût des allocations, version 2), q041 (immigration et aides), q076 (classement et programme RN). Chaque parcours contient 12 questions, quatre choix plausibles, une explication, une nuance et des documents officiels datés. Les nouveaux identifiants de questions évitent de mélanger les mesures de compréhension avec les anciennes questions. Les données historiques ne sont ni effacées ni rattachées à la nouvelle version.
+
+Les titres sont des affirmations à examiner, pas des verdicts. Les programmes archivés par la CNCCEP attestent uniquement les propositions des candidats à la date citée. Une décision administrative ne devient pas une condamnation pénale. Les exemples de budgets inventés sont signalés ; ils ne sont pas des simulations de droits. Les statistiques 2021, 2022 et 2024 sont explicitement datées, même lorsque leur publication est plus récente.
+
+Les neuf parcours courts restants ne sont pas présentés comme réécrits. Les 107 brouillons ne sont pas des quiz complets. La suite éditoriale doit privilégier les controverses sociales contemporaines et atteindre 10–12 questions documentées par parcours, sans allonger artificiellement avec des questions de définition.
+
+La migration 0003 ajoute les nouvelles versions ; ne pas relancer les générateurs du seed initial pour republier du contenu. Le test D1 applique toutes les migrations, vérifie l’égalité du contenu stocké avec le JSON, et conserve l’accès explicite aux versions historiques.

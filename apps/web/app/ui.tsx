@@ -367,9 +367,9 @@ export default function Experience({ initialSlug }: { initialSlug?: string }) {
                   <span>Et si on vérifiait ?</span>
                 </h1>
                 <p className="lead">
-                  Des questions pour prendre du recul.
+                  Aides sociales, immigration, partis, argent public.
                   <br />
-                  Des explications et des sources pour se faire une opinion.
+                  Les affirmations du débat public, confrontées aux faits.
                 </p>
                 <div className="hero-actions">
                   <a href="#catalogue" className="button dark">

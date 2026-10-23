@@ -8,7 +8,7 @@ import {
   vi,
 } from "vitest";
 import { Miniflare, convertV4MiniflareOptions } from "miniflare";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { createApp, authFor, type Env } from "../apps/api/src/index";
 import { quizBodySchema, profileSchema } from "../packages/shared/validation";
 import { isOfficialSource } from "../packages/shared/sources";
@@ -97,7 +97,9 @@ beforeAll(async () => {
     }),
   );
   db = (await mf.getD1Database("DB")) as unknown as D1Database;
-  for (const file of ["0001_schema.sql", "0002_content.sql"]) {
+  for (const file of readdirSync("apps/api/migrations")
+    .filter((f) => f.endsWith(".sql"))
+    .sort()) {
     const sql = readFileSync("apps/api/migrations/" + file, "utf8");
     for (const line of sql
       .split("\n")
@@ -137,7 +139,36 @@ describe("Catalogue et corrections", () => {
     const b = (await r.json()) as any;
     expect(b.quizzes).toHaveLength(120);
     expect(b.categories).toHaveLength(24);
-    expect(b.quizzes.filter((q: any) => q.current_version)).toHaveLength(12);
+    expect(b.quizzes.filter((q: any) => q.current_version)).toHaveLength(13);
+  });
+  it("publie les quatre parcours longs sans réécrire les versions historiques", async () => {
+    for (const id of ["q001", "q011", "q041", "q076"]) {
+      const item = catalog.quizzes.find((q) => q.id === id)!;
+      const response = await request("/quizzes/" + item.slug);
+      const body = (await response.json()) as any;
+      expect(body.questions).toHaveLength(12);
+      expect(body.version).toBe(id === "q011" ? 2 : 1);
+      const stored = await db
+        .prepare("SELECT body FROM quiz_versions WHERE quiz_id=? AND version=?")
+        .bind(id, body.version)
+        .first<any>();
+      expect(JSON.parse(stored.body)).toEqual(
+        published[id as keyof typeof published],
+      );
+    }
+    const old = await db
+      .prepare(
+        "SELECT body FROM quiz_versions WHERE quiz_id='q011' AND version=1",
+      )
+      .first<any>();
+    expect(JSON.parse(old.body).questions).toHaveLength(3);
+    for (const id of ["q096", "q099"]) {
+      const item = catalog.quizzes.find((q) => q.id === id)!;
+      expect((await request("/quizzes/" + item.slug)).status).toBe(404);
+      expect(
+        (await request("/quizzes/" + item.slug + "?version=1")).status,
+      ).toBe(200);
+    }
   });
   it("ne transmet pas les corrections avant une réponse", async () => {
     const r = await request("/quizzes/" + quiz.slug);
@@ -147,7 +178,7 @@ describe("Catalogue et corrections", () => {
     expect(text).not.toContain("sources");
   });
   it("ferme les brouillons au public", async () => {
-    const draft = catalog.quizzes[0];
+    const draft = catalog.quizzes.find((q) => q.id === "q002")!;
     expect((await request("/quizzes/" + draft.slug)).status).toBe(404);
   });
   it("refuse les versions invalides et inconnues", async () => {
@@ -434,16 +465,20 @@ describe("Protection des accès et publication", () => {
     expect(
       (
         await request(
-          "/admin/quizzes/q001/draft",
+          "/admin/quizzes/q002/draft",
           "PUT",
           { questions: [] },
           "admin",
         )
       ).status,
     ).toBe(200);
-    expect((await request("/quizzes/" + catalog.quizzes[0].slug)).status).toBe(
-      404,
-    );
+    expect(
+      (
+        await request(
+          "/quizzes/" + catalog.quizzes.find((q) => q.id === "q002")!.slug,
+        )
+      ).status,
+    ).toBe(404);
   });
   it("bloque une publication incomplète", async () => {
     expect(
@@ -530,8 +565,8 @@ describe("Contenu", () => {
     for (const q of Object.values(published))
       expect(quizBodySchema.safeParse(q).success).toBe(true);
   });
-  it("conserve 360 questions éditoriales et 120 slugs distincts", () => {
-    expect(catalog.quizzes.flatMap((q) => q.outline)).toHaveLength(360);
+  it("conserve 396 questions éditoriales et 120 slugs distincts", () => {
+    expect(catalog.quizzes.flatMap((q) => q.outline)).toHaveLength(396);
     expect(new Set(catalog.quizzes.map((q) => q.slug)).size).toBe(120);
   });
   it("refuse les bonnes réponses absentes et les propositions dupliquées", () => {

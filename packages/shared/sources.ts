@@ -1,6 +1,8 @@
 // Explicit allow-list. Adding a publisher requires an editorial review and a code change.
 export const officialDomains = [
   "insee.fr",
+  // Official presidential campaign archive; proves candidate statements, not their truth.
+  "cnccep.fr",
   "drees.solidarites-sante.gouv.fr",
   "service-public.gouv.fr",
   "service-public.fr",
