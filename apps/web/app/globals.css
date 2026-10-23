@@ -161,6 +161,7 @@ h1:focus {
   white-space: nowrap;
 }
 .container {
+  width: auto;
   max-width: 1264px;
   margin: auto;
   padding: 0;

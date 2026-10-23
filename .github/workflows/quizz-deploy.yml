@@ -1,6 +1,8 @@
 name: Deploy quiz application
 on:
   workflow_dispatch:
+  push:
+    branches: ["release/quizz"]
 permissions:
   contents: read
 concurrency:
@@ -27,6 +29,9 @@ jobs:
       - run: npm ci
       - run: node scripts/configure-production.mjs
       - run: npm run content:check && npm run typecheck && npm test && npm run build
+      - run: npm run db:local
+      - run: npx playwright install --with-deps chromium webkit
+      - run: npm run test:e2e
       - run: npm run db:remote
       - run: npm run deploy -w @nouvel-ordre/api
       - run: npm run deploy -w @nouvel-ordre/web

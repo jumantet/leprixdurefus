@@ -17,13 +17,9 @@ test("catalogue, recherche et catégories sans débordement horizontal", async (
   await expect(page.locator(".quiz-card")).toHaveCount(3);
   expect(
     await page.evaluate(
-      () => ({
-        viewport: window.innerWidth,
-        width: document.documentElement.scrollWidth,
-        outside: [...document.querySelectorAll("body *")].map(el => ({tag: el.tagName, cls: el.className, left: el.getBoundingClientRect().left, right: el.getBoundingClientRect().right})).filter(el => el.left < -1 || el.right > window.innerWidth + 1).slice(0, 15),
-      }),
+      () => document.documentElement.scrollWidth <= window.innerWidth,
     ),
-  ).toMatchObject({ width: await page.evaluate(() => window.innerWidth) });
+  ).toBe(true);
 });
 test("trois réponses, explications officielles, récapitulatif et progression après rechargement", async ({
   page,
@@ -102,13 +98,9 @@ test("compte facultatif, absence de faux login et confidentialité", async ({
   ).toBeVisible();
   expect(
     await page.evaluate(
-      () => ({
-        viewport: window.innerWidth,
-        width: document.documentElement.scrollWidth,
-        outside: [...document.querySelectorAll("body *")].map(el => ({tag: el.tagName, cls: el.className, left: el.getBoundingClientRect().left, right: el.getBoundingClientRect().right})).filter(el => el.left < -1 || el.right > window.innerWidth + 1).slice(0, 15),
-      }),
+      () => document.documentElement.scrollWidth <= window.innerWidth,
     ),
-  ).toMatchObject({ width: await page.evaluate(() => window.innerWidth) });
+  ).toBe(true);
 });
 test("administration refusée à un visiteur", async ({ page }) => {
   await page.goto("/admin/");
@@ -168,11 +160,7 @@ test("formulaire démographique non précoché — session simulée uniquement p
   await expect(page.getByLabel("Département (facultatif)")).toBeVisible();
   expect(
     await page.evaluate(
-      () => ({
-        viewport: window.innerWidth,
-        width: document.documentElement.scrollWidth,
-        outside: [...document.querySelectorAll("body *")].map(el => ({tag: el.tagName, cls: el.className, left: el.getBoundingClientRect().left, right: el.getBoundingClientRect().right})).filter(el => el.left < -1 || el.right > window.innerWidth + 1).slice(0, 15),
-      }),
+      () => document.documentElement.scrollWidth <= window.innerWidth,
     ),
-  ).toMatchObject({ width: await page.evaluate(() => window.innerWidth) });
+  ).toBe(true);
 });

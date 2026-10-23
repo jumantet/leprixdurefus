@@ -38,7 +38,7 @@ npm run test:e2e
 
 Les tests API utilisent le vrai moteur D1 local via Miniflare : migrations, contraintes, suppressions en cascade, idempotence, publication, autorisations et seuils statistiques. Les tests navigateur couvrent Chromium desktop, Pixel 7 et iPhone 13 / WebKit. Le test de formulaire connecté simule explicitement la réponse `/me` ; il ne valide pas le fournisseur Google.
 
-La CI `Quiz checks` lance ces vérifications sur les modifications de l’application. Les seuls changements de `dist/` ne la déclenchent pas. Le déploiement des quiz est un workflow manuel distinct.
+La CI `Quiz checks` lance ces vérifications sur les modifications de l’application. Les seuls changements de `dist/` ne la déclenchent pas. Le déploiement des quiz est un workflow distinct, lancé manuellement ou par un push explicite sur la branche `release/quizz`. Il exige aussi la réussite des tests navigateur avant toute migration distante.
 
 ## Configuration de production requise
 
@@ -56,7 +56,7 @@ npx wrangler d1 create nouvel-ordre --jurisdiction eu
    - callback : `https://api.nouvel-ordre.fr/api/auth/callback/google`
    - scopes : identité (`openid`, `email`, `profile`), aucun accès Gmail.
 4. Définir dans le Worker API les secrets `BETTER_AUTH_SECRET` (aléatoire, 32 caractères minimum), `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`. L’interface authentifiée ne peut pas être testée de bout en bout sans ce client réel.
-5. Lancer `Deploy quiz application`. Le workflow valide, compile, applique les migrations, puis déploie les deux Workers avec leurs domaines personnalisés. Les domaines doivent appartenir au compte Cloudflare autorisé. Le Worker actuel `nouvelordre` et les routes de `nouvel-ordre.fr` ne sont pas réaffectés.
+5. Lancer `Deploy quiz application` depuis Actions (après intégration du workflow à la branche principale), ou créer/mettre à jour explicitement la branche `release/quizz` sur le commit vérifié. Le workflow valide, compile, applique les migrations, puis déploie les deux Workers avec leurs domaines personnalisés. Les domaines doivent appartenir au compte Cloudflare autorisé. Le Worker actuel `nouvelordre` et les routes de `nouvel-ordre.fr` ne sont pas réaffectés.
 6. Après une première connexion, ajouter l’identifiant interne du propriétaire (pas son email, pas celui d’un visiteur) à `ADMIN_USER_IDS` dans `apps/api/wrangler.jsonc`, puis redéployer. Valeur vide par défaut : aucun administrateur.
 7. Vérifier le vrai aller-retour Google, la reprise inter-appareils, les domaines HTTPS et la politique de confidentialité avant l’ouverture des comptes.
 

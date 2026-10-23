@@ -330,7 +330,8 @@ export default function Experience({ initialSlug }: { initialSlug?: string }) {
             Mes quiz
           </button>
         </nav>
-        <button className="account-button" onClick={() => setAccountOpen(true)}>
+        <button className="account-button"
+          aria-label={me.user ? "Mon compte" : "Se connecter"} onClick={() => setAccountOpen(true)}>
           <UserRound size={17} />
           <span>{me.user ? "Mon compte" : "Se connecter"}</span>
         </button>
