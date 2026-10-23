@@ -1,4 +1,12 @@
-import { beforeAll, afterAll, beforeEach, describe, it, expect } from "vitest";
+import {
+  beforeAll,
+  afterAll,
+  beforeEach,
+  describe,
+  it,
+  expect,
+  vi,
+} from "vitest";
 import { Miniflare, convertV4MiniflareOptions } from "miniflare";
 import { readFileSync } from "node:fs";
 import { createApp, authFor, type Env } from "../apps/api/src/index";
@@ -533,5 +541,20 @@ describe("Contenu", () => {
     q.questions[0].correctChoiceId = "a";
     q.questions[0].choices[1] = q.questions[0].choices[0];
     expect(quizBodySchema.safeParse(q).success).toBe(false);
+  });
+});
+
+describe("Rate limiting", () => {
+  it("rejects the next request at the limit and permits a new time window", async () => {
+    const clock = vi.spyOn(Date, "now").mockReturnValue(1700000000000);
+    try {
+      expect((await request("/health")).status).toBe(200);
+      await db.prepare("UPDATE rate_limits SET count=120").run();
+      expect((await request("/health")).status).toBe(429);
+      clock.mockReturnValue(1700000060000);
+      expect((await request("/health")).status).toBe(200);
+    } finally {
+      clock.mockRestore();
+    }
   });
 });

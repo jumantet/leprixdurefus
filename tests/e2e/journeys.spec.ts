@@ -1,4 +1,24 @@
 import { test, expect } from "@playwright/test";
+import { execFileSync } from "node:child_process";
+// Browser projects share a dev IP. Isolate their local rate-limit fixture;
+// production rate limits are unchanged and independently tested against D1.
+test.beforeAll(() => {
+  execFileSync(
+    process.execPath,
+    [
+      "node_modules/wrangler/bin/wrangler.js",
+      "d1",
+      "execute",
+      "nouvel-ordre",
+      "--config",
+      "apps/api/wrangler.jsonc",
+      "--local",
+      "--command",
+      "DELETE FROM rate_limits",
+    ],
+    { stdio: "pipe" },
+  );
+});
 const slug = "immigre-et-etranger-c-est-la-meme-chose";
 test("catalogue, recherche et catégories sans débordement horizontal", async ({
   page,
