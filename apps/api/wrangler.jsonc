@@ -1,0 +1,23 @@
+{
+  "name": "nouvel-ordre-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "routes": [{ "pattern": "api.nouvel-ordre.fr", "custom_domain": true }],
+  "vars": {
+    "WEB_ORIGIN": "https://quizz.nouvel-ordre.fr",
+    "API_ORIGIN": "https://api.nouvel-ordre.fr",
+    "ADMIN_USER_IDS": "",
+    "PUBLISHER_NAME": "Nouvel Ordre",
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "nouvel-ordre",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations",
+    },
+  ],
+  "triggers": { "crons": ["15 3 * * *"] },
+  "observability": { "enabled": false },
+}

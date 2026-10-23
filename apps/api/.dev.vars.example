@@ -1,0 +1,6 @@
+BETTER_AUTH_SECRET=replace-with-a-random-secret-of-at-least-32-characters
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+WEB_ORIGIN=http://localhost:3000
+API_ORIGIN=http://localhost:8787
+ADMIN_USER_IDS=

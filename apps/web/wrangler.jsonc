@@ -1,0 +1,6 @@
+{
+  "name": "nouvel-ordre-quizz",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./out" },
+  "routes": [{ "pattern": "quizz.nouvel-ordre.fr", "custom_domain": true }],
+}

@@ -1,0 +1,27 @@
+{
+  "name": "nouvel-ordre",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run build -w @nouvel-ordre/web && npm run build -w @nouvel-ordre/api",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p apps/api/tsconfig.json && tsc --noEmit -p apps/web/tsconfig.json",
+    "content:check": "node --import tsx scripts/check-content.mjs",
+    "db:local": "npm run db:local -w @nouvel-ordre/api",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20261023.1",
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.5",
+    "esbuild": "0.28.2",
+    "miniflare": "5.20261019.2-beta",
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
+  }
+}
