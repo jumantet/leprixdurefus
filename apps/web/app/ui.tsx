@@ -433,6 +433,7 @@ export default function Experience({ initialSlug }: { initialSlug?: string }) {
                 <label className="category-select">
                   <span className="sr-only">Catégorie</span>
                   <select
+                    aria-label="Catégorie"
                     value={category}
                     onChange={(e) => setCategory(e.target.value)}
                   >
