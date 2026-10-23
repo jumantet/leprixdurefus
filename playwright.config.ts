@@ -3,6 +3,7 @@ export default defineConfig({
   testDir: "tests/e2e",
   fullyParallel: false,
   workers: 1,
+  maxFailures: process.env.CI ? 4 : 0,
   retries: process.env.CI ? 1 : 0,
   reporter: [["list"], ["html", { open: "never" }]],
   use: {
@@ -12,7 +13,7 @@ export default defineConfig({
   },
   webServer: {
     command: "npm run dev",
-    url: "http://127.0.0.1:4173/backend/health",
+    url: "http://127.0.0.1:4173/",
     timeout: 120000,
     reuseExistingServer: !process.env.CI,
     env: { DEV_ORIGIN: "http://127.0.0.1:4173", NEXT_TELEMETRY_DISABLED: "1" },
