@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-22",
-  "version": 11,
+  "updated": "2026-10-23",
+  "version": 12,
   "currency": "EUR",
   "scope": "Scénarios conventionnels de coûts publics et moyens annoncés : surcoûts du 18 septembre au 22 octobre 2026, réparations consécutives et aides projetées après les annonces. Ni dépenses constatées à ce jour ni coût net consolidé.",
   "demand": 10000000000,
@@ -31,7 +31,7 @@
       "anchor": "Bilan régional des dégradations. Retenu une seule fois : les annonces antérieures et les exemples par établissement ne s’y ajoutent pas. Payeur public concerné : Région Île-de-France.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
       "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "occ",
@@ -55,7 +55,7 @@
       "anchor": "Dégâts dans les lycées depuis le 29 septembre selon la Région. Estimation proche de 3 M€, arrondie dans notre somme. Les établissements détaillés séparément ne sont pas ajoutés.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
       "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "hdf",
@@ -79,7 +79,7 @@
       "anchor": "Bilan de la Région : portails, grilles et sécurisation. Valeur arrondie à 1 M€ ; factures exécutées et remboursements inconnus.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
       "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "ge",
@@ -103,7 +103,7 @@
       "anchor": "Fourchette de réparations annoncée par le président de Région. Remplace le bilan proche de 1 M€ du 2 octobre. Loritz est un sous-ensemble, non ajouté.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
       "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "nantes",
@@ -127,7 +127,7 @@
       "anchor": "Façade : estimation du Conseil régional des Pays de la Loire rapportée par RTL. Aucun total régional Pays de la Loire n’est ajouté en parallèle.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
       "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "lormont",
@@ -151,7 +151,7 @@
       "anchor": "Dégâts du 8 octobre, estimés par la Région Nouvelle-Aquitaine à au moins 250 000 €. Seul le seuil annoncé est retenu ; ce montant peut augmenter.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
       "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "avignon",
@@ -175,7 +175,7 @@
       "anchor": "Bilan municipal après le 17 octobre : voirie et mobilier publics. Dommages aux commerces exclus. Seuil annoncé retenu, sans plafond établi.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
       "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "toulouse",
@@ -199,7 +199,7 @@
       "anchor": "Bilan provisoire : 625 000 € pour la ville/métropole et 50 000 € pour Tisséo. Détail publié : 500 000 € de dégâts, 35 000 € de nettoyage, 21 000 € de tags et 50 000 € pour Tisséo, soit 606 000 €. Écart de 69 000 € non ventilé ; le total annoncé de 675 000 € est retenu une seule fois.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
       "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "national",
@@ -216,7 +216,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Non ajouté : voir la règle ci-dessus.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "loritz",
@@ -233,7 +233,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Non ajouté : voir la règle ci-dessus.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "garros",
@@ -250,7 +250,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Non ajouté : voir la règle ci-dessus.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "eluard",
@@ -267,7 +267,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Non ajouté : voir la règle ci-dessus.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "aura",
@@ -317,7 +317,7 @@
       "overlap": "Aucun autre bilan de dommages AURA n’est additionné, sauf Clermont dont le 17 octobre est postérieur au bilan régional du 2 octobre. Les aides lyonnaises concernent des bénéficiaires privés, pas ces réparations publiques.",
       "model_date": "2026-10-22",
       "amount_central": 13750000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "clermont",
@@ -367,7 +367,7 @@
       "overlap": "Ne pas ajouter le bilan global de 170 000 €. Bilan AURA du 2 octobre antérieur à cet épisode.",
       "model_date": "2026-10-22",
       "amount_central": 105000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "clermontrev",
@@ -384,7 +384,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Non ajouté : voir la règle ci-dessus.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "paris",
@@ -401,7 +401,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "grenades",
@@ -418,7 +418,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "lyonpolice",
@@ -435,7 +435,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "bordeauxpolice",
@@ -452,7 +452,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "marseillepolice",
@@ -469,7 +469,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Repère documentaire utilisé dans un modèle ; pas une seconde dépense.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "lyonaide",
@@ -493,7 +493,7 @@
       "anchor": "Fonds métropolitain annoncé : soutien, sécurisation et avances de trésorerie. Inclus dans les moyens publics annoncés pour sa valeur de 10 M€. Ventilation subventions/avances et versements inconnus : le coût budgétaire définitif est indéterminé. Aucun dégât privé ajouté. Les futurs versements remplaceront cette enveloppe, sans s’y additionner.",
       "confidence": "Estimation / annonce attribuée à une source, non auditée",
       "overlap": "Le bilan national et les exemples par établissement ne sont pas ajoutés à leurs agrégats.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "sudaide",
@@ -543,7 +543,7 @@
       "overlap": "Périmètre Région Sud, distinct du fonds de Lyon. Aides publiques seulement, aucun dommage privé ajouté.",
       "model_date": "2026-10-22",
       "amount_central": 3000000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "cma",
@@ -593,7 +593,7 @@
       "overlap": "Fonds CMA compté une fois au niveau national, y compris les artisans lyonnais. Aucune ligne CMA locale supplémentaire. Les financements déjà couverts par une autre enveloppe devraient être retirés.",
       "model_date": "2026-10-22",
       "amount_central": 300000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "activite",
@@ -670,7 +670,7 @@
       "overlap": "Compte l’indemnité publique une fois, pas les salaires privés perdus. Les coûts futurs sont projetés, non dépensés à ce jour.",
       "model_date": "2026-10-22",
       "amount_central": 3360000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "bpi",
@@ -729,7 +729,7 @@
       "overlap": "Seule la fraction de coût est ajoutée ; les 2,5 / 10,5 / 30 M€ de capitaux mobilisés ne le sont pas. Hors avances déjà couvertes par le fonds de Lyon.",
       "model_date": "2026-10-22",
       "amount_central": 630000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "reports",
@@ -797,7 +797,7 @@
       "overlap": "Le principal est exclu, ainsi que les recettes privées perdues. Les bénéficiaires peuvent recevoir d’autres aides : seuls les coûts distincts sont additionnés.",
       "model_date": "2026-10-22",
       "amount_central": 120000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "gm2l",
@@ -814,7 +814,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Non ajouté : voir la règle ci-dessus.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "genl",
@@ -831,7 +831,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Non ajouté : voir la règle ci-dessus.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "assourd",
@@ -848,7 +848,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Non ajouté : voir la règle ci-dessus.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "soline",
@@ -865,7 +865,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Non ajouté : voir la règle ci-dessus.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "solineveh",
@@ -882,7 +882,7 @@
       "net_taxpayer_cost": null,
       "in_scope": false,
       "counting_note": "Non ajouté : voir la règle ci-dessus.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "overtime",
@@ -932,7 +932,7 @@
       "overlap": "Exclut les heures récupérées, les traitements habituels et les heures de gendarmerie non indemnisables sous ce régime. Les heures d’enquête sont ici ; la justice ne les recompte pas.",
       "model_date": "2026-10-22",
       "amount_central": 6000000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "logistics",
@@ -982,7 +982,7 @@
       "overlap": "Forfait incluant indemnités, hébergement, repas, carburant et transports : ne rien ajouter séparément. Exclut munitions, salaires habituels et dépenses déjà comprises dans les réparations.",
       "model_date": "2026-10-22",
       "amount_central": 5600000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "ammunition",
@@ -1046,7 +1046,7 @@
       "overlap": "Ne pas ajouter les 19 000 grenades comme une autre ligne. Hors achats de stocks non consommés et hors équipements déjà comptés parmi les réparations.",
       "model_date": "2026-10-22",
       "amount_central": 1300000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "rescue",
@@ -1096,7 +1096,7 @@
       "overlap": "Hors soins à l’hôpital et réparations de bâtiments. Les salaires ordinaires des pompiers ne sont pas ajoutés.",
       "model_date": "2026-10-22",
       "amount_central": 400000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "health",
@@ -1169,43 +1169,43 @@
       "overlap": "Exclut les transports déjà dans les secours, le coût humain, les dépenses privées et les soins futurs après le 22 octobre.",
       "model_date": "2026-10-22",
       "amount_central": 420000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "justice",
       "name": "Justice · procédures et détention",
       "value": "Scénario calculé",
       "status": "modeled",
-      "source": "justice_volume",
+      "source": "justice_pre17",
       "date": "2026-10-22",
-      "notes": "Pour l’ensemble de la période : 2 500 / 5 000 / 9 000 gardes à vue à 50 / 100 / 180 € de frais non salariaux ; 1 000 / 2 000 / 4 000 procédures à 100 / 250 / 500 € de frais publics additionnels ; 500 / 1 500 / 4 000 journées cumulées de détention à 20 / 35 / 60 € marginales. Quantités et tarifs sont hypothétiques, sauf le repère de 2 500 pour le seul épisode du 17.",
+      "notes": "Deux périodes distinctes : 7 950 + 2 513 = 10 463 mesures rapportées, à 50 / 100 / 180 € de frais non salariaux hypothétiques. Ce ne sont pas des personnes uniques : des placements répétés peuvent concerner une même personne. Les 2 735 poursuites du premier bilan remplacent les volumes hypothétiques de procédures, à 100 / 250 / 500 € chacune. Poursuites ultérieures non ventilées : pas d’extrapolation. Détention inchangée : 500 / 1 500 / 4 000 journées à 20 / 35 / 60 €. Coûts non constatés.",
       "included": true,
       "in_scope": true,
-      "amount_low": 235000,
-      "amount_high": 3860000,
+      "amount_low": 806650,
+      "amount_high": 3490840,
       "parent": null,
       "net_taxpayer_cost": null,
       "counting_note": "Inclus au scénario choisi. Hypothèses de travail non validées par les administrations ; les sources ne valident pas le résultat.",
       "category": "operations",
       "basis": "modele",
       "horizon": "18 septembre–22 octobre 2026",
-      "confidence": "Très faible : volumes non mesurés",
-      "anchor": "Le bilan rapporté le 21 octobre indique environ 2 500 gardes à vue et 174 incarcérations après le 17 octobre. Les durées et coûts ne sont pas publiés dans ce bilan.",
+      "confidence": "Volumes partiels rapportés ; coûts unitaires et détention hypothétiques",
+      "anchor": "7 950 gardes à vue et 2 735 poursuites : communiqué du 14 octobre relayé par Le Monde, recoupement du premier volume avec Le Média. 2 513 gardes à vue du week-end du 17 : AFP/Mediapart le 19. Communiqué original non consulté.",
       "terms": [
         {
-          "label": "Frais de garde à vue",
+          "label": "Gardes à vue · mouvement lycéen avant le 17",
           "factors": [
             {
-              "name": "Dossiers",
+              "name": "Volume rapporté",
               "values": [
-                2500,
-                5000,
-                9000
+                7950,
+                7950,
+                7950
               ],
-              "kind": "hypothèse éditoriale"
+              "kind": "repère sourcé, bilan relayé"
             },
             {
-              "name": "Frais €/dossier",
+              "name": "Frais unitaires €",
               "values": [
                 50,
                 100,
@@ -1216,19 +1216,42 @@
           ]
         },
         {
-          "label": "Frais de procédure distincts",
+          "label": "Gardes à vue · week-end du 17",
           "factors": [
             {
-              "name": "Dossiers",
+              "name": "Volume rapporté",
               "values": [
-                1000,
-                2000,
-                4000
+                2513,
+                2513,
+                2513
               ],
-              "kind": "hypothèse éditoriale"
+              "kind": "repère sourcé, bilan relayé"
             },
             {
-              "name": "Frais €/dossier",
+              "name": "Frais unitaires €",
+              "values": [
+                50,
+                100,
+                180
+              ],
+              "kind": "hypothèse éditoriale"
+            }
+          ]
+        },
+        {
+          "label": "Poursuites · bilan antérieur au 17",
+          "factors": [
+            {
+              "name": "Volume rapporté",
+              "values": [
+                2735,
+                2735,
+                2735
+              ],
+              "kind": "repère sourcé, bilan relayé"
+            },
+            {
+              "name": "Frais unitaires €",
               "values": [
                 100,
                 250,
@@ -1263,9 +1286,14 @@
         }
       ],
       "overlap": "Garde à vue : interprétariat, assistance et consommables ; procédure : actes distincts et permanences supplémentaires. Exclut les heures de police, les transports déjà modélisés, les soins et les salaires ordinaires. Pas de coût de détention futur.",
-      "model_date": "2026-10-22",
-      "amount_central": 1052500,
-      "calculation_checked": "2026-10-22"
+      "model_date": "2026-10-23",
+      "amount_central": 1782550,
+      "calculation_checked": "2026-10-23",
+      "additional_sources": [
+        "justice_weekend17",
+        "justice_volume",
+        "ind_lemedia22"
+      ]
     },
     {
       "id": "cleaning",
@@ -1347,7 +1375,7 @@
       "overlap": "Exclut entièrement Toulouse, Avignon et les sites scolaires déjà couverts par les bilans régionaux. La provision ne comprend pas le travail des agents de Paris chiffré dans la première composante.",
       "model_date": "2026-10-22",
       "amount_central": 475000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "ccilyon",
@@ -1397,7 +1425,7 @@
       "overlap": "La source présente les dispositifs comme complémentaires ; pas d’ajout d’une deuxième enveloppe CCI nationale. Financement supposé distinct des 10 M€ métropolitains.",
       "model_date": "2026-10-22",
       "amount_central": 300000,
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "nationalfund",
@@ -1456,7 +1484,7 @@
       "amount_central": 1125000,
       "amount_high": 8000000,
       "value": "Scénario calculé",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
     },
     {
       "id": "aura_security",
@@ -1480,7 +1508,61 @@
       "confidence": "Enveloppe officielle ; consommation inconnue",
       "anchor": "Annonce officielle régionale du 22 octobre 2026.",
       "overlap": "Budget régional distinct du fonds métropolitain de Lyon et des réparations des lycées. Aucun investissement privé cofinancé n’est ajouté. Vérifier tout financement commun lors de la publication des versements.",
-      "calculation_checked": "2026-10-22"
+      "calculation_checked": "2026-10-23"
+    },
+    {
+      "id": "brest_damage_reference",
+      "name": "Brest · bilan mixte à ventiler",
+      "value": "≈ 1,4 M€ mixtes",
+      "source": "brest_22",
+      "date": "2026-10-22",
+      "notes": "Bilan mêlant collectivités et autres dommages, dont 360 000 € pour les commerces. Le reliquat de 1,04 M€ n’est pas une ventilation publique établie ; aucun dommage privé ajouté.",
+      "status": "pending",
+      "included": false,
+      "in_scope": true,
+      "amount_low": null,
+      "amount_central": null,
+      "amount_high": null,
+      "parent": null,
+      "net_taxpayer_cost": null,
+      "counting_note": "Montant public distinct inconnu, pas nul : hors addition dans l’attente de données.",
+      "calculation_checked": "2026-10-23"
+    },
+    {
+      "id": "brest_aid_reference",
+      "name": "Brest · aides aux commerces",
+      "value": "3 000 €/bénéficiaire",
+      "source": "brest_22",
+      "date": "2026-10-22",
+      "notes": "Calcul futur : bénéficiaires éligibles × 3 000 €. Nombre inconnu ; versements possibles à partir du 3 novembre. Aucune enveloppe totale ni dépense exécutée déduite.",
+      "status": "pending",
+      "included": false,
+      "in_scope": true,
+      "amount_low": null,
+      "amount_central": null,
+      "amount_high": null,
+      "parent": null,
+      "net_taxpayer_cost": null,
+      "counting_note": "Montant public distinct inconnu, pas nul : hors addition dans l’attente de données.",
+      "calculation_checked": "2026-10-23"
+    },
+    {
+      "id": "etienne_aid_reference",
+      "name": "Saint-Étienne · fonds d’urgence",
+      "value": "≤ 10 000 €/commerce",
+      "source": "etienne_aid_22",
+      "date": "2026-10-22",
+      "notes": "Près de 100 commerces touchés ne signifie pas 100 bénéficiaires au plafond. Calcul futur : somme des aides attribuées. Ventilation Métropole/CCI et chevauchement avec CCI Lyon à vérifier.",
+      "status": "pending",
+      "included": false,
+      "in_scope": true,
+      "amount_low": null,
+      "amount_central": null,
+      "amount_high": null,
+      "parent": null,
+      "net_taxpayer_cost": null,
+      "counting_note": "Montant public distinct inconnu, pas nul : hors addition dans l’attente de données.",
+      "calculation_checked": "2026-10-23"
     }
   ],
   "sources": {
@@ -1719,6 +1801,76 @@
       "note": "Reprise consultée : proposition de 11,8 Md€ attribuée à Élise Huillery et Roman Paris. Original et note non vérifiés ; distinct des revendications syndicales.",
       "kind": "context",
       "checked": "2026-10-22"
+    },
+    "brest_22": {
+      "label": "Brest métropole · 22 octobre 2026",
+      "url": "https://brest.fr/actualites/violences-du-17-octobre-brest-une-mobilisation-collective-pour-les-commercants",
+      "note": "Bilan mixte et aide unitaire ; part publique exhaustive, bénéficiaires et enveloppe inconnus.",
+      "kind": "finance",
+      "checked": "2026-10-23"
+    },
+    "etienne_aid_22": {
+      "label": "Ville de Saint-Étienne · 22 octobre 2026",
+      "url": "https://www.saint-etienne.fr/actualites/des-mesures-durgence-pour-nos-commercants",
+      "note": "Plafond par commerce ; enveloppe et ventilation Métropole/CCI non publiées.",
+      "kind": "finance",
+      "checked": "2026-10-23"
+    },
+    "h_paris_deaths22": {
+      "label": "Le Parisien / AFP · 22 octobre 2026",
+      "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-la-famille-de-lhomme-decede-reclame-des-resultats-dautopsie-au-plus-vite-22-10-2026-3JA3HCKPYVE6LDWT4B6L2QEH3Y.php",
+      "note": "Deux enquêtes sur les causes de décès ; aucune responsabilité établie.",
+      "kind": "human",
+      "checked": "2026-10-23"
+    },
+    "h_paris_obs22": {
+      "label": "Le Nouvel Obs / AFP · 22 octobre 2026",
+      "url": "https://www.nouvelobs.com/faits-divers/20261022.OBS119440/mort-d-un-manifestant-le-17-octobre-arret-cardiorespiratoire-plainte-a-l-igpn-ce-que-l-on-sait.html",
+      "note": "Versions de la préfecture et des proches. Reprise AFP, pas confirmation indépendante. Plainte envisagée.",
+      "kind": "human",
+      "checked": "2026-10-23"
+    },
+    "h_ldh22": {
+      "label": "LDH · 22 octobre 2026",
+      "url": "https://www.ldh-france.org/larmee-contre-la-jeunesse-la-ldh-demande-a-lonu-une-mission-dobservation-en-france/",
+      "note": "Source primaire sur la démarche de la LDH, pas sur une décision de l’ONU.",
+      "kind": "human",
+      "checked": "2026-10-23"
+    },
+    "h_valence22": {
+      "label": "Le Dauphiné Libéré · 22 octobre 2026",
+      "url": "https://www.ledauphine.com/faits-divers-justice/2026/10/22/violences-du-17-octobre-trois-jeunes-hommes-condamnes-lourdement-pour-remettre-l-eglise-au-centre-du-village",
+      "note": "Introduction accessible ; durées individuelles non consultables : hors cumul.",
+      "kind": "human",
+      "checked": "2026-10-23"
+    },
+    "ind_lemedia22": {
+      "label": "Le Média · 22 octobre 2026",
+      "url": "https://www.lemediatv.fr/emissions/2026/des-blocus-a-la-garde-a-vue-ce-que-la-justice-reserve-aux-lyceens-iff_KhJPRQ2H7mVNC4jsvQ",
+      "note": "Présentation écrite consultée, vidéo non visionnée. Repère de 7 950 gardes à vue antérieures au 17 octobre.",
+      "kind": "human",
+      "checked": "2026-10-23"
+    },
+    "justice_pre17": {
+      "label": "Le Monde · tribune ACAT · 15 octobre 2026",
+      "url": "https://www.lemonde.fr/idees/article/2026/10/15/mouvement-lyceen-la-repression-policiere-tend-a-devenir-la-norme-dans-la-gestion-des-manifestations_6794457_3232.html",
+      "note": "Passage accessible : communiqué du 14 octobre, 7 950 gardes à vue et 2 735 poursuites. Communiqué original non retrouvé.",
+      "kind": "human",
+      "checked": "2026-10-23"
+    },
+    "justice_weekend17": {
+      "label": "AFP / Mediapart · 19 octobre 2026",
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/191026/violences-darmanin-annonce-2513-gardes-vue-et-67-personnes-incarcerees",
+      "note": "Premier paragraphe accessible : 2 513 gardes à vue du week-end du 17. Les 67 incarcérations anciennes ne s’ajoutent pas aux bilans ultérieurs.",
+      "kind": "human",
+      "checked": "2026-10-23"
+    },
+    "ind_marsactu21": {
+      "label": "Marsactu / Mediapart · 21 octobre 2026",
+      "url": "https://www.mediapart.fr/journal/france/211026/apres-le-17-octobre-la-justice-marseillaise-face-des-delits-opportunistes-et-des-jeunes-dans-le-besoin",
+      "note": "Introduction consultée sur les audiences de Marseille ; article complet inaccessible, aucune durée ajoutée.",
+      "kind": "context",
+      "checked": "2026-10-23"
     }
   },
   "legacy": {
@@ -1729,15 +1881,15 @@
     "reason": "Modèle remplacé : hypothèse de remboursement non constatée et périmètre public/collectif insuffisamment ventilé."
   },
   "totals": {
-    "low": 51797500,
-    "central": 80862500,
-    "high": 163550000
+    "low": 52369150,
+    "central": 81592550,
+    "high": 163180840
   },
   "repair_totals": {
     "low": 16425000,
     "high": 19425000
   },
-  "announced_envelopes": 10000000,
+  "announced_envelopes": 25000000,
   "scenario_labels": {
     "low": "Bas",
     "central": "Central",
@@ -1749,9 +1901,9 @@
     "high": 44425000
   },
   "modeled_totals": {
-    "low": 10372500,
-    "central": 37937500,
-    "high": 119125000
+    "low": 10944150,
+    "central": 38667550,
+    "high": 118755840
   },
   "categories": {
     "degats": {
@@ -1760,9 +1912,9 @@
       "high": 43565000
     },
     "operations": {
-      "low": 3580000,
-      "central": 15247500,
-      "high": 49285000
+      "low": 4151650,
+      "central": 15977550,
+      "high": 48915840
     },
     "aides": {
       "low": 26722500,
@@ -1778,7 +1930,7 @@
     "L’État au sens strict n’est pas isolé : le périmètre inclut les collectivités, établissements publics et dépenses publiques sociales."
   ],
   "human": {
-    "updated": "2026-10-22",
+    "updated": "2026-10-23",
     "exhaustive": false,
     "policy": "Cas anonymisés. Aucun bilan humain extrapolé. Les fiches ne s’ajoutent pas aux bilans nationaux. Statuts au dernier état de la source, pas présumés inchangés.",
     "cases": [
@@ -2023,6 +2175,53 @@
           "appeal": "non précisé",
           "included": true
         }
+      },
+      {
+        "id": "paris_death_17oct",
+        "category": "deces",
+        "city": "Paris · secteur République",
+        "title": "59 ans · décès, causes en cours d’enquête",
+        "facts": "Un homme est décédé après sa prise en charge par les secours. Sa famille demande les résultats de l’autopsie, selon l’AFP.",
+        "status": "Enquête sur les causes de la mort. La préfecture évoque un malaise sans lien avec l’action policière ; les proches interrogent notamment le rôle des gaz. Cause et responsabilité non établies. Plainte envisagée selon Le Nouvel Obs, dépôt non confirmé.",
+        "source": "h_paris_deaths22",
+        "date_label": "Décès du 17 octobre · état rapporté le 22 octobre",
+        "checked": "2026-10-23",
+        "additional_sources": [
+          "h_paris_obs22"
+        ]
+      },
+      {
+        "id": "paris_death_19oct",
+        "category": "deces",
+        "city": "Paris · rue Berger",
+        "title": "48 ans · décès, lien aux événements non établi",
+        "facts": "Un homme est décédé sur la voie publique malgré les secours ; la préfecture évoque un malaise.",
+        "status": "Enquête sur les causes de la mort. Participation au mouvement et lien causal avec les événements non établis. Hors agrégat des victimes du maintien de l’ordre.",
+        "source": "h_paris_deaths22",
+        "date_label": "Nuit du 18 au 19 octobre · source du 22 octobre",
+        "checked": "2026-10-23"
+      },
+      {
+        "id": "ldh_un_22oct",
+        "category": "procedures",
+        "city": "France",
+        "title": "LDH · saisine et demande d’observation",
+        "facts": "La LDH annonce saisir le Comité des droits de l’enfant et solliciter une mission du Haut-Commissaire des Nations unies aux droits de l’homme.",
+        "status": "Démarche associative. Aucune décision de l’ONU ni mission déployée établie par ce communiqué.",
+        "source": "h_ldh22",
+        "date_label": "Communiqué du 22 octobre",
+        "checked": "2026-10-23"
+      },
+      {
+        "id": "valence_durations_unavailable",
+        "category": "procedures",
+        "city": "Valence",
+        "title": "Trois condamnations rapportées · durées non vérifiées",
+        "facts": "Le Dauphiné Libéré rapporte trois condamnations après les événements du 17 octobre.",
+        "status": "Durées individuelles absentes de l’extrait accessible : hors cumul. Qualité de manifestant non présumée.",
+        "source": "h_valence22",
+        "date_label": "Compte rendu du 22 octobre",
+        "checked": "2026-10-23"
       }
     ],
     "headline": {
@@ -2080,6 +2279,15 @@
         "checked": "2026-10-22",
         "value": 23,
         "text": "Bilan préfectoral provisoire : 8 manifestants et 15 membres des forces de sécurité blessés. Bilan local, non ajouté aux autres agrégats."
+      },
+      {
+        "area": "Mouvement lycéen · bilan judiciaire antérieur au 17 octobre",
+        "source": "ind_lemedia22",
+        "as_of": "2026-10-15",
+        "published": "2026-10-22",
+        "checked": "2026-10-23",
+        "value": 7950,
+        "text": "Le Média rapporte 7 950 gardes à vue entre le 21 septembre et le 15 octobre, dont 85 % de mineurs. Le Monde attribue ce même nombre à un communiqué du 14 octobre : date de clôture exacte à confirmer. Ni condamnations ni blessés."
       }
     ],
     "sentencing": {
@@ -2091,34 +2299,49 @@
       "updated": "2026-10-22",
       "note": "Peines prononcées dans les seuls dossiers recensés, y compris une décision en appel. Ni durée exécutée ni cumul national."
     },
-    "last_checked": "2026-10-22"
+    "last_checked": "2026-10-23"
   },
-  "last_checked": "2026-10-22",
+  "last_checked": "2026-10-23",
   "verification": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "status": "reviewed_with_limits",
-    "note": "Recherche actualisée et calculs recalculés. Les dates propres aux bilans sont conservées. Certaines sources ne sont pas intégralement accessibles ; aucun total national actuel des blessés n’a été établi.",
+    "note": "Recherche du 23 octobre et recalcul. Correction des volumes judiciaires sous-évalués ; deux décès aux causes non établies documentés séparément. Aides locales à ventiler. Dates des bilans anciens conservées.",
     "unconfirmed_demand": 11900000000,
     "demand_note": "10 Md€ corroborés par Le Monde (7 octobre) et AFP/Sud Radio (16 octobre). Aucun document confirmant une revendication de 11,9 Md€ retrouvé lors de cette recherche. Une reprise de L’Humanité évoque une proposition de deux économistes à 11,8 Md€, distincte des demandes syndicales ; original et note non vérifiés.",
     "limitations": [
       "Accès incomplet au rapport historique de la Cour des comptes et à la page Région Sud.",
       "Volumes nationaux des heures supplémentaires, soins, secours, logistique et coûts judiciaires toujours hypothétiques.",
-      "Le montant national consolidé des surcoûts réellement payés reste inconnu."
+      "Le montant national consolidé des surcoûts réellement payés reste inconnu.",
+      "Brest/Saint-Étienne : enveloppes et financements distincts inconnus, hors addition.",
+      "Communiqué original des gardes à vue non consulté ; date de clôture du premier bilan à préciser.",
+      "Articles Valence et Marseille partiellement accessibles, aucune nouvelle durée retenue."
     ],
     "independent_press_review": {
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "sources": [
-        "ind_politis_mulhouse",
-        "ind_politis_paris",
-        "ind_mediapart_igpn",
-        "ind_blast_justice",
-        "ind_lemedia",
-        "ind_basta"
+        "ind_lemedia22",
+        "ind_marsactu21",
+        "ind_blast_justice"
       ],
-      "outcome": "Mulhouse précisé, 7 mois de peines ajoutés à Paris, bilan IGPN déclaré séparé. Aucun nouveau total national de blessés ni coût consolidé établi."
+      "outcome": "Repère judiciaire du Média recoupé avec Le Monde. Extraits de Marsactu/Mediapart et Blast consultés ; aucune nouvelle peine individuelle vérifiable."
     }
   },
   "changelog": [
+    {
+      "date": "2026-10-23",
+      "version": 12,
+      "financial_delta": 730050,
+      "note": "Justice : remplacement de volumes hypothétiques par 10 463 mesures de garde à vue sur deux périodes et 2 735 poursuites antérieures au 17. Coûts unitaires et détention restent hypothétiques. Décès à Paris documentés sans cause établie, démarche LDH, Valence hors cumul. Brest/Saint-Étienne : repères non additionnés.",
+      "sources": [
+        "justice_pre17",
+        "justice_weekend17",
+        "ind_lemedia22",
+        "h_paris_deaths22",
+        "h_ldh22",
+        "brest_22",
+        "etienne_aid_22"
+      ]
+    },
     {
       "date": "2026-10-22",
       "version": 11,
