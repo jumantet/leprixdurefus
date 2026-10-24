@@ -68,7 +68,7 @@ const answer = (i = 0, choice = questions[i].correctChoiceId, uid = "u1") =>
   request(
     "/quizzes/" + quiz.slug + "/answers",
     "POST",
-    { questionId: questions[i].id, choiceId: choice, version: 1 },
+    { questionId: questions[i].id, choiceId: choice, version: 2 },
     uid,
   );
 async function seedUser(id: string) {
@@ -141,13 +141,13 @@ describe("Catalogue et corrections", () => {
     expect(b.categories).toHaveLength(24);
     expect(b.quizzes.filter((q: any) => q.current_version)).toHaveLength(13);
   });
-  it("publie les quatre parcours longs sans réécrire les versions historiques", async () => {
-    for (const id of ["q001", "q011", "q041", "q076"]) {
+  it("publie les treize parcours de dix questions sans réécrire les versions historiques", async () => {
+    for (const id of Object.keys(published)) {
       const item = catalog.quizzes.find((q) => q.id === id)!;
       const response = await request("/quizzes/" + item.slug);
       const body = (await response.json()) as any;
-      expect(body.questions).toHaveLength(12);
-      expect(body.version).toBe(id === "q011" ? 2 : 1);
+      expect(body.questions).toHaveLength(10);
+      expect(body.version).toBe(id === "q011" ? 3 : 2);
       const stored = await db
         .prepare("SELECT body FROM quiz_versions WHERE quiz_id=? AND version=?")
         .bind(id, body.version)
@@ -162,6 +162,12 @@ describe("Catalogue et corrections", () => {
       )
       .first<any>();
     expect(JSON.parse(old.body).questions).toHaveLength(3);
+    const previous = await db
+      .prepare(
+        "SELECT body FROM quiz_versions WHERE quiz_id='q011' AND version=2",
+      )
+      .first<any>();
+    expect(JSON.parse(previous.body).questions).toHaveLength(12);
     for (const id of ["q096", "q099"]) {
       const item = catalog.quizzes.find((q) => q.id === id)!;
       expect((await request("/quizzes/" + item.slug)).status).toBe(404);
@@ -191,7 +197,7 @@ describe("Catalogue et corrections", () => {
     const r = await request("/quizzes/" + quiz.slug + "/answers", "POST", {
       questionId: questions[0].id,
       choiceId: "a",
-      version: 1,
+      version: 2,
     });
     const b = (await r.json()) as any;
     expect(b.correctChoiceId).toBe(questions[0].correctChoiceId);
@@ -209,7 +215,7 @@ describe("Catalogue et corrections", () => {
         await request(
           "/quizzes/" + quiz.slug + "/answers",
           "POST",
-          { questionId: "q011-1", choiceId: "a", version: 1 },
+          { questionId: "q011-1", choiceId: "a", version: 2 },
           "u1",
         )
       ).status,
@@ -235,11 +241,11 @@ describe("Catalogue et corrections", () => {
     const p = await db.prepare("SELECT cursor FROM progress").first<any>();
     expect(p.cursor).toBe(2);
   });
-  it("termine uniquement après les trois réponses", async () => {
-    for (let i = 0; i < 3; i++) await answer(i);
+  it("termine uniquement après les dix réponses", async () => {
+    for (let i = 0; i < questions.length; i++) await answer(i);
     const p = await db.prepare("SELECT * FROM progress").first<any>();
     expect(p.completed).toBe(1);
-    expect(p.cursor).toBe(3);
+    expect(p.cursor).toBe(questions.length);
   });
 });
 describe("Consentement, données et cloisonnement", () => {
@@ -325,7 +331,7 @@ describe("Consentement, données et cloisonnement", () => {
     await request(
       "/quizzes/" + quiz.slug + "/perceptions",
       "POST",
-      { phase: "before", value: 3, version: 1 },
+      { phase: "before", value: 3, version: 2 },
       "u1",
     );
     await answer();
@@ -342,7 +348,7 @@ describe("Consentement, données et cloisonnement", () => {
         await request(
           "/quizzes/" + quiz.slug + "/perceptions",
           "POST",
-          { phase: "after", value: 3, version: 1 },
+          { phase: "after", value: 3, version: 2 },
           "u1",
         )
       ).status,
@@ -353,7 +359,7 @@ describe("Consentement, données et cloisonnement", () => {
         await request(
           "/quizzes/" + quiz.slug + "/perceptions",
           "POST",
-          { phase: "before", value: 3, version: 1 },
+          { phase: "before", value: 3, version: 2 },
           "u1",
         )
       ).status,
@@ -365,16 +371,16 @@ describe("Consentement, données et cloisonnement", () => {
       await request(
         "/quizzes/" + quiz.slug + "/perceptions",
         "POST",
-        { phase: "before", value, version: 1 },
+        { phase: "before", value, version: 2 },
         "u1",
       );
-    for (let i = 0; i < 3; i++) await answer(i);
+    for (let i = 0; i < questions.length; i++) await answer(i);
     expect(
       (
         await request(
           "/quizzes/" + quiz.slug + "/perceptions",
           "POST",
-          { phase: "after", value: null, version: 1 },
+          { phase: "after", value: null, version: 2 },
           "u1",
         )
       ).status,
@@ -426,7 +432,7 @@ describe("Protection des accès et publication", () => {
     expect(
       (
         await request(
-          "/admin/stats?quiz=q042&version=1",
+          "/admin/stats?quiz=q042&version=2",
           "GET",
           undefined,
           "u1",
@@ -439,7 +445,7 @@ describe("Protection des accès et publication", () => {
     await answer();
     const b = (await (
       await request(
-        "/admin/stats?quiz=q042&version=1",
+        "/admin/stats?quiz=q042&version=2",
         "GET",
         undefined,
         "admin",
@@ -453,7 +459,7 @@ describe("Protection des accès et publication", () => {
     expect(
       (
         await request(
-          "/admin/stats?quiz=q042&version=1&dimension=user_id",
+          "/admin/stats?quiz=q042&version=2&dimension=user_id",
           "GET",
           undefined,
           "admin",
@@ -565,9 +571,19 @@ describe("Contenu", () => {
     for (const q of Object.values(published))
       expect(quizBodySchema.safeParse(q).success).toBe(true);
   });
-  it("conserve 396 questions éditoriales et 120 slugs distincts", () => {
-    expect(catalog.quizzes.flatMap((q) => q.outline)).toHaveLength(396);
+  it("conserve 451 questions éditoriales et 120 slugs distincts", () => {
+    expect(catalog.quizzes.flatMap((q) => q.outline)).toHaveLength(451);
     expect(new Set(catalog.quizzes.map((q) => q.slug)).size).toBe(120);
+  });
+  it("refuse une publication avec neuf ou onze questions", () => {
+    const body = structuredClone(published.q042);
+    body.questions.pop();
+    expect(quizBodySchema.safeParse(body).success).toBe(false);
+    body.questions = [
+      ...published.q042.questions,
+      { ...published.q042.questions[0], id: "extra" },
+    ];
+    expect(quizBodySchema.safeParse(body).success).toBe(false);
   });
   it("refuse les bonnes réponses absentes et les propositions dupliquées", () => {
     const q = structuredClone(published.q042);

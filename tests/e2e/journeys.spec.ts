@@ -41,16 +41,16 @@ test("catalogue, recherche et catégories sans débordement horizontal", async (
     ),
   ).toBe(true);
 });
-test("trois réponses, explications officielles, récapitulatif et progression après rechargement", async ({
+test("dix réponses, explications officielles, récapitulatif et progression après rechargement", async ({
   page,
 }) => {
   await page.goto("/quiz/" + slug + "/");
   await page
     .getByRole("button", { name: "Commencer le quiz", exact: true })
     .click();
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 10; i++) {
     await expect(
-      page.getByText(`Question ${i + 1} sur 3`, { exact: true }),
+      page.getByText(`Question ${i + 1} sur 10`, { exact: true }),
     ).toBeVisible();
     const submit = page.getByRole("button", { name: "Voir l’explication" });
     await expect(submit).toBeDisabled();
@@ -65,14 +65,14 @@ test("trois réponses, explications officielles, récapitulatif et progression a
     );
     await page
       .getByRole("button", {
-        name: i === 2 ? "Voir mon récapitulatif" : "Question suivante",
+        name: i === 9 ? "Voir mon récapitulatif" : "Question suivante",
       })
       .click();
   }
   await expect(
     page.getByText("PARCOURS TERMINÉ", { exact: true }),
   ).toBeVisible();
-  await expect(page.locator(".review")).toHaveCount(3);
+  await expect(page.locator(".review")).toHaveCount(10);
   await expect(
     page.getByRole("button", { name: "Partager mon parcours" }),
   ).toBeVisible();
@@ -96,7 +96,7 @@ test("reprise au bon endroit", async ({ page }) => {
   await page.reload();
   await page.getByRole("button", { name: "Reprendre le quiz" }).click();
   await expect(
-    page.getByText("Question 2 sur 3", { exact: true }),
+    page.getByText("Question 2 sur 10", { exact: true }),
   ).toBeVisible();
 });
 test("compte facultatif, absence de faux login et confidentialité", async ({
@@ -185,16 +185,16 @@ test("formulaire démographique non précoché — session simulée uniquement p
   ).toBe(true);
 });
 
-test("parcours de 12 questions, sources et récapitulatif sur mobile et ordinateur", async ({
+test("parcours de 10 questions, sources et récapitulatif sur mobile et ordinateur", async ({
   page,
 }) => {
   await page.goto("/quiz/on-gagne-plus-avec-les-aides-qu-en-travaillant/");
   await page
     .getByRole("button", { name: "Commencer le quiz", exact: true })
     .click();
-  for (let i = 0; i < 12; i++) {
+  for (let i = 0; i < 10; i++) {
     await expect(
-      page.getByText(`Question ${i + 1} sur 12`, { exact: true }),
+      page.getByText(`Question ${i + 1} sur 10`, { exact: true }),
     ).toBeVisible();
     await page.getByRole("radio").first().check();
     await page.getByRole("button", { name: "Voir l’explication" }).click();
@@ -212,12 +212,12 @@ test("parcours de 12 questions, sources et récapitulatif sur mobile et ordinate
     ).toBe(true);
     await page
       .getByRole("button", {
-        name: i === 11 ? "Voir mon récapitulatif" : "Question suivante",
+        name: i === 9 ? "Voir mon récapitulatif" : "Question suivante",
       })
       .click();
   }
   await expect(
     page.getByText("PARCOURS TERMINÉ", { exact: true }),
   ).toBeVisible();
-  await expect(page.locator(".review")).toHaveCount(12);
+  await expect(page.locator(".review")).toHaveCount(10);
 });

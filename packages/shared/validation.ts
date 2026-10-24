@@ -99,7 +99,7 @@ export const quizBodySchema = z
   .object({
     title: z.string().min(5).max(200),
     intro: z.string().min(20),
-    questions: z.array(questionSchema).min(3).max(12),
+    questions: z.array(questionSchema).length(10),
   })
   .superRefine((q, c) => {
     if (new Set(q.questions.map((x) => x.id)).size !== q.questions.length)

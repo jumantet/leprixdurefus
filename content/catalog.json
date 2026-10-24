@@ -128,18 +128,16 @@
       "categoryId": "aides",
       "title": "On gagne plus avec les aides qu’en travaillant",
       "outline": [
-        "Un post compare 1 800 € d’aides pour une famille avec trois enfants à 1 500 € de salaire pour une personne seule. Peut-on conclure que ne pas travailler rapporte plus ?",
-        "Une salariée aux revenus modestes peut-elle toucher une prestation en plus de son salaire ?",
-        "Un tableau additionne RSA maximal, allocations familiales et APL maximales. Quelle vérification est indispensable ?",
-        "Une personne reçoit l’APL et demande le RSA. Comment le logement intervient-il dans le calcul du RSA ?",
-        "Une personne sans revenu vit avec un conjoint salarié. Son RSA se calcule-t-il seulement sur ses revenus personnels ?",
-        "Un parent reprend un emploi. Pour savoir si son budget s’améliore, que faut-il ajouter à la comparaison des ressources ?",
-        "Budget fictif : sans emploi, 950 € de ressources et 550 € de dépenses ; avec emploi, 1 550 € et 800 €. Quel est le gain de reste à vivre ?",
-        "Une hausse de salaire peut-elle modifier une aide au logement ?",
-        "La prime d’activité est-elle calculée seulement à partir du salaire de la personne qui la demande ?",
-        "D’après l’étude DREES publiée en mai 2026, quelle part des foyers éligibles ne touchait pas le RSA fin 2021 ?",
-        "Budget fictif : reprendre un emploi augmente les ressources de 200 € mais ajoute 260 € de frais nets. Que montre ce cas ?",
-        "Quelle comparaison permet réellement de tester l’affirmation « les aides rapportent plus que le travail » ?"
+        "Comparer les aides d’une famille au salaire d’une personne seule, c’est fiable ?",
+        "Peut-on toucher une aide quand on travaille ?",
+        "Peut-on additionner le maximum de toutes les aides ?",
+        "Toucher l’APL peut-il changer le montant du RSA ?",
+        "Ton conjoint travaille. Ses revenus comptent-ils pour ton RSA ?",
+        "Reprendre un emploi peut entraîner quels frais en plus ?",
+        "Une hausse de salaire peut-elle faire baisser l’APL ?",
+        "Deux salariés au même salaire touchent-ils la même prime d’activité ?",
+        "Avoir droit au RSA, c’est forcément le toucher ?",
+        "Exemple : tu gagnes 200 € de plus, mais tu as 260 € de frais en plus. Il te reste…"
       ],
       "position": -4
     },
@@ -257,18 +255,16 @@
       "categoryId": "dette",
       "title": "Les allocations ruinent la France",
       "outline": [
-        "Quand une infographie annonce une énorme dépense de « protection sociale », de quoi peut-elle parler ?",
-        "En 2024, quel risque représente le premier poste des prestations de protection sociale dans les comptes DREES ?",
-        "Tous minima sociaux réunis, quel ordre de grandeur a été versé en 2024 selon la DREES ?",
-        "Quel groupe figure aussi parmi les bénéficiaires de minima sociaux ?",
-        "L’Insee chiffre les dépenses publiques à environ 1 672 milliards d’euros en 2024. Quel est l’ordre de grandeur de 33,3 milliards rapportés à ce total ?",
-        "Dans la ventilation Insee des dépenses publiques de 2024, quelle fonction arrive en tête ?",
-        "Une personne ne touche ni RSA ni APL mais reçoit une pension de retraite. Bénéficie-t-elle de la protection sociale ?",
-        "Dans le tableau Insee, peut-on ajouter les salaires des enseignants au total de la fonction « enseignement » pour obtenir son coût complet ?",
-        "Supprimer une dépense annuelle de 10 milliards effacerait-il immédiatement 10 milliards de dette déjà existante ?",
-        "Budget fictif : 1 000 de dépenses et 900 de recettes. On réduit une dépense de 20. Que devient le déficit si rien d’autre ne change ?",
-        "Une hausse du déficit prouve-t-elle, à elle seule, une hausse des allocations ?",
-        "Les aides aux ménages modestes ne feraient que coûter : quel résultat la DREES mesure-t-elle pour la redistribution en 2022 ?"
+        "Les dépenses sociales, c’est seulement l’argent versé aux personnes sans emploi ?",
+        "Qu’est-ce qui coûte le plus : les retraites ou le RSA ?",
+        "Tous les minima sociaux réunis coûtaient combien en 2024 ?",
+        "Qui reçoit aussi un minimum social ?",
+        "Les minima sociaux représentent quel ordre de grandeur des dépenses publiques ?",
+        "En 2024, quel grand poste public coûtait le plus ?",
+        "Un retraité qui a cotisé bénéficie-t-il quand même de la protection sociale ?",
+        "Faire une économie fait-il forcément baisser la dette ?",
+        "Le déficit augmente. Est-ce forcément la faute des allocations ?",
+        "Les aides font-elles réellement reculer la pauvreté ?"
       ],
       "position": -3
     },
@@ -302,9 +298,16 @@
       "categoryId": "dette",
       "title": "La dette vient forcément d’un excès de dépenses",
       "outline": [
-        "Une baisse des recettes creuse-t-elle le déficit ?",
-        "Comment distinguer crises et décisions ?",
-        "Quelle période faut-il examiner ?"
+        "L’État dépense plus qu’il ne reçoit cette année. C’est…",
+        "Si les recettes baissent et les dépenses restent stables, le déficit…",
+        "Une baisse d’impôts peut-elle creuser le déficit ?",
+        "La dette publique, c’est seulement la dette de l’État ?",
+        "Quand l’État emprunte, l’argent est-il gratuit ?",
+        "Rembourser un ancien emprunt avec un nouveau, ça existe ?",
+        "« La dette vaut 100 % du PIB » : ça veut dire quoi ?",
+        "La production augmente, la dette reste stable. Le ratio dette/PIB…",
+        "Une dépense publique est-elle forcément perdue ?",
+        "Pour expliquer la dette, que faut-il regarder ?"
       ],
       "position": 13
     },
@@ -326,9 +329,16 @@
       "categoryId": "impots",
       "title": "La moitié des Français ne paie aucun impôt",
       "outline": [
-        "De quel impôt parle-t-on ?",
-        "Un ménage non imposable paie-t-il de la TVA ?",
-        "Quelle différence entre impôts et cotisations ?"
+        "Ne pas payer d’impôt sur le revenu, c’est ne payer aucun impôt ?",
+        "Quand tu achètes un produit soumis à la TVA, qui la paie au final ?",
+        "Une personne sans emploi paie-t-elle de la TVA sur ses achats ?",
+        "Un salaire modeste entraîne-t-il forcément un impôt sur le revenu ?",
+        "L’impôt sur le revenu regarde-t-il aussi la famille ?",
+        "Ne pas payer d’impôt sur le revenu dispense-t-il toujours de taxe foncière ?",
+        "Un locataire paie-t-il directement la taxe foncière de son logement ?",
+        "La taxe d’habitation a-t-elle disparu pour tous les logements ?",
+        "« 50 % des foyers » et « 50 % des personnes », c’est pareil ?",
+        "Pour vérifier « ils ne paient rien », quelle précision manque d’abord ?"
       ],
       "position": 15
     },
@@ -338,9 +348,16 @@
       "categoryId": "impots",
       "title": "Une augmentation peut faire perdre de l’argent en changeant de tranche",
       "outline": [
-        "À quoi s’applique le taux marginal ?",
-        "Comment calculer l’impôt dans l’exemple ?",
-        "Quelle différence avec un effet de seuil sur une aide ?"
+        "Tu passes dans une tranche d’impôt plus élevée. Le nouveau taux frappe…",
+        "Les tranches d’impôt ressemblent plutôt à…",
+        "Exemple : 100 € de plus sont taxés à 30 %. Combien reste-t-il ?",
+        "Passer dans une nouvelle tranche fait-il perdre tout le gain, à lui seul ?",
+        "Ton taux le plus élevé est-il forcément ton taux moyen ?",
+        "Exemple : 1 000 € d’impôt pour 20 000 € imposables. Le taux moyen est…",
+        "Le taux affiché sur ta fiche de paie résume-t-il toutes tes tranches ?",
+        "Deux personnes avec le même salaire ont-elles forcément le même impôt ?",
+        "Une aide qui baisse après une hausse de salaire, c’est le changement de tranche ?",
+        "Avant de refuser une augmentation, quel calcul est utile ?"
       ],
       "position": 16
     },
@@ -362,9 +379,16 @@
       "categoryId": "impots",
       "title": "La TVA est juste puisque tout le monde paie le même taux",
       "outline": [
-        "Tous les produits ont-ils le même taux ?",
-        "Quel effort représente une même dépense ?",
-        "Comment l’épargne modifie-t-elle la comparaison ?"
+        "Deux clients achètent le même produit au même prix. La TVA change selon leur salaire ?",
+        "Tous les produits ont-ils le même taux de TVA ?",
+        "Certains produits alimentaires ont-ils un taux réduit ?",
+        "Le sigle « TTC » sur un prix veut dire…",
+        "Un produit coûte 100 € hors taxes, avec 20 % de TVA. Tu paies…",
+        "Sur ce prix de 120 € TTC, quelle somme correspond à la TVA ?",
+        "100 € de taxes pèsent-ils autant avec 1 000 € et 3 000 € de revenu ?",
+        "Toucher un petit salaire exonère-t-il de TVA à la caisse ?",
+        "Peut-on juger l’effort fiscal total avec la seule TVA ?",
+        "« Juste », pour un impôt, est-ce seulement une question de taux ?"
       ],
       "position": 18
     },
@@ -398,9 +422,16 @@
       "categoryId": "richesse",
       "title": "Être riche, c’est avoir un gros salaire",
       "outline": [
-        "Quelle différence entre revenu et patrimoine ?",
-        "Peut-on avoir beaucoup de patrimoine et peu de revenus ?",
-        "Pourquoi une moyenne ne décrit-elle pas toute la population ?"
+        "Un salaire et un patrimoine, c’est la même chose ?",
+        "Un appartement dont tu es propriétaire entre-t-il dans ton patrimoine ?",
+        "Une maison vaut 200 000 €, avec 150 000 € de crédit restant. Le patrimoine net lié vaut…",
+        "« Patrimoine net », ça veut dire…",
+        "Un héritage peut-il augmenter ton patrimoine sans hausse de salaire ?",
+        "Peut-on avoir beaucoup de patrimoine et peu d’argent disponible ?",
+        "Les 10 % les mieux dotés possèdent-ils 10 % du patrimoine brut total ?",
+        "Un « patrimoine moyen » décrit-il forcément le ménage du milieu ?",
+        "Un loyer reçu par un propriétaire est-il un salaire ?",
+        "Pour comparer la richesse de deux personnes, le salaire suffit-il ?"
       ],
       "position": 21
     },
@@ -482,9 +513,16 @@
       "categoryId": "entreprises",
       "title": "Les dividendes sont une récompense versée aux salariés",
       "outline": [
-        "Qui reçoit les dividendes ?",
-        "Quelle différence avec l’intéressement ?",
-        "Un salarié peut-il être actionnaire ?"
+        "Pour toucher un dividende d’une entreprise, il faut d’abord…",
+        "Peut-on toucher un dividende sans travailler dans l’entreprise ?",
+        "Un salarié touche-t-il automatiquement les dividendes de son entreprise ?",
+        "Une entreprise qui fait des bénéfices doit-elle tout distribuer ?",
+        "Qui décide généralement de la distribution des bénéfices ?",
+        "Acheter une action garantit-il un revenu chaque année ?",
+        "Revendre une action plus cher, est-ce toucher un dividende ?",
+        "La participation des salariés, c’est quoi ?",
+        "La participation peut-elle remplacer le salaire prévu ?",
+        "Un salarié actionnaire peut-il toucher salaire et dividendes ?"
       ],
       "position": 28
     },
@@ -506,9 +544,16 @@
       "categoryId": "travail",
       "title": "Les chômeurs ne veulent pas travailler",
       "outline": [
-        "Comment définit-on statistiquement un chômeur ?",
-        "Quelles démarches sont prises en compte ?",
-        "Un chiffre national révèle-t-il une motivation individuelle ?"
+        "Dans les chiffres de l’Insee, un chômeur doit-il chercher un emploi ?",
+        "Ne pas avoir de travail suffit-il à être compté comme chômeur ?",
+        "Un retraité qui ne cherche pas d’emploi est-il compté parmi les chômeurs ?",
+        "Quelqu’un a trouvé un poste qui commence bientôt. Peut-il encore être compté au chômage ?",
+        "Peut-on vouloir travailler sans être compté parmi les chômeurs ?",
+        "Une personne découragée qui a arrêté ses recherches veut-elle forcément rester sans emploi ?",
+        "Une personne en petit temps partiel peut-elle vouloir travailler plus ?",
+        "« En emploi » veut-il forcément dire « assez d’heures pour vivre » ?",
+        "Le nombre de chômeurs suffit-il à mesurer tous les besoins d’emploi ?",
+        "Un taux de chômage prouve-t-il que les gens ne veulent pas travailler ?"
       ],
       "position": 30
     },
@@ -566,9 +611,16 @@
       "categoryId": "retraites",
       "title": "Mes cotisations sont mises de côté pour ma retraite",
       "outline": [
-        "Comment fonctionne la répartition ?",
-        "Que financent les cotisations actuelles ?",
-        "Quelle différence avec la capitalisation ?"
+        "Dans un système par répartition, tes cotisations servent surtout à…",
+        "Existe-t-il une cagnotte personnelle contenant toutes tes cotisations retraite ?",
+        "La capitalisation, c’est plutôt…",
+        "Un régime par répartition peut-il avoir des réserves ?",
+        "Si les cotisations ne sont pas mises de côté, servent-elles quand même à tes droits ?",
+        "Une période de chômage peut-elle compter pour la retraite ?",
+        "Avoir des enfants peut-il ouvrir des droits à la retraite ?",
+        "La retraite dépend-elle uniquement d’une somme d’argent versée ?",
+        "Moins de cotisations encaissées, à pensions inchangées : cela pose-t-il un problème de financement ?",
+        "« J’ai cotisé, donc la somme m’attend à la banque » : qu’est-ce qui cloche ?"
       ],
       "position": 35
     },
@@ -626,18 +678,16 @@
       "categoryId": "accueil",
       "title": "Les immigrés touchent toutes les aides en arrivant",
       "outline": [
-        "Une personne née étrangère à l’étranger est devenue française. Dans les statistiques de l’Insee, est-elle encore immigrée ?",
-        "Hors régimes particuliers et exceptions, quelle condition concerne le RSA d’un ressortissant hors UE titulaire d’un titre temporaire autorisant le travail ?",
-        "Une personne reconnue réfugiée doit-elle toujours attendre ces cinq ans pour pouvoir demander le RSA ?",
-        "Une personne majeure demande l’asile et remplit les conditions d’accueil et de ressources. Quelle aide financière spécifique peut-elle percevoir ?",
-        "Pour une personne seule, quel est le montant journalier de base de l’ADA indiqué par Service Public, hors supplément ?",
-        "Un demandeur d’asile nouvellement arrivé peut-il simplement travailler pendant l’examen de son dossier ?",
-        "L’aide médicale de l’État (AME) est-elle une somme mensuelle versée librement au bénéficiaire ?",
-        "Dans le cas général, un adulte en situation irrégulière a-t-il accès à l’AME dès son arrivée ?",
-        "Un étranger peut-il toucher l’APL uniquement parce qu’il est étranger ?",
-        "Pour les prestations familiales, vivre en France avec ses enfants suffit-il toujours à un ressortissant hors UE ?",
-        "Deux personnes étrangères ont le même salaire. Cela garantit-il qu’elles ont exactement les mêmes droits sociaux ?",
-        "Ces règles permettent-elles de conclure que les personnes immigrent principalement pour toucher des aides ?"
+        "Un étranger qui arrive en France touche-t-il automatiquement le RSA ?",
+        "Un réfugié doit-il toujours attendre cinq ans pour demander le RSA ?",
+        "Quelle aide peut recevoir une personne qui demande l’asile ?",
+        "L’ADA de base pour une personne seule, c’est combien par jour ?",
+        "Un demandeur d’asile peut-il travailler dès le début ?",
+        "L’AME, c’est de l’argent versé chaque mois ?",
+        "Un adulte sans titre de séjour a-t-il l’AME dès son arrivée ?",
+        "Être étranger suffit-il pour toucher l’APL ?",
+        "Pour les allocations familiales, une adresse en France suffit-elle ?",
+        "Ces règles prouvent-elles pourquoi les gens immigrent ?"
       ],
       "position": -2
     },
@@ -647,9 +697,16 @@
       "categoryId": "accueil",
       "title": "Immigré et étranger, c’est la même chose",
       "outline": [
-        "Comment définit-on ces catégories ?",
         "Une personne immigrée peut-elle être française ?",
-        "Une personne étrangère peut-elle être née en France ?"
+        "Un étranger, au sens de l’Insee, est quelqu’un qui…",
+        "Née au Maroc, de nationalité marocaine, puis devenue française : immigrée ?",
+        "Né en France, sans nationalité française : étranger ?",
+        "Cette même personne née en France est-elle immigrée ?",
+        "Née à l’étranger avec la nationalité française, puis installée en France : immigrée ?",
+        "Avoir des parents immigrés suffit-il à être soi-même immigré ?",
+        "Une personne franco-italienne est-elle étrangère en France ?",
+        "Le nombre d’étrangers mesure-t-il les arrivées de l’année ?",
+        "Un prénom suffit-il à savoir si quelqu’un est immigré ?"
       ],
       "position": 41
     },
@@ -1055,18 +1112,16 @@
       "categoryId": "rn",
       "title": "Le RN n’est plus d’extrême droite",
       "outline": [
-        "Le RN conteste son rattachement au bloc « extrême droite » pour les sénatoriales de 2023. Quelle est l’issue du recours jugé le 11 mars 2024 ?",
-        "Un candidat se présente comme « patriote ». Cette étiquette oblige-t-elle l’administration à reprendre ce terme comme nuance ?",
-        "Que permet exactement d’affirmer la décision de mars 2024 ?",
-        "Dans la déclaration officielle de campagne de Marine Le Pen en 2022, la priorité nationale concernait quels domaines ?",
-        "Dans un exemple hypothétique, deux salariés remplissent les mêmes conditions de ressources et de logement. Que changerait une priorité fondée sur la nationalité ?",
-        "Le document présidentiel de 2022 se limitait-il à l’immigration et à la sécurité ?",
-        "À quel groupe européen Jordan Bardella appartient-il depuis juillet 2024 selon le Parlement européen ?",
-        "Le classement du RN dans le bloc « extrême droite » a-t-il disparu des documents administratifs des municipales de 2026 ?",
-        "Les décisions de justice permettent-elles d’affirmer que toute restriction de prestations aux étrangers serait autorisée ?",
-        "Un programme conservé sur un site officiel prouve-t-il que ses promesses sont vraies et réalisables ?",
-        "Le classement du RN permet-il de déduire les motivations exactes de toutes les personnes qui votent pour lui ?",
-        "Quelle conclusion respecte les documents examinés dans ce parcours ?"
+        "Pour les municipales de 2026, dans quel bloc le RN était-il classé ?",
+        "En 2024, le RN avait contesté ce classement. A-t-il gagné ?",
+        "Un parti choisit-il lui-même son classement officiel ?",
+        "En 2022, la « priorité nationale » proposée concernait quoi ?",
+        "La « priorité nationale » départage les gens selon quoi ?",
+        "Le programme de 2022 parlait-il aussi de pouvoir d’achat ?",
+        "Quel groupe européen Jordan Bardella a-t-il rejoint en 2024 ?",
+        "Peut-on limiter les aides aux étrangers sans aucune limite juridique ?",
+        "Un programme sur un site officiel, c’est une promesse validée ?",
+        "Le classement d’un parti dit-il pourquoi chacun vote pour lui ?"
       ],
       "position": -1
     },
