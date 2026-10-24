@@ -1,0 +1,8 @@
+dist/
+node_modules/
+**/.next/
+**/out/
+**/build/
+**/.wrangler/
+package-lock.json
+content/*.json

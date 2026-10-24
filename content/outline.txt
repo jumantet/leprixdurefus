@@ -1,0 +1,144 @@
+# aides|Aides sociales et travail
+On gagne plus avec les aides qu’en travaillant|Une personne au SMIC peut-elle recevoir des aides ?|Comment comparer deux foyers à situation identique ?|Que changent les frais de garde et de transport ?
+On peut cumuler toutes les allocations|Quelles prestations peuvent se cumuler ?|Une aide peut-elle diminuer quand on en reçoit une autre ?|Pourquoi ne peut-on pas additionner tous les plafonds ?
+Le RSA permet de vivre confortablement|Quel montant reçoit une personne dans le cas présenté ?|Quelles dépenses doit-elle financer ?|Comment ce revenu se situe-t-il par rapport au seuil de pauvreté ?
+Quand on travaille, on n’a droit à rien|À qui s’adresse la prime d’activité ?|Travailler exclut-il des aides au logement ?|Comment le foyer modifie-t-il les droits ?
+Les familles font des enfants pour toucher les allocations|Comment les prestations évoluent-elles avec les enfants ?|Couvrent-elles les dépenses supplémentaires ?|Un montant permet-il de connaître les motivations ?
+# fraude|Fraude et non-recours
+Tout le monde profite des aides|Tous les éligibles demandent-ils leurs droits ?|Comment mesure-t-on le non-recours ?|Pourquoi certaines aides ne sont-elles pas demandées ?
+La fraude sociale explique les déficits|Que recouvre la fraude sociale ?|Quelle différence entre fraude détectée et estimée ?|Quelle part du déficit représente l’estimation ?
+Une erreur dans un dossier, c’est de la fraude|Qu’est-ce qui distingue erreur et fraude ?|Un trop-perçu prouve-t-il une intention ?|Que permet le droit à l’erreur ?
+La fraude sociale, ce sont les allocataires|Quels acteurs peuvent frauder ?|Où classe-t-on le travail dissimulé ?|Les chiffres incluent-ils les employeurs et professionnels ?
+Il suffit de supprimer la fraude pour tout financer|Une fraude estimée est-elle entièrement récupérable ?|À quelle vitesse intervient le recouvrement ?|Une recette ponctuelle finance-t-elle une dépense permanente ?
+# dette|Dépenses publiques et dette
+Les allocations sont notre première dépense publique|Que comprend le mot allocations ?|Quel est le poids des retraites ?|Quelle différence entre protection sociale et aides sans emploi ?
+La France est en faillite|Qu’est-ce qu’un défaut souverain ?|Une dette élevée prouve-t-elle un défaut ?|Quels indicateurs mesurent la capacité de financement ?
+Un État doit gérer son budget comme une famille|Qu’est-ce qui distingue État et ménage ?|Que se passe-t-il si tous réduisent leurs dépenses ?|Quelles sont les limites de la comparaison ?
+La dette vient forcément d’un excès de dépenses|Une baisse des recettes creuse-t-elle le déficit ?|Comment distinguer crises et décisions ?|Quelle période faut-il examiner ?
+Nos enfants devront rembourser toute la dette d’un coup|Tous les emprunts arrivent-ils à échéance ensemble ?|Que signifie refinancer une dette ?|Quels coûts sont transmis aux générations suivantes ?
+# impots|Impôts et redistribution
+La moitié des Français ne paie aucun impôt|De quel impôt parle-t-on ?|Un ménage non imposable paie-t-il de la TVA ?|Quelle différence entre impôts et cotisations ?
+Une augmentation peut faire perdre de l’argent en changeant de tranche|À quoi s’applique le taux marginal ?|Comment calculer l’impôt dans l’exemple ?|Quelle différence avec un effet de seuil sur une aide ?
+Les classes moyennes paient tout|Comment définit-on les classes moyennes ?|Compare-t-on montants ou parts du revenu ?|Comment intégrer prestations et services publics ?
+La TVA est juste puisque tout le monde paie le même taux|Tous les produits ont-ils le même taux ?|Quel effort représente une même dépense ?|Comment l’épargne modifie-t-elle la comparaison ?
+Supprimer un impôt fait forcément rentrer plus d’argent|Quel est l’effet direct d’une baisse ?|Comment peut-elle modifier l’activité ?|Une recette attendue est-elle une recette constatée ?
+# richesse|Richesse, patrimoine et mérite
+Les milliardaires ont tous construit leur fortune seuls|Quelle différence entre fortune héritée et créée ?|Comment classer une entreprise familiale ?|Que disent les données sur l’origine des patrimoines ?
+Être riche, c’est avoir un gros salaire|Quelle différence entre revenu et patrimoine ?|Peut-on avoir beaucoup de patrimoine et peu de revenus ?|Pourquoi une moyenne ne décrit-elle pas toute la population ?
+Taxer les riches les fait tous partir|Comment mesure-t-on les départs fiscaux ?|Quelle différence entre annonce et transfert effectif ?|Comment évaluer les recettes d’une réforme ?
+L’héritage récompense le travail|Qui a effectué le travail évoqué ?|Qui reçoit les montants étudiés ?|Que distinguer entre faits et choix de justice sociale ?
+Tout le monde peut réussir s’il travaille assez|Comment mesure-t-on la mobilité sociale ?|Quelle relation avec l’origine sociale ?|Un parcours individuel décrit-il toutes les chances ?
+# entreprises|Entreprises et aides publiques
+Les entreprises ne reçoivent pas d’aides|Quelles formes de soutien public existent ?|Une exonération est-elle un versement ?|Pourquoi les estimations varient-elles ?
+Les aides aux entreprises créent forcément des emplois|Quelles conditions sont attachées à l’aide ?|Comment mesurer les emplois supplémentaires ?|Quelle différence entre annonce et constat ?
+Une entreprise rentable ne peut pas licencier|Quelle différence entre bénéfice et trésorerie ?|À quel niveau apprécie-t-on la situation ?|Quelles règles encadrent le cas présenté ?
+Les dividendes sont une récompense versée aux salariés|Qui reçoit les dividendes ?|Quelle différence avec l’intéressement ?|Un salarié peut-il être actionnaire ?
+Augmenter les salaires augmente les prix d’autant|Quelle est la part salariale dans les coûts ?|Quels autres ajustements sont possibles ?|Une hausse de 10 % se transmet-elle automatiquement ?
+# travail|Chômage et travail
+Les chômeurs ne veulent pas travailler|Comment définit-on statistiquement un chômeur ?|Quelles démarches sont prises en compte ?|Un chiffre national révèle-t-il une motivation individuelle ?
+Il suffit de traverser la rue pour trouver un emploi|Les qualifications correspondent-elles aux postes ?|Quel rôle jouent distance et logement ?|Une offre publiée est-elle toujours accessible ?
+Tous les chômeurs touchent le chômage|Une inscription ouvre-t-elle une indemnisation ?|Quelles conditions ouvrent des droits ?|Fin de droits et fin du chômage sont-elles identiques ?
+Les Français ne travaillent pas assez|Compare-t-on semaine, année ou carrière ?|Comment le temps partiel affecte-t-il la moyenne ?|Quelle population compare-t-on ?
+Les arrêts maladie, c’est surtout de la complaisance|Qui prescrit un arrêt ?|Que mesure une hausse des journées indemnisées ?|Cette hausse suffit-elle à identifier une fraude ?
+# retraites|Retraites et générations
+Mes cotisations sont mises de côté pour ma retraite|Comment fonctionne la répartition ?|Que financent les cotisations actuelles ?|Quelle différence avec la capitalisation ?
+Les retraités sont tous plus riches que les actifs|Compare-t-on revenus ou niveaux de vie ?|Pourquoi tenir compte de la taille du ménage ?|Quelles différences entre retraités ?
+Les jeunes n’auront aucune retraite|Une projection est-elle une décision ?|Quels paramètres font évoluer les pensions ?|Quel rôle jouent les hypothèses ?
+Reculer l’âge de départ suffit à régler le problème|Quel effet attend-on sur cotisations et pensions ?|Que devient une personne sans emploi ?|Quels transferts entre prestations faut-il examiner ?
+Tous les retraités partent au même âge|Quelle différence entre âge légal et départ effectif ?|Quelles situations ouvrent des départs anticipés ?|Que change une carrière incomplète ?
+# accueil|Immigration et accueil
+Les immigrés touchent toutes les aides en arrivant|Quel statut est concerné ?|Quelles conditions s’appliquent à l’aide ?|Pourquoi ne pas généraliser à toutes les prestations ?
+Immigré et étranger, c’est la même chose|Comment définit-on ces catégories ?|Une personne immigrée peut-elle être française ?|Une personne étrangère peut-elle être née en France ?
+Demandeur d’asile, réfugié et sans-papiers, c’est pareil|Quelle différence entre demande et protection ?|Que désigne l’absence de titre de séjour ?|Pourquoi ces distinctions changent-elles les droits ?
+L’AME est de l’argent donné aux étrangers|Que prend en charge ce dispositif ?|Est-ce un revenu versé ?|Quelles conditions et limites s’appliquent ?
+La France accueille toute la misère du monde|Parle-t-on d’arrivées ou de résidents ?|Comment comparer les pays ?|Quelles régions accueillent les personnes déplacées ?
+# integration|Immigration, emploi et intégration
+Les immigrés prennent le travail des Français|Quels mécanismes suppose cette affirmation ?|Comment étudier les effets par métier ?|Un effet moyen décrit-il toutes les situations ?
+L’immigration fait forcément baisser les salaires|Quels travailleurs sont étudiés ?|Comment distinguer corrélation et causalité ?|Les résultats varient-ils selon la qualification ?
+Les immigrés ne contribuent pas aux finances publiques|Quels impôts et cotisations paient-ils ?|Quelles dépenses mettre en regard ?|Comment l’âge et l’emploi modifient-ils le bilan ?
+On devient français automatiquement en arrivant|Quelles voies d’accès à la nationalité existent ?|Titre de séjour et nationalité sont-ils identiques ?|Quelles conditions pour le cas présenté ?
+Les immigrés ne veulent pas s’intégrer|Que mesure le mot intégration ?|Comment distinguer langue, emploi et participation ?|Un indicateur révèle-t-il une volonté ?
+# securite|Sécurité et délinquance
+La délinquance augmente partout|Quelles infractions sont étudiées ?|Les territoires évoluent-ils pareil ?|Quelle période faut-il comparer ?
+Plus de plaintes signifie forcément plus de violences|Qu’est-ce qui modifie les plaintes ?|Que mesurent les enquêtes de victimation ?|Comment croiser les deux sources ?
+Les étrangers commettent la majorité des crimes|Parle-t-on de mises en cause ou condamnations ?|Quelles infractions et populations sont comptées ?|Quels autres facteurs examiner ?
+C’était forcément plus sûr avant|Quels indicateurs comparer dans le temps ?|Les méthodes sont-elles restées identiques ?|Quelle différence entre risque et sentiment ?
+Une vidéo prouve toute l’histoire|Que voit-on directement ?|Que manque-t-il avant et après ?|Comment vérifier la date et l’origine ?
+# justice|Justice et prisons
+La justice ne punit plus|Quels indicateurs décrivent les sanctions ?|Nombre et sévérité sont-ils identiques ?|Comment comparer des affaires différentes ?
+Une peine avec sursis, c’est aucune peine|Que signifie le sursis ?|Quelles obligations peuvent l’accompagner ?|Quand peut-il être révoqué ?
+Sortir de garde à vue signifie être innocenté|À quoi sert la garde à vue ?|Quelles suites sont possibles ?|Quelle différence entre classement, relaxe et acquittement ?
+Construire des prisons suffit à faire baisser la criminalité|Quel problème une place résout-elle directement ?|Comment mesure-t-on la récidive ?|Quels autres facteurs étudier ?
+Les juges font ce qu’ils veulent|Quels textes encadrent les décisions ?|Quels recours existent ?|Indépendance signifie-t-elle absence de contrôle ?
+# libertes|Police et libertés
+Si la police intervient, c’est que c’est légal|Quelles conditions encadrent l’intervention ?|Qui contrôle sa légalité ?|Que change le fait d’avoir reçu un ordre ?
+Filmer la police est interdit|Quelle différence entre filmer et diffuser ?|Quelles restrictions concernent la diffusion ?|Quel rôle joue le contexte ?
+Une manifestation non autorisée est forcément illégale|Quelle différence entre déclaration et autorisation ?|Que signifie un arrêté d’interdiction ?|Les responsabilités sont-elles identiques pour tous ?
+Tous les manifestants sont responsables des casseurs|Comment établit-on une responsabilité individuelle ?|La présence suffit-elle ?|Quels éléments caractérisent une infraction ?
+Une violence policière est forcément un usage illégal de la force|Quand la force est-elle autorisée ?|Que signifient nécessité et proportionnalité ?|Pourquoi examiner les circonstances ?
+# discriminations|Racisme et discriminations
+Critiquer Israël, c’est forcément antisémite|Quelle différence entre État, gouvernement et personnes juives ?|Quels propos visent une identité ?|Pourquoi examiner les mots et le contexte ?
+L’antisémitisme vient d’un seul camp politique|Quels faits et périodes sont étudiés ?|Comment distinguer actes et affiliations supposées ?|Peut-on attribuer chaque acte à un courant ?
+Critiquer une religion, c’est forcément du racisme|Quelle différence entre croyance et fidèles ?|Quels propos sont encadrés par la loi ?|Quel rôle joue le contexte ?
+Les discriminations à l’embauche sont impossibles à prouver|Comment fonctionne un testing ?|Que montre une différence à profils comparables ?|Quelles limites à une expérience isolée ?
+L’égalité devant la loi signifie qu’il n’y a plus de discriminations|Quelle différence entre droit et traitement effectif ?|Quels indicateurs étudient les écarts ?|Un écart suffit-il à établir sa cause ?
+# laicite|Laïcité et religions
+La laïcité interdit la religion dans l’espace public|À qui s’impose la neutralité ?|Quelles règles concernent les usagers ?|Pourquoi distinguer rue, école et service public ?
+Les fonctionnaires et les usagers ont les mêmes obligations|Quel rôle exerce la personne ?|Quelles obligations accompagnent ce rôle ?|Peut-on étendre automatiquement une règle ?
+La loi de 1905 s’applique exactement partout en France|Quels territoires ont un régime particulier ?|D’où viennent ces différences ?|Quelles conséquences dans le cas étudié ?
+Une entreprise privée doit être religieusement neutre|Les règles du service public s’y appliquent-elles ?|Quelles restrictions sont possibles ?|Comment évaluer leur proportionnalité ?
+La liberté d’expression autorise absolument tout|Quelle différence entre opinion et infraction ?|Quels propos engagent une responsabilité ?|Choquer suffit-il à caractériser une infraction ?
+# rn|RN et familles politiques
+Le RN n’est plus d’extrême droite|Comment la source définit-elle cette famille ?|Quels éléments de programme et d’histoire examine-t-elle ?|Quelle différence entre classifications et discours du parti ?
+Changer de nom signifie changer d’idéologie|Quels changements sont documentés ?|Quels éléments de continuité observe-t-on ?|Pourquoi distinguer image et orientations ?
+Le RN défend toujours les travailleurs|Quelles mesures propose-t-il ?|Quels votes portent sur le sujet ?|Quels travailleurs seraient concernés ?
+Le RN n’a jamais exercé le pouvoir|De quel niveau parle-t-on ?|Quelles fonctions ses élus ont-ils exercées ?|Que peut-on évaluer dans une gestion locale ?
+La préférence nationale ne change rien pour les Français|Quels droits seraient modifiés ?|Quels foyers seraient indirectement concernés ?|Quelles contraintes juridiques examiner ?
+# gauche|LFI et controverses à gauche
+LFI est antisémite|Quels propos ou actes précis sont en cause ?|Qui les a tenus et quelle réponse le mouvement a-t-il apportée ?|Que peut-on conclure sur une personne, un épisode et un parti ?
+LFI est d’extrême gauche|Quels critères utilise la classification ?|Comment distingue-t-on gauche radicale et extrême gauche ?|Administration et recherche répondent-elles à la même question ?
+LFI veut désarmer toute la police|Que dit la proposition exacte ?|Quelles armes et unités sont concernées ?|Quelle différence entre texte officiel et interprétation ?
+La gauche défend toujours les services publics|Quel parti et quelle période examine-t-on ?|Quels budgets et réformes ont été votés ?|Comment distinguer objectif et résultat ?
+Les partis de gauche ont tous le même programme|Sur quelles mesures divergent-ils ?|Une alliance supprime-t-elle les désaccords ?|Quel texte engage les partenaires ?
+# partis|Centre, droite et promesses
+Le centre n’a pas d’idéologie|Qu’est-ce qu’une orientation idéologique ?|Quels choix permettent de situer un programme ?|Le pragmatisme supprime-t-il les arbitrages ?
+Macron a supprimé tous les impôts sur la fortune|Quel impôt a été transformé ?|Quels actifs restent concernés ?|Quelle différence entre patrimoine et revenus ?
+La droite gère toujours mieux les finances publiques|Quels critères définiraient une meilleure gestion ?|Comment tenir compte du contexte ?|L’étiquette explique-t-elle seule le déficit ?
+Une promesse non tenue prouve forcément un mensonge|Que disait l’engagement ?|Quels pouvoirs détenait son auteur ?|Comment distinguer renoncement, obstacle et tromperie ?
+Les votes d’un député disent tout de ses convictions|Sur quel texte portait le vote ?|Que change un amendement ?|Quelle différence entre abstention et absence ?
+# institutions|Institutions et démocratie
+Le président décide de tout|Quels pouvoirs lui appartiennent ?|Quels rôles pour gouvernement et Parlement ?|Que change une majorité opposée ?
+Le 49.3 permet de faire passer n’importe quelle loi|À quels textes s’applique-t-il ?|Quelle procédure peut renverser le gouvernement ?|Quels contrôles subsistent ?
+Le Sénat ne sert à rien|Quelles fonctions exerce-t-il ?|Que se passe-t-il en cas de désaccord ?|Dans quels cas son accord est-il particulier ?
+Le Conseil constitutionnel choisit les politiques du pays|Sur quels critères contrôle-t-il ?|Constitutionnalité et opportunité sont-elles identiques ?|Que signifie une censure partielle ?
+Une pétition oblige le gouvernement à agir|Quel dispositif accueille la pétition ?|Quel seuil déclenche quelle procédure ?|Quelle différence entre débat et adoption ?
+# elections|Élections et sondages
+Le vote blanc compte comme un vote pour un candidat|Comment est-il décompté ?|Entre-t-il dans les suffrages exprimés ?|Quelle différence avec un vote nul ?
+S’abstenir revient à voter pour le gagnant|Comment l’abstention intervient-elle dans le calcul ?|Peut-on attribuer un choix à un abstentionniste ?|Quels effets distinguer des règles de calcul ?
+Les sondages prédisent le résultat|Que mesure une intention de vote ?|Que signifie l’incertitude statistique ?|Comment la participation change-t-elle le résultat ?
+Un candidat à 30 % est soutenu par 30 % des Français|Quel est le dénominateur ?|Quelle différence entre inscrits et exprimés ?|Comment recalculer sur une autre population ?
+Le vote utile fonctionne toujours de la même façon|Quel mode de scrutin utilise-t-on ?|Quelles informations sont disponibles ?|Pourquoi la stratégie dépend-elle du contexte ?
+# medias|Médias et information
+Les médias sont tous de gauche|Quels médias et contenus compare-t-on ?|Quelle différence entre propriété et ligne éditoriale ?|Quelle méthode permettrait de tester cette affirmation ?
+Un média indépendant est forcément impartial|Indépendant de qui ?|Quelle différence entre indépendance financière et neutralité ?|Quels indices évaluent la qualité d’un article ?
+Un chiffre officiel ne peut pas être trompeur|Quel périmètre décrit-il ?|Quelle comparaison le rend pertinent ?|Une donnée exacte peut-elle soutenir une conclusion fausse ?
+Deux événements qui évoluent ensemble ont forcément un lien causal|Quelle différence entre corrélation et causalité ?|Quel facteur commun peut les expliquer ?|Quel dispositif teste une causalité ?
+Si une information devient virale, c’est qu’elle est vraie|Quelle est la source initiale ?|Plusieurs publications sont-elles indépendantes ?|Comment vérifier une capture d’écran ?
+# jeunesse|École et jeunesse
+Les lycéens manifestent sans savoir pourquoi|Quelles revendications figurent dans le communiqué ?|Quelle mesure est contestée ?|Qui a compétence pour y répondre ?
+Les jeunes ne veulent plus travailler|Quelles données décrivent leurs attentes ?|Comment distinguer âge et génération ?|Un sondage de valeurs prédit-il un comportement ?
+Les diplômes ne servent plus à rien|Quels indicateurs compare-t-on ?|Les résultats varient-ils selon le diplôme ?|Une moyenne garantit-elle un résultat individuel ?
+L’école donne exactement les mêmes chances à tous|Comment mesure-t-on les écarts ?|Quelles ressources faut-il examiner ?|Quelle différence entre règles et conditions ?
+Une manifestation ne change jamais rien|Quelle revendication et décision compare-t-on ?|Comment isoler le rôle de la mobilisation ?|Quels effets apparaissent plus tard ?
+# ecologie|Écologie et énergie
+La France ne représente presque rien, donc agir ne sert à rien|Émissions territoriales ou empreinte carbone ?|Que change un calcul par habitant ?|Que distinguer entre constat et choix collectif ?
+Une voiture électrique ne pollue pas|Quelles étapes du cycle de vie compter ?|Quel effet du mix électrique ?|CO₂ et pollution désignent-ils la même chose ?
+Le nucléaire et les renouvelables sont incompatibles|Quels services rendent ces productions ?|Quelles contraintes dans le scénario ?|Quel rôle pour réseau et stockage ?
+L’écologie pénalise forcément les plus pauvres|Quelle mesure et quels ménages examine-t-on ?|Que changent les compensations ?|Quels coûts de l’inaction examiner ?
+Tous les agriculteurs profitent autant des aides|Comment sont réparties les aides ?|Quel rôle pour taille et type d’exploitation ?|Montant total ou montant par actif ?
+# services|Santé, logement et services publics
+La santé est gratuite en France|Comment les soins sont-ils financés ?|Que reste-t-il à charge ?|Quelle différence entre paiement immédiat et coût collectif ?
+Les étrangers passent avant les Français pour les logements sociaux|Quels sont les critères de priorité ?|Quel rôle pour la régularité du séjour ?|Comment vérifier une attribution précise ?
+Les fonctionnaires sont tous des bureaucrates|Quels métiers appartiennent à la fonction publique ?|Comment se répartissent les effectifs ?|Un statut détermine-t-il une profession ?
+Il suffit de construire pour résoudre la crise du logement|Où sont les besoins ?|Quels prix sont accessibles aux ménages ?|Que changent vacance et usages ?
+Le privé fait toujours mieux que le public|Quel service et quel résultat compare-t-on ?|Les publics et obligations sont-ils identiques ?|Comment comparer coût, accès et qualité ?
